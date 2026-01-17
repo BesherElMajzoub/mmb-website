@@ -2,8 +2,10 @@ import { Link } from 'wouter';
 import { ArrowRight, CheckCircle2, FileText, ChevronRight, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { products } from '@/data/products';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function Home() {
+  const { t } = useLanguage();
   const scrollToSolutions = () => {
     const element = document.getElementById('solutions');
     if (element) {
@@ -26,41 +28,41 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#151716] via-[#151716]/80 to-transparent"></div>
         </div>
 
-        <div className="container relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center pt-20">
+        <div className="container relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center pt-32 md:pt-40">
           {/* Left Column: Content */}
           <div className="lg:col-span-7 space-y-8 animate-in slide-in-from-left duration-700 fade-in">
             <div className="inline-flex items-center gap-2 px-3 py-1 border border-primary/30 bg-primary/10 text-primary text-xs font-bold uppercase tracking-widest rounded-sm">
               <span className="w-2 h-2 bg-primary rounded-full animate-pulse"></span>
-              Premium Industrial Solutions
+              {t('hero.badge')}
             </div>
             
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-bold text-white leading-tight">
-              German Engineering for <span className="text-primary">Pure Water</span> Solutions
+              {t('hero.title')} <span className="text-primary">{t('hero.titleHighlight')}</span> {t('hero.titleSuffix')}
             </h1>
             
             <p className="text-xl text-gray-300 max-w-2xl font-light leading-relaxed">
-              Precision-crafted pumps and motors for demanding industrial and agricultural applications.
+              {t('hero.subtitle')}
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button 
                 size="lg" 
-                className="bg-primary hover:bg-primary/90 text-white font-bold uppercase tracking-wide rounded-none h-14 px-8 text-base"
+                className="bg-primary hover:bg-primary/90 text-white font-bold uppercase tracking-wide rounded-none h-14 px-8 text-base w-full sm:w-auto"
                 onClick={scrollToSolutions}
               >
-                Explore Products
+                {t('hero.explore')}
               </Button>
               
               <Link href="/certifications">
-                <a className="inline-flex items-center justify-center h-14 px-8 border border-white/30 text-white hover:bg-white/10 hover:text-white hover:border-white font-bold uppercase tracking-wide rounded-none text-base transition-colors">
-                  View Certifications
+                <a className="inline-flex items-center justify-center h-14 px-8 border border-white/30 text-white hover:bg-white/10 hover:text-white hover:border-white font-bold uppercase tracking-wide rounded-none text-base transition-colors w-full sm:w-auto">
+                  {t('nav.viewCertifications')}
                 </a>
               </Link>
             </div>
             
             <p className="text-sm text-gray-400 flex items-center gap-2">
               <FileText className="w-4 h-4" />
-              Technical datasheets available as PDF downloads.
+              {t('hero.pdfNotice')}
             </p>
           </div>
 
@@ -70,7 +72,7 @@ export default function Home() {
               <div className="absolute top-0 right-0 w-20 h-20 border-t-2 border-r-2 border-primary"></div>
               <div className="absolute bottom-0 left-0 w-20 h-20 border-b-2 border-l-2 border-primary"></div>
               
-              <h3 className="text-white font-heading text-xl mb-6 border-b border-white/10 pb-4">Technical Highlights</h3>
+              <h3 className="text-white font-heading text-xl mb-6 border-b border-white/10 pb-4">{t('hero.highlights')}</h3>
               
               <ul className="space-y-4">
                 {[
