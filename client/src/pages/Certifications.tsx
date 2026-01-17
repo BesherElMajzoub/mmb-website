@@ -42,12 +42,16 @@ export default function Certifications() {
                   <p className="text-muted-foreground mb-6">{cert.desc}</p>
                   
                   <div className="flex gap-3">
-                    <Button variant="outline" size="sm" className="font-bold uppercase tracking-wide text-xs">
-                      Read PDF
-                    </Button>
-                    <Button variant="ghost" size="sm" className="font-bold uppercase tracking-wide text-xs gap-2">
-                      <Download className="w-3 h-3" /> Download
-                    </Button>
+                    <a href="/mmb_product_catalog.pdf" target="_blank" rel="noopener noreferrer">
+                      <Button variant="outline" size="sm" className="font-bold uppercase tracking-wide text-xs">
+                        Read PDF
+                      </Button>
+                    </a>
+                    <a href="/mmb_product_catalog.pdf" download aria-label="Download PDF">
+                      <Button variant="ghost" size="sm" className="font-bold uppercase tracking-wide text-xs gap-2">
+                        <Download className="w-3 h-3" /> Download
+                      </Button>
+                    </a>
                   </div>
                 </div>
               </div>

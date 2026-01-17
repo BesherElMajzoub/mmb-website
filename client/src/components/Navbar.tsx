@@ -23,30 +23,30 @@ export default function Navbar() {
 
   return (
     <nav 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-background/95 backdrop-blur-md shadow-md py-2' : 'bg-transparent py-4'
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-[#151716]/95 backdrop-blur-md shadow-md ${
+        isScrolled ? 'py-3' : 'py-5'
       }`}
     >
       <div className="container flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
             <img 
-              src="/images/logo.png" 
+              src="/images/logo2.png" 
               alt="MMB Logo" 
-              className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
+              className="h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
             />
         </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
-          <Link href="/" className={`text-sm font-medium uppercase tracking-wider hover:text-primary transition-colors ${location === '/' ? 'text-primary' : 'text-foreground'}`}>
+          <Link href="/" className={`text-sm font-medium uppercase tracking-wider hover:text-primary transition-colors ${location === '/' ? 'text-primary' : 'text-gray-100'}`}>
               Home
           </Link>
           
           {/* Products Dropdown */}
           <div className="relative group">
             <button 
-              className={`flex items-center gap-1 text-sm font-medium uppercase tracking-wider hover:text-primary transition-colors ${location.startsWith('/products') ? 'text-primary' : 'text-foreground'}`}
+              className={`flex items-center gap-1 text-sm font-medium uppercase tracking-wider hover:text-primary transition-colors ${location.startsWith('/products') ? 'text-primary' : 'text-gray-100'}`}
               aria-expanded="false"
             >
               Products <ChevronDown className="w-4 h-4 transition-transform group-hover:rotate-180" />
@@ -64,11 +64,11 @@ export default function Navbar() {
             </div>
           </div>
 
-          <Link href="/about" className={`text-sm font-medium uppercase tracking-wider hover:text-primary transition-colors ${location === '/about' ? 'text-primary' : 'text-foreground'}`}>
+          <Link href="/about" className={`text-sm font-medium uppercase tracking-wider hover:text-primary transition-colors ${location === '/about' ? 'text-primary' : 'text-gray-100'}`}>
               About Us
           </Link>
           
-          <Link href="/contact" className={`text-sm font-medium uppercase tracking-wider hover:text-primary transition-colors ${location === '/contact' ? 'text-primary' : 'text-foreground'}`}>
+          <Link href="/contact" className={`text-sm font-medium uppercase tracking-wider hover:text-primary transition-colors ${location === '/contact' ? 'text-primary' : 'text-gray-100'}`}>
               Contact Us
           </Link>
 

@@ -42,7 +42,7 @@ export default function CategoryPage() {
                 <a className="group block h-full">
                   <div className="tech-card h-full flex flex-col bg-white border border-border hover:border-primary transition-all duration-300 hover:shadow-lg">
                     {/* Image Area */}
-                    <div className="relative h-64 p-8 bg-muted/30 flex items-center justify-center overflow-hidden border-b border-border">
+                    <div className="relative h-96 p-8 bg-muted/30 flex items-center justify-center overflow-hidden border-b border-border">
                       <img 
                         src={series.heroImagePath} 
                         alt={series.title}

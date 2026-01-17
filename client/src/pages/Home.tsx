@@ -1,5 +1,5 @@
 import { Link } from 'wouter';
-import { ArrowRight, CheckCircle2, FileText, ChevronRight } from 'lucide-react';
+import { ArrowRight, CheckCircle2, FileText, ChevronRight, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { products } from '@/data/products';
 
@@ -109,13 +109,13 @@ export default function Home() {
             {products.map((category) => (
               <Link key={category.id} href={`/products/${category.id}`} className="group block h-full">
                   <div className="tech-card h-full flex flex-col">
-                    <div className="relative h-64 overflow-hidden bg-muted">
+                    <div className="relative h-96 overflow-hidden bg-muted p-6 flex items-center justify-center">
                       <img 
                         src={category.series[0]?.heroImagePath || '/images/submersible-pump.jpg'} 
                         alt={category.name}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
                       />
-                      <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors"></div>
+                      <div className="absolute inset-0 bg-transparent group-hover:bg-black/5 transition-colors"></div>
                       
                       {/* Category Label */}
                       <div className="absolute bottom-0 left-0 bg-primary text-white px-4 py-2 text-sm font-bold uppercase tracking-wider">
@@ -217,21 +217,29 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[1, 2, 3].map((i) => (
+            {[
+              { title: 'ISO 9001:2015', desc: 'Quality Management System Certification', pdf: '/mmb_product_catalog.pdf' },
+              { title: 'CE Declaration', desc: 'European Conformity Standard', pdf: '/mmb_product_catalog.pdf' },
+              { title: 'TÜV Rheinland', desc: 'Safety & Quality Standards', pdf: '/mmb_product_catalog.pdf' }
+            ].map((cert, i) => (
               <div key={i} className="bg-card border border-border p-8 flex flex-col items-center text-center hover:border-primary transition-colors group">
                 <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center mb-6 group-hover:bg-primary/10 transition-colors">
                   <FileText className="w-8 h-8 text-muted-foreground group-hover:text-primary transition-colors" />
                 </div>
-                <h3 className="text-lg font-bold mb-2">ISO 9001:2015</h3>
-                <p className="text-sm text-muted-foreground mb-6">Quality Management System Certification</p>
+                <h3 className="text-lg font-bold mb-2">{cert.title}</h3>
+                <p className="text-sm text-muted-foreground mb-6">{cert.desc}</p>
                 
                 <div className="flex gap-3 w-full">
-                  <Button variant="outline" className="flex-1 text-xs uppercase font-bold" size="sm">
-                    Read PDF
-                  </Button>
-                  <Button variant="ghost" className="px-3" size="sm">
-                    <ArrowRight className="w-4 h-4" />
-                  </Button>
+                  <a href={cert.pdf} target="_blank" rel="noopener noreferrer" className="flex-1">
+                    <Button variant="outline" className="w-full text-xs uppercase font-bold" size="sm">
+                      Read PDF
+                    </Button>
+                  </a>
+                  <a href={cert.pdf} download aria-label="Download PDF">
+                    <Button variant="ghost" className="px-3" size="sm">
+                      <Download className="w-4 h-4" />
+                    </Button>
+                  </a>
                 </div>
               </div>
             ))}

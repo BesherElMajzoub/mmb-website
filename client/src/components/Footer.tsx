@@ -1,4 +1,5 @@
 import { Link } from 'wouter';
+import { Mail } from 'lucide-react';
 import { products } from '@/data/products';
 
 export default function Footer() {
@@ -14,6 +15,12 @@ export default function Footer() {
             <p className="text-sm text-muted-foreground leading-relaxed max-w-xs">
               German Engineering. Enduring Reliability. Precision-crafted solutions for the world’s pure water needs.
             </p>
+            <div className="flex items-center gap-2 pt-2">
+              <Mail className="w-4 h-4 text-primary" />
+              <a href="mailto:contact-us@mmbgermany.com" className="text-sm text-muted-foreground hover:text-white transition-colors">
+                contact-us@mmbgermany.com
+              </a>
+            </div>
           </div>
 
           {/* Quick Links */}
