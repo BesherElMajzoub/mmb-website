@@ -1,0 +1,44 @@
+ارسال المنتج ( كل منتج لحالو بملف مضغوط  ) 
+1-  الصورة 
+2- الكتالوج غير جاهز بعد 
+3- ملف text 
+
+a : Submersible Motors
+b : descriptionb
+MMB TA\TB Series Submersible Motors
+The MMB "TA Series" motors are precision-engineered, rewindable submersible motors designed for deep boreholes. Pre-filled with water, which serves as both an eco-friendly coolant and a lubricant, these motors ensure reliable and sustainable operation.
+
+Available in both single-phase and three-phase configurations, the series is built for durability. The rotor is supported by high-grade bush and thrust bearings capable of withstanding maximum axial and radial thrust loads. The single-phase models come equipped with built-in thermal protection to prevent overheating. All mounting dimensions are manufactured in strict accordance with NEMA standards, ensuring universal compatibility.c : 
+
+d:  Key Features
+* Optimized Electrical Efficiency: Designed to deliver maximum output with reduced energy consumption.
+* Rewindable Stator Design: Allows for easy maintenance and repair, extending the lifecycle of the motor.
+* Eco-Friendly Lubrication: Water-filled design ensures efficient cooling and lubrication without environmental risk.
+* Robust Bearing System: Extremely hardwearing, water-lubricated bearings engineered to handle high axial loads.
+* Integrated Protection: Single-phase motors feature built-in thermal overload protection.
+* Durable Construction: Corrosion-resistant stainless steel body for long-term reliability.
+* Serviceability: Engineered structure allows for easy dismantling and repair.
+
+e: Applications
+* Domestic & Civil: Residential water supply and building services.
+* Agriculture: Irrigation and sprinkler systems.
+* Landscape: Gardens and fountains.
+
+f : Technical Specifications ( الجدول ) 
+Nominal Diameter | 4″ (100 mm) |
+Series* | Water Filled Rewindable Submersible Motors |
+Power Range (Single Phase) | 0.37 – 2.2 kW |
+Power Range (Three Phase) | 0.37 – 7.5 kW |
+Voltage & Frequency (1-Phase) | 230V, 50Hz |
+Voltage & Frequency (3-Phase) | 380V - 415V, 50Hz |
+Rated Speed* | 2900 RPM |
+Method of Starting (1-Phase) | Capacitor Start Capacitor Run (CSCR) |
+Method of Starting (3-Phase) | Direct On Line (DOL) |
+Max. Down Thrust Load | 3000N (0.37 – 1.5 kW) - 6500N (2.2 – 7.5 kW) |
+Duty Cycle | S1 (Continuous) |
+Protection Degree | IP 58 |
+Insulation Class | Y |
+Max. Liquid Temperature | 30˚C |
+Min. Cooling Flow | 0.5 m/sec |
+Starts per Hour | 20 Times (Single Phase) - 12 Times (Three Phase) 
+Available Material of Construction | Type A & N |

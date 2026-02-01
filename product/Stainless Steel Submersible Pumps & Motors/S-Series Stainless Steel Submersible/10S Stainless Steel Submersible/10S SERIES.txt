@@ -1,0 +1,33 @@
+ارسال المنتج ( كل منتج لحالو بملف مضغوط  ) 
+1-  الصورة 
+2- الكتالوج غير جاهز بعد 
+3- ملف text 
+
+a : Stainless Steel Submersible Pumps
+b : description 
+The MMB 10-inch submersible pump series is engineered for extreme performance, delivering high flow rates and substantial head pressure for the most demanding environments. Available in single or multistage configurations, these pumps utilize advanced mixed-flow impellers to achieve maximum hydraulic efficiency.
+
+Built entirely from premium, corrosion-resistant stainless steel, the MMB 10" series ensures exceptional durability and longevity. The structural integrity is reinforced by radial bearings at each casing stage, ensuring precise shaft alignment and vibration-free operation under heavy loads. To optimize performance, precision-engineered wear rings are fitted on both the impeller and casing to maintain tight clearances, thereby maximizing efficiency and minimizing wear. A robust built-in check valve is included to prevent backflow and protect the system against water hammer. All mounting dimensions comply strictly with *NEMA and International standards*.
+
+d:  Key Features
+* Maximum Hydraulic Efficiency: Mixed-flow impeller design optimized for high-capacity output.
+* Robust Stainless Steel Construction: Superior resistance to corrosion and abrasion in harsh environments.
+* Enhanced Load Bearing: Features additional bearing bracket support for higher-stage pumps to ensure mechanical stability.
+* High Serviceability: Engineered for easy dismantling and repair, minimizing operational downtime.
+* Wide Performance Range: Extensive hydraulic coverage to meet specific large-scale water transfer needs.
+
+e: Applications
+* Mining & Construction: Heavy-duty de-watering and water management.
+* Industrial: Large-scale process water supply and cooling systems.
+* Agriculture: High-volume irrigation and sprinkler systems.
+* Municipal & Civil: Water supply, pressure boosting, and fire-fighting systems.
+* Commercial Buildings: Reliable water distribution for large complexes.
+
+f : Technical Specifications ( الجدول ) 
+
+| Nominal Diameter | 10” (250 mm) |
+| Power Range | 9.3 kW – 220 kW |
+| Rated Speed | 2900 RPM |
+| Max. Flow Rate | 280 m³/h |
+| Max. Head | 488 m |
+| Outlet Size | 6″ |

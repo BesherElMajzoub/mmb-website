@@ -1,0 +1,44 @@
+ارسال المنتج ( كل منتج لحالو بملف مضغوط  ) 
+1-  الصورة 
+2- الكتالوج غير جاهز بعد 
+3- ملف text 
+refrence : https://www.crifluidsystems.com/50/50-hz/a-c-induction-motor/a-c-induction-motors/
+a : Motors
+b : descriptionb
+The MMB MT Series offers a comprehensive range of premium AC induction motors, precision-engineered to meet the rigorous demands of modern industry. The stator core is constructed from high-grade, low-watt-loss steel laminations, ensuring maximum efficiency and reliable continuous operation.
+
+To guarantee vibration-free performance and reduced noise levels, every rotor is dynamically balanced with high precision. The windings feature high-grade enamelled copper wire and are treated with varnish impregnation for superior insulation. The robust motor frame design and use of premium materials result in exceptional thermal management (low temperature rise), significantly extending the motor's operational lifecycle. Available in both Standard and Premium efficiency levels (IE2 & IE3) to match specific energy requirements.
+
+d:  Key Features
+* Advanced Insulation: Windings are treated using the Vacuum Pressure Impregnation (VPI) process for superior electrical and mechanical strength.
+
+* Thermal Protection: Higher kW models come equipped with integrated thermistors and space heaters to prevent overheating and condensation.
+
+* Customizable Protection: Protective canopy available on request for outdoor or harsh environment installations.
+
+* Premium Efficiency: Designed to meet IE2 and IE3 standards for reduced energy consumption.
+
+* Durability: Low temperature rise design ensures a longer lifespan for critical components.
+
+e: Applications
+Engineered as the prime mover for a wide range of industrial equipment:
+
+* Pumping Systems: Direct coupling with centrifugal, multistage, and submersible pumps.
+
+* Industrial Machinery: Fans, blowers, compressors, and conveyors.
+
+* OEM Applications: Reliable drive units for equipment manufacturers.
+
+
+f : Technical Specifications ( الجدول ) 
+* Power Range (Single Phase)	0.37 kW – 2.2 kW
+* Power Range (Three Phase)	0.75 kW – 315 kW (IE2 & IE3)
+* Rated Voltage	
+* Single Phase: 230V
+* Three Phase: 380/400/415V
+* Frequency	50 Hz
+* Poles	2 / 4 / 6 Pole
+* Mounting Types	Foot (B3), Flange (B5), Face (B14), Foot-cum-Flange (B35)
+* Connection	Single Phase: CSCR Three Phase: DOL / Star-Delta (SD)
+* Ingress Protection	IP 55
+* Insulation Class	Class F

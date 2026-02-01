@@ -1,0 +1,42 @@
+ارسال المنتج ( كل منتج لحالو بملف مضغوط  ) 
+1-  الصورة مرفقة 
+2- الكتالوج مرفق
+3- ملف text 
+
+a : Submersible Motors
+b : descriptionb
+The MMB 8TB "TB Series" motors are heavy-duty, rewindable submersible drives engineered for deep borehole applications requiring substantial power. Pre-filled with water, which acts as both an environmentally safe coolant and effective lubricant, these motors ensure sustainable and reliable operation.
+
+Designed for versatility, the MMB 8" series is available in three-phase configurations and is engineered to perform in both standard and high-temperature environments. The robust internal construction features precision bush and thrust bearings capable of withstanding maximum axial and radial thrust loads up to 45500N. All mounting dimensions are manufactured in strict accordance with *NEMA standards* to ensure universal compatibility.
+
+d:  Key Features
+* Superior Energy Efficiency: Optimized electromagnetic design reduces operating costs.
+* Dual-Temperature Design: Suitable for standard applications as well as high-temperature environments (up to 50˚C).
+* Rewindable Stator: Service-friendly architecture allows for rewinding, significantly extending the asset's lifecycle.
+* Robust Stainless Steel Body: Corrosion-resistant construction ensures durability in harsh conditions.
+* Heavy-Duty Bearings: Water-lubricated bearings engineered for extreme wear resistance and high load capacity.
+* Ease of Maintenance: Designed to be easily dismantled and repaired, facilitating quick service intervals
+
+e: Applications
+* Industrial & Mining: Heavy-duty water transfer and de-watering operations.
+* Agriculture: Pivot irrigation systems and large-scale sprinkler networks.
+* Commercial & Infrastructure: Water supply for large complexes and pressure boosting.
+* Water Management: Bulk water transfer and distribution.
+* Landscape: Large fountains.
+
+f : Technical Specifications ( الجدول ) 
+Nominal Diameter | 8″ (200 mm) |
+Series | Water Filled Rewindable Submersible Motors |
+Power Range (Three Phase) | 37 – 110 kW |
+Voltage & Frequency | 380V – 415V, 525V, 50Hz |
+Rated Speed | 2900 RPM |
+Method of Starting | Direct On Line (DOL), Star Delta (SD) |
+Max. Down Thrust Load | 45500N |
+Duty Cycle | S1 (Continuous) |
+Protection Degree | IP 68 |
+Insulation Class | Y |
+Max. Liquid Temperature | Standard: 30˚C
+ High Temperature Variant: 50˚C |
+Min. Cooling Flow | 0.5 m/sec |
+Starts per Hour | 12 Times |
+Available Material of Construction | Type B, S, T |

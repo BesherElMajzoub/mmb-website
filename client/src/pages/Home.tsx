@@ -1,7 +1,7 @@
 import { Link } from 'wouter';
 import { ArrowRight, CheckCircle2, FileText, ChevronRight, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { products } from '@/data/products';
+import { mainCategories } from '@/data/products';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function Home() {
@@ -102,18 +102,18 @@ export default function Home() {
               <h2 className="text-4xl font-heading font-bold text-foreground mb-2">Our Solutions</h2>
               <p className="text-muted-foreground max-w-xl">Comprehensive pumping systems engineered for performance.</p>
             </div>
-            <Link href="/products/submersible" className="hidden md:flex items-center gap-2 text-primary font-bold uppercase tracking-wider text-sm hover:underline mt-4 md:mt-0">
+            <Link href={`/products/${mainCategories[0]?.slug}`} className="hidden md:flex items-center gap-2 text-primary font-bold uppercase tracking-wider text-sm hover:underline mt-4 md:mt-0">
                 View All Products <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {products.map((category) => (
-              <Link key={category.id} href={`/products/${category.id}`} className="group block h-full">
+            {mainCategories.map((category, index) => (
+              <Link key={category.slug} href={`/products/${category.slug}`} className="group block h-full">
                   <div className="tech-card h-full flex flex-col">
                     <div className="relative h-96 overflow-hidden bg-muted p-6 flex items-center justify-center">
                       <img 
-                        src={category.series[0]?.heroImagePath || '/images/submersible-pump.jpg'} 
+                        src={category.subcategories[0]?.series[0]?.image || '/images/submersible-pump.jpg'} 
                         alt={category.name}
                         className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
                       />
@@ -121,7 +121,7 @@ export default function Home() {
                       
                       {/* Category Label */}
                       <div className="absolute bottom-0 left-0 bg-primary text-white px-4 py-2 text-sm font-bold uppercase tracking-wider">
-                        Series 0{products.indexOf(category) + 1}
+                        Series 0{index + 1}
                       </div>
                     </div>
                     

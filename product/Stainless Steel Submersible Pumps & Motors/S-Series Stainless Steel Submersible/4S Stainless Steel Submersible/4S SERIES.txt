@@ -1,0 +1,30 @@
+ارسال المنتج ( كل منتج لحالو بملف مضغوط  ) 
+1-  الصورة 
+2- الكتالوج غير جاهز بعد 
+3- ملف text 
+
+a : Stainless Steel Submersible Pumps
+b : description 
+The MMB 4-inch submersible pump series is engineered for rigorous deep well applications where reliability is non-negotiable. Designed with a robust multistage configuration, these pumps feature precision-machined radial or mixed-flow impellers to deliver superior head and flow performance.
+Constructed entirely from high-grade, corrosion-resistant stainless steel, the MMB series ensures exceptional longevity even in aggressive water conditions. The pump shaft is reinforced with radial bearings at every stage casing, ensuring vibration-free operation and extending the lifecycle of the unit. Integrated wear rings on the impeller and casing maintain tight clearances to maximize hydraulic efficiency, while a built-in stainless steel check valve protects against backflow and water hammer. All mounting dimensions are strictly manufactured in accordance with NEMA standards for universal compatibility
+
+d:  Key Features
+* Superior Efficiency: Optimized hydraulic design reduces energy consumption while maintaining high output.
+* Stainless Steel Construction: High resistance to corrosion and abrasion for long-term durability.
+* Enhanced Stability: Additional bearing bracket support significantly reduces mechanical stress on high-stage models.
+* Twin-Design Architecture: Optional twin-pump configuration for high-stage units to increase serviceability and operational life.
+* Broad Hydraulic Range: Versatile performance curves to suit various operational points.
+
+e: Applications
+* Agriculture: Irrigation, sprinkler systems, and livestock watering.
+* Industrial: Process water supply and de-watering construction sites.
+* Civil & Commercial: Pressure boosting systems for high-rise buildings and community water supply.
+* Safety & Leisure: Fire-fighting systems and fountain installations.
+
+f : Technical Specifications ( الجدول ) 
+Nominal Diameter* | 4″ (100 mm)
+Power Range | 0.37 kW – 11 kW |
+Rated Speed | 2900 RPM |
+Max. Flow Rate | 19 m³/h |
+Max. Head | 535 m |
+Outlet Sizes| 1¼”, 1½” & 2″ |

@@ -1,0 +1,42 @@
+ارسال المنتج ( كل منتج لحالو بملف مضغوط  ) 
+1-  الصورة مرفقة 
+2- الكتالوج مرفق
+3- ملف text 
+
+a : Submersible Motors
+b : descriptionb
+The MMB 10-inch "10TB Series" motors are heavy-duty, rewindable submersible drives designed for deep borehole applications where reliability and high power output are paramount. Pre-filled with water to serve as an eco-friendly coolant and effective lubricant, these motors ensure sustainable, high-performance operation.
+
+Available in three-phase configurations, the MMB 10" series is engineered to perform seamlessly in both standard and high-temperature environments. The internal mechanical structure is reinforced with precision bush and thrust bearings, specifically designed to withstand maximum axial and radial thrust loads up to 60,000N. All mounting dimensions are manufactured in strict compliance with NEMA and International standards, ensuring universal compatibility.
+
+d:  Key Features
+* Exceptional Efficiency: Engineered to deliver high power output with optimized energy consumption.
+* Serviceable Design: Rewindable stator architecture allows for cost-effective maintenance and extended service life.
+* Corrosion-Resistant Architecture: Motor body constructed from high-grade stainless steel for durability in aggressive environments.
+* Heavy-Duty Bearing System: Water-lubricated bearings designed for extreme wear resistance and high load capacity.
+* High-Temperature Resilience: Special design variants available to handle hot water applications (up to 50˚C).
+* Ease of Maintenance: Modular design ensures the unit can be easily dismantled and repaired.
+
+e: Applications
+* Mining & Construction: Heavy-duty de-watering operations.
+* Agriculture: Pivot irrigation systems and large-scale sprinkler networks.
+* Industrial: Process water supply and cooling applications.
+* Commercial & Infrastructure: Pressure boosting and water supply for large complexes.
+* Water Management: Bulk water transfer.
+
+f : Technical Specifications ( الجدول ) 
+Nominal Diameter | 10″ (250 mm) |
+Series | Water Filled Rewindable Submersible Motors |
+Power Range (Three Phase) | 81 – 185 kW |
+Voltage & Frequency | 380V – 415V, 525V, 50Hz |
+Rated Speed | 2900 RPM |
+Method of Starting | Direct On Line (DOL), Star Delta (SD) |
+Max. Down Thrust Load | 60000N |
+Duty Cycle | S1 (Continuous) |
+Protection Degree | IP 68 |
+Insulation Class | Y |
+Max. Liquid Temperature | Standard: 30˚C
+ High Temperature Variant: 50˚C |
+Min. Cooling Flow | 0.5 m/sec |
+Starts per Hour | 12 Times |
+Available Material of Construction | Type B, S, T |

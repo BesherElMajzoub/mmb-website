@@ -1,0 +1,42 @@
+ارسال المنتج ( كل منتج لحالو بملف مضغوط  ) 
+1-  الصورة مرفقة 
+2- الكتالوج مرفق
+3- ملف text 
+
+a : Submersible Motors
+b : descriptionb
+The MMB 6-inch "TA Series" motors are robust, rewindable submersible drives designed for deep borehole applications. Pre-filled with water to function as an eco-friendly coolant and lubricant, these motors are engineered for superior thermal management and operational stability.
+
+Available exclusively in three-phase configurations, the series is versatile enough to handle both normal and high-temperature environments. The internal architecture features high-load bush and thrust bearings, precision-engineered to withstand significant axial and radial thrust loads. All mounting dimensions are manufactured in strict compliance with NEMA standards, ensuring seamless integration with standard pump ends.
+
+d:  Key Features
+* High-Efficiency Operation: Engineered to maximize power transfer while minimizing energy loss.
+* Dual-Temperature Capability: Special design variants available for hot water applications (up to 50˚C).
+* Rewindable Stator: Service-friendly design allows for rewinding, extending the motor's total operational life.
+* Eco-Friendly Lubrication: Water-lubricated system ensures effective cooling without environmental risks.
+* Heavy-Duty Bearing System: Extremely hardwearing bearings designed to handle high thrust loads.
+* Corrosion Protection: Motor body constructed from corrosion-resistant stainless steel.
+* Ease of Maintenance: Designed to be easily dismantled and repaired to reduce downtime.
+
+
+e: Applications
+** Industrial & Mining: Heavy-duty water supply and de-watering systems.
+* Agriculture: Pivot irrigation systems, sprinkler networks, and livestock watering.
+* Commercial Buildings: Pressure boosting and general water supply.
+* Safety: Fire-fighting systems.
+
+f : Technical Specifications ( الجدول ) 
+Nominal Diameter | 6″ (150 mm)  |
+Series* | Water Filled Rewindable Submersible Motors ||
+Power Range (Three Phase) | 2.2 – 45 kW |
+Voltage & Frequency (3-Phase) | 380V – 415V, 525V, 50Hz |
+Rated Speed* | 2900 RPM |
+Method of Starting :| 2.2kW – 45kW: Direct On Line (DOL) 5.5kW – 45kW: Star Delta (SD) |
+Max. Down Thrust Load | 15000N (2.2 – 22 kW) 27500N (26 – 45 kW)|
+Duty Cycle | S1 (Continuous) |
+Protection Degree | IP 68 |
+Insulation Class | Y |
+Max. Liquid Temperature | Standard: 30˚C High Temperature Variant: 50˚C |
+Min. Cooling Flow | 0.5 m/sec |
+Starts per Hour | 12 Times |
+Available Material of Construction | Type A, B, N, S, T |

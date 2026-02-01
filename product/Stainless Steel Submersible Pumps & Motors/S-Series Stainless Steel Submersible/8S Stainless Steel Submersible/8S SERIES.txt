@@ -1,0 +1,34 @@
+ارسال المنتج ( كل منتج لحالو بملف مضغوط  ) 
+1-  الصورة 
+2- الكتالوج غير جاهز بعد 
+3- ملف text 
+
+a : Stainless Steel Submersible Pumps
+b : description 
+The MMB 8-inch submersible pump series represents the robust core of our deep well solutions, designed specifically for heavy-duty applications requiring substantial flow and head. Available in single or multistage configurations, these pumps feature advanced mixed-flow impellers engineered to deliver optimal hydraulic performance.
+
+Constructed entirely from premium, corrosion-resistant stainless steel, the MMB 8" series is built to withstand rigorous operating conditions and ensure a long service life. The pump shaft is precision-aligned and supported by radial bearings at each casing stage, a design choice that promotes stability and ensures trouble-free operation over extended periods. To maximize efficiency, high-precision wear rings are fitted on both the impeller and casing to maintain tight clearances and minimize internal wear. The unit also includes a built-in check valve to prevent backflow and protect the system from water hammer. All mounting dimensions are strictly in accordance with *NEMA standards*.
+
+d:  Key Features
+* Superior Hydraulic Efficiency: Precision mixed-flow impellers ensure high output with optimized energy usage.
+* Full Stainless Steel Construction: High-grade materials provide maximum resistance to corrosion and wear.
+* Reinforced Stability: Includes additional bearing bracket support for higher-stage pumps to handle increased mechanical loads.
+* Service-Friendly Architecture: Designed to be easily dismantled and repaired, reducing downtime and maintenance costs.
+* Wide Hydraulic Range: Flexible performance options to suit diverse industrial and agricultural needs.
+
+e: Applications
+* Industrial & Mining: Large-scale water supply, de-watering construction sites, and mining operations.
+* Agriculture: Heavy-duty irrigation systems and livestock watering.
+* Commercial & Civil: Water supply for commercial buildings and pressure boosting systems.
+* Safety: Fire-fighting systems.
+* Landscape: Large fountains and water features.
+
+
+f : Technical Specifications ( الجدول ) 
+
+ominal Diameter | 8″ (200 mm) |
+Power Range | 5.5 kW – 130 kW |
+Rated Speed | 2900 RPM |
+Max. Flow Rate| 126 m³/h |
+Max. Head | 518 m |
+Outlet Sizes | 4″ & 5″ |

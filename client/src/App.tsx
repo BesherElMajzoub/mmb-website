@@ -14,8 +14,10 @@ import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import CategoryPage from "./pages/CategoryPage";
-import SeriesDetail from "./pages/SeriesDetail";
+import MainCategoryPage from "./pages/MainCategoryPage";
+import SubcategoryPage from "./pages/SubcategoryPage";
+import SeriesPage from "./pages/SeriesPage";
+import ProductDetailPage from "./pages/ProductDetailPage";
 import Certifications from "./pages/Certifications";
 import NotFound from "./pages/NotFound";
 
@@ -26,8 +28,13 @@ function Router() {
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
       <Route path="/certifications" component={Certifications} />
-      <Route path="/products/:id" component={CategoryPage} />
-      <Route path="/products/:category/:seriesSlug" component={SeriesDetail} />
+      
+      {/* Product hierarchy routes - order matters, most specific first */}
+      <Route path="/products/:mainCategorySlug/:subcategorySlug/:seriesSlug/:productSlug" component={ProductDetailPage} />
+      <Route path="/products/:mainCategorySlug/:subcategorySlug/:seriesSlug" component={SeriesPage} />
+      <Route path="/products/:mainCategorySlug/:subcategorySlug" component={SubcategoryPage} />
+      <Route path="/products/:mainCategorySlug" component={MainCategoryPage} />
+      
       <Route component={NotFound} />
     </Switch>
   );

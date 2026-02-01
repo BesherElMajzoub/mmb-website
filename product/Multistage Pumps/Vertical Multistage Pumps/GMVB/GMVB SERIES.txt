@@ -1,0 +1,60 @@
+ارسال المنتج ( كل منتج لحالو بملف مضغوط  ) 
+Data refrence :
+1-  الصورة مرفقة 
+2- الكتالوج مرفق
+3- ملف text 
+
+a : Multistage Pumps
+b : descriptionb
+The MMB GMVB Series are robust multi-stage centrifugal pumps engineered for high-pressure fluid handling. Designed with a sectional casing architecture, these pumps are optimized for pumping clear to slightly turbid liquids free from abrasives.
+
+The construction features statically and dynamically balanced closed impellers, ensuring vibration-free performance. The interstage casings are precision-sealed with O-rings and secured by external tie bolts for maximum structural integrity. Driven by IEC-standard motors, the GM/GMVB series offers exceptional reliability for demanding environments ranging from mining to power generation
+
+d:  Key Features
+* Robust Construction: Sectional casing design with external tie bolts. Standard cast iron pumps utilize cast steel casings for higher pressure requirements.
+
+* Optimized Axial Balancing:
+
+   -Standard: Axial balance secured by back wearing ring and balancing hole system.
+
+   -High Head (>200m): Equipped with a balancing disc or balancing drum for superior load management.
+
+* Flexible Installation: Suction and discharge flanges can be rotated in 90° increments on sizes 32, 40, 50, and 65 to suit complex piping layouts.
+
+* Versatile Sealing Options: Available with Uncooled Single (S1) or Double (S2) stuffing box packing, or Mechanical Seals in accordance with DIN24960.
+
+* Rigorous Quality Control: Each unit is hydrostatically tested at 1.5 times the closed-valve pressure and performance-tested before shipment.
+
+* Specialized Fire Service Design: Multi-discharge port configuration available upon request for fire sprinkler systems.
+
+* Reliable Bearing System: Grease-lubricated ball bearings provided as standard, with an oil lubrication option available.
+
+e: Applications
+Engineered to perform in critical infrastructure and industrial sectors:
+
+* Water Supply: Municipal and industrial water supply installations.
+
+* Power & Utility: Boiler feed, circulating, and condensing plants.
+
+* Pressure Boosting: High-pressure booster systems.
+
+* Heavy Industry: Mining operations and power supply plants.
+
+* Fire Safety: Sprinkling installations and fire service systems.
+
+f : Technical Specifications ( الجدول ) 
+* Nominal Diameter	32 mm – 200 mm
+* Max. Flow Rate	Up to 700 m³/h
+* Total Head	50 m ~ 300 m
+* Max. Speed	3600 RPM
+* Max. Liquid Temperature	≤ 140°C
+* Casing Pressure	30 bar (Standard)
+* Shaft Seal	Stuffing Box (S1/S2) or Mechanical Seal (DIN24960)
+* Flange Standards	
+* Suction: DIN2533 PN16
+
+
+Discharge: DIN2535 PN40
+
+Degree of Protection	IP 54
+Insulation Class	F

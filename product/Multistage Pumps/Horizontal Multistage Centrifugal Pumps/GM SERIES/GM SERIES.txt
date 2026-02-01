@@ -1,0 +1,54 @@
+ارسال المنتج ( كل منتج لحالو بملف مضغوط  ) 
+Data refrence :https://www.crifluidsystems.com/50/50-hz/multi-stage-pumps/mh-series/
+1-  الصورة مرفقة 
+2- الكتالوج مرفق
+3- ملف text 
+
+a : Horizontal Multistage Pumps
+
+b : descriptionb
+The MMB GM Series represents a pinnacle of industrial pumping technology, designed specifically for handling clear or slightly turbid liquids without abrasives. These pumps feature a robust sectional casing architecture with statically and dynamically balanced closed impellers, ensuring vibration-free performance even under high loads.
+
+Engineered for versatility, the series is driven by IEC-standard three-phase AC motors (Class F, IP54) and offers exceptional structural integrity. The interstage casings are precision-sealed with O-rings and secured by external tie bolts. For higher pressure requirements, the standard cast iron construction is upgraded to cast steel, making this series ideal for critical applications ranging from boiler feeding to mining operations.
+
+Key Features
+* Advanced Axial Balancing:
+
+- Standard: Axial thrust is balanced via a back wearing ring and balancing hole system.
+
+- High Head (>200m): Equipped with a balancing disc or balancing drum for superior load management.
+
+* Flexible Installation: Suction and discharge flanges can be rotated in 90° increments on sizes 32, 40, 50, and 65 to accommodate complex piping layouts.
+
+* Versatile Shaft Sealing: Options include Uncooled Single (S1) or Double (S2) stuffing box packing, or Mechanical Seals according to DIN 24960.
+
+* Rigorous Testing: Every unit undergoes hydrostatic testing at 1.5 times the closed-valve pressure to guarantee safety and reliability.
+
+* Robust Bearing System: Grease-lubricated ball bearings provided as standard, with an oil lubrication option available for heavy-duty cycles.
+
+* Fire Service Ready: Multi-discharge port configuration is available upon request for sprinkler systems
+
+e:Applications
+Designed to perform in critical infrastructure and industrial sectors:
+
+* Water Supply: Municipal installations and booster systems.
+
+* Power & Utility: Boiler feed water, circulating, and condensing plants.
+
+* Industry: Power supply plants and general industrial washing.
+
+* Mining: Heavy-duty dewatering and water transport.
+
+* Fire Safety: Sprinkling installations (Fire-fighting).
+
+f : Technical Specifications ( الجدول ) 
+Nominal Diameter	32 mm – 200 mm
+Max. Flow Rate	Up to 700 m³/h
+Total Head	50 m ~ 300 m
+Max. Speed	3600 RPM
+Max. Liquid Temperature	≤ 140°C
+Casing Pressure	30 bar (Standard)
+Drive Motor	IEC Standard, Class F, IP54
+Rotation	Clockwise (viewed from drive side)
+Flange Standard (Suction)	DIN 2533, PN16 (Right side)
+Flange Standard (Discharge)	DIN 2535, PN40 (Top side)

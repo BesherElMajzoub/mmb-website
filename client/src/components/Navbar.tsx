@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'wouter';
 import { Menu, X, ChevronDown } from 'lucide-react';
-import { products } from '@/data/products';
+import { mainCategories } from '@/data/products';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function Navbar() {
@@ -56,8 +56,8 @@ export default function Navbar() {
             <div className="absolute top-full left-0 mt-2 w-64 bg-card border border-border shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform translate-y-2 group-hover:translate-y-0">
               <div className="h-1 w-full bg-primary absolute top-0 left-0"></div>
               <div className="py-2">
-                {products.map((category) => (
-                  <Link key={category.id} href={`/products/${category.id}`} className="block px-6 py-3 text-sm text-foreground hover:bg-muted hover:text-primary transition-colors border-s-2 border-transparent hover:border-primary">
+                {mainCategories.map((category) => (
+                  <Link key={category.slug} href={`/products/${category.slug}`} className="block px-6 py-3 text-sm text-foreground hover:bg-muted hover:text-primary transition-colors border-s-2 border-transparent hover:border-primary">
                       {category.name}
                   </Link>
                 ))}
@@ -77,9 +77,9 @@ export default function Navbar() {
           <div className="flex items-center gap-2 border-s border-border ps-6 ms-2">
             <button onClick={() => setLanguage('en')} className={`text-xs font-bold hover:text-primary transition-colors ${language === 'en' ? 'text-primary' : 'text-muted-foreground'}`}>EN</button>
             <span className="text-muted-foreground/50">|</span>
-            <button onClick={() => setLanguage('en')} className={`text-xs font-bold hover:text-primary transition-colors ${language === 'de' ? 'text-primary' : 'text-muted-foreground'}`}>DE</button>
+            <button onClick={() => setLanguage('de')} className={`text-xs font-bold hover:text-primary transition-colors ${language === 'de' ? 'text-primary' : 'text-muted-foreground'}`}>DE</button>
             <span className="text-muted-foreground/50">|</span>
-            <button onClick={() => setLanguage('en')} className={`text-xs font-bold hover:text-primary transition-colors ${language === 'ar' ? 'text-primary' : 'text-muted-foreground'}`}>AR</button>
+            <button onClick={() => setLanguage('ar')} className={`text-xs font-bold hover:text-primary transition-colors ${language === 'ar' ? 'text-primary' : 'text-muted-foreground'}`}>AR</button>
           </div>
         </div>
 
@@ -104,8 +104,8 @@ export default function Navbar() {
           
           <div className="flex flex-col gap-2">
             <span className="text-sm font-medium uppercase tracking-wider text-gray-400 px-2">{t('nav.products')}</span>
-            {products.map((category) => (
-              <Link key={category.id} href={`/products/${category.id}`} className="block ps-6 py-2 text-sm text-gray-200 hover:text-primary border-s border-white/20 hover:border-primary">
+            {mainCategories.map((category) => (
+              <Link key={category.slug} href={`/products/${category.slug}`} className="block ps-6 py-2 text-sm text-gray-200 hover:text-primary border-s border-white/20 hover:border-primary">
                   {category.name}
               </Link>
             ))}
@@ -117,8 +117,8 @@ export default function Navbar() {
           
           <div className="flex items-center gap-4 p-2 border-t border-border mt-2 pt-4">
             <button onClick={() => setLanguage('en')} className={`text-sm font-bold ${language === 'en' ? 'text-primary' : 'text-gray-400 hover:text-primary'}`}>English</button>
-            <button onClick={() => setLanguage('en')} className={`text-sm font-bold ${language === 'de' ? 'text-primary' : 'text-gray-400 hover:text-primary'}`}>Deutsch</button>
-            <button onClick={() => setLanguage('en')} className={`text-sm font-bold ${language === 'ar' ? 'text-primary' : 'text-gray-400 hover:text-primary'}`}>العربية</button>
+            <button onClick={() => setLanguage('de')} className={`text-sm font-bold ${language === 'de' ? 'text-primary' : 'text-gray-400 hover:text-primary'}`}>Deutsch</button>
+            <button onClick={() => setLanguage('ar')} className={`text-sm font-bold ${language === 'ar' ? 'text-primary' : 'text-gray-400 hover:text-primary'}`}>العربية</button>
           </div>
         </div>
       </div>

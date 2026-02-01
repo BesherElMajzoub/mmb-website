@@ -1,0 +1,46 @@
+ارسال المنتج ( كل منتج لحالو بملف مضغوط  ) 
+1-  الصورة مرفقة 
+2- الكتالوج مرفق
+3- ملف text 
+
+a : Submersible Motors
+b : descriptionb
+Maximum Power for Large-Scale Industrial & Mining Projects
+
+Product Description:
+The MMB 12-inch "TB Series" motors are the giants of our submersible drive range, specifically engineered for ultra-deep wells and high-capacity borehole applications. These rewindable motors are pre-filled with water, utilizing it as an eco-friendly coolant and lubricant to ensure thermal stability under heavy loads.
+
+Designed for industrial resilience, the 12" series is available in three-phase configurations and is capable of operating efficiently in both standard and high-temperature environments. The internal engineering features robust bush and thrust bearings, calculated to withstand massive axial and radial thrust loads up to 60,000N. All mounting dimensions are constructed in strict accordance with *International standards*, ensuring compatibility with high-capacity pumps globally.
+
+d:  Key Features
+* High-Efficiency Power Drive: Precision-wound to deliver maximum torque and efficiency for large-scale operations.
+* Serviceable Architecture: Fully rewindable stator design allows for cost-effective repairs and extended asset life.
+* Corrosion-Resistant Body: Motor housing constructed from high-grade stainless steel for longevity.
+* Eco-Friendly Lubrication: Water-lubricated system eliminates oil contamination risks while ensuring effective cooling.
+* Heavy-Duty Bearing System: Extremely hardwearing bearings engineered to support significant thrust loads.
+* Thermal Versatility: Special design options available for hot water applications up to 50˚C.
+* Ease of Maintenance: Designed for straightforward dismantling and repair to minimize operational downtime.
+
+e: Applications
+* Mining & Excavation: Critical de-watering and water management in deep mines.
+* Large-Scale Agriculture: Pivot irrigation and extensive sprinkler systems.
+* Industrial: Heavy industrial water supply and cooling.
+* Commercial & Infrastructure: High-pressure boosting and water supply for massive complexes.
+* Municipal:* Bulk water distribution.
+
+f : Technical Specifications ( الجدول ) 
+Nominal Diameter | 12″ (300 mm) |
+Series | Water Filled Rewindable Submersible Motors |
+Power Range (Three Phase) | 150 – 300 kW |
+Voltage & Frequency | 380V – 415V, 525V, 50Hz |
+Rated Speed | 2900 RPM |
+Method of Starting | Direct On Line (DOL), Star Delta (SD) |
+Max. Down Thrust Load | 60000N |
+Duty Cycle | S1 (Continuous) |
+Protection Degree | IP 68 |
+Insulation Class | Y |
+Max. Liquid Temperature | Standard: 30˚C
+ High Temperature Variant: 50˚C |
+Min. Cooling Flow | 0.5 m/sec |
+Starts per Hour | 12 Times |
+Available Material of Construction | Type B, S, T |

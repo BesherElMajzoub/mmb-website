@@ -1,0 +1,33 @@
+ارسال المنتج ( كل منتج لحالو بملف مضغوط  ) 
+1-  الصورة 
+2- الكتالوج غير جاهز بعد 
+3- ملف text 
+
+a : Stainless Steel Submersible Pumps
+b : description 
+The MMB 6-inch submersible pump series is precision-engineered for demanding deep well applications requiring high head and flow rates. Constructed entirely from premium corrosion-resistant stainless steel, these single or multistage pumps ensure maximum durability and a long service life, even in aggressive water environments.
+
+German engineering principles are evident in the shaft design, which is supported by radial bearings at each casing stage. This feature significantly reduces vibration and ensures prolonged, trouble-free operation. To guarantee superior hydraulic efficiency, the impellers and casings are equipped with precision-machined wear rings that maintain close clearance and minimize internal wear. An integrated, high-grade check valve effectively prevents backflow and mitigates the risk of water hammer. All mounting dimensions strictly adhere to NEMA standards for seamless integration with standard motors.
+
+d:  Key Features
+* Optimized Hydraulic Efficiency: Advanced radial or mixed-flow impeller designs maximize output while reducing energy consumption.
+* Corrosion-Resistant Construction: Made from high-grade stainless steel to withstand harsh conditions and extend pump life.
+* Reinforced Structural Integrity: Features additional bearing bracket support for higher-stage models to handle increased load and stress.
+* Service-Oriented Design: Twin pump option available for higher-stage units, enhancing lifespan and simplifying repair and maintenance.
+* Wide Performance Range: Versatile hydraulic curves to meet specific industrial and agricultural requirements.
+
+e: Applications
+* Municipal & Civil: Large-scale water supply and pressure boosting for commercial buildings.
+* Industrial: Process water supply, construction de-watering, and mining applications.
+* Agriculture: High-capacity irrigation, sprinkler systems, and livestock watering.
+* Safety: Fire-fighting systems.
+* Landscape: Fountains and water features.
+
+f : Technical Specifications ( الجدول ) 
+
+| Nominal Diameter | 6” (150 mm) |
+| Power Range | 2.2 kW – 63 kW |
+| Rated Speed | 2900 RPM |
+| Max. Flow Rate | 120 m³/h |
+| Max. Head | 850 m |
+| Outlet Sizes | 2″, 2½”, 3″, & 4″ |

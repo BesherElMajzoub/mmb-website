@@ -21,7 +21,8 @@ export const translations = {
     },
     products: {
       viewSeries: 'View Series',
-      specsAvailable: 'Specs Available'
+      specsAvailable: 'Specs Available',
+      contactWhatsApp: 'Contact via WhatsApp'
     }
   },
   de: {
@@ -44,7 +45,8 @@ export const translations = {
     },
     products: {
       viewSeries: 'Serie Ansehen',
-      specsAvailable: 'Spezifikationen Verfügbar'
+      specsAvailable: 'Spezifikationen Verfügbar',
+      contactWhatsApp: 'Kontakt über WhatsApp'
     }
   },
   ar: {
@@ -67,7 +69,8 @@ export const translations = {
     },
     products: {
       viewSeries: 'عرض السلسلة',
-      specsAvailable: 'مواصفات متاحة'
+      specsAvailable: 'مواصفات متاحة',
+      contactWhatsApp: 'تواصل عبر الواتساب'
     }
   }
 };

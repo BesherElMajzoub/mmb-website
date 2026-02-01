@@ -1,159 +1,264 @@
-export interface Spec {
-  param: string;
-  value: string;
-  unit: string;
+// Types for the product hierarchy
+export interface Product {
+  slug: string;
+  name: string;
+  image?: string;
+  catalog?: string;
+  description?: string;
+  features?: string[];
+  applications?: string[];
+  specs?: { param: string; value: string }[];
 }
 
 export interface Series {
   slug: string;
   title: string;
-  category: string;
-  heroImagePath: string;
-  description: string;
-  specs: Spec[];
-  features: string[];
-  applications: string[];
-  datasheetPdfPath?: string;
-  certificatePdfPath?: string;
+  image?: string;
+  description?: string;
+  catalog?: string;
+  products: Product[];
 }
 
-export interface Category {
-  id: string;
+export interface Subcategory {
+  slug: string;
   name: string;
-  description: string;
+  description?: string;
+  comingSoon?: boolean;
   series: Series[];
 }
 
-export const products: Category[] = [
+export interface MainCategory {
+  slug: string;
+  name: string;
+  description: string;
+  subcategories: Subcategory[];
+}
+
+// Helper to create slugs
+function toSlug(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .trim();
+}
+
+// Main product data structure
+export const mainCategories: MainCategory[] = [
   {
-    id: 'submersible',
-    name: 'Submersible Pumps',
-    description: 'High-efficiency submersible pumps designed for deep wells and harsh environments.',
-    series: [
+    slug: 'stainless-steel-submersible-pumps-motors',
+    name: 'Stainless Steel Submersible Pumps & Motors',
+    description: 'High-quality stainless steel submersible pumps and motors for demanding applications.',
+    subcategories: [
       {
-        slug: '6s-series',
-        title: 'MMB 6S Series Submersible Pumps',
-        category: 'submersible',
-        heroImagePath: '/images/submersible-pump.jpg',
-        description: 'The 6S Series is engineered for maximum durability and efficiency in deep well applications. Constructed entirely from high-grade stainless steel, these pumps offer superior resistance to corrosion and wear.',
-        specs: [
-          { param: 'Flow Rate', value: 'Up to 80', unit: 'm³/h' },
-          { param: 'Head', value: 'Up to 400', unit: 'm' },
-          { param: 'Power', value: '0.37 - 37', unit: 'kW' },
-          { param: 'Efficiency', value: 'Up to 84', unit: '%' },
-          { param: 'Material', value: 'AISI 304 / 316', unit: 'Stainless Steel' },
-          { param: 'Outlet Diameter', value: '3 - 4', unit: 'inches' }
-        ],
-        features: [
-          'Full Stainless Steel Construction (AISI 304/316)',
-          'High Sand Resistance',
-          'Built-in Check Valve',
-          'NEMA Standard Coupling',
-          'Rewindable Motor Option'
-        ],
-        applications: [
-          'Agricultural Irrigation',
-          'Municipal Water Supply',
-          'Industrial Water Systems',
-          'Mining Dewatering',
-          'Fire Fighting Systems'
-        ],
-        datasheetPdfPath: '/datasheets/6s-series.pdf'
+        slug: 'submersible-pump-ends',
+        name: 'Submersible Pump Ends',
+        description: 'S-Series stainless steel submersible pump ends for deep well applications.',
+        series: [
+          {
+            slug: '4s-series',
+            title: '4S Series',
+            image: '/images/submersible-pump.jpg',
+            description: 'Compact 4-inch stainless steel submersible pump ends for residential and light commercial use.',
+            products: []
+          },
+          {
+            slug: '6s-series',
+            title: '6S Series',
+            image: '/images/submersible-pump.jpg',
+            description: '6-inch stainless steel submersible pump ends for agricultural and industrial applications.',
+            products: []
+          },
+          {
+            slug: '8s-series',
+            title: '8S Series',
+            image: '/images/submersible-pump.jpg',
+            description: '8-inch high-capacity stainless steel submersible pump ends.',
+            products: []
+          },
+          {
+            slug: '10s-series',
+            title: '10S Series',
+            image: '/images/submersible-pump.jpg',
+            description: '10-inch heavy-duty stainless steel submersible pump ends for high flow applications.',
+            products: []
+          },
+          {
+            slug: '12s-series',
+            title: '12S Series',
+            image: '/images/submersible-pump.jpg',
+            description: '12-inch industrial stainless steel submersible pump ends for maximum capacity.',
+            products: []
+          }
+        ]
       },
       {
-        slug: '4s-series',
-        title: 'MMB 4S Series Submersible Pumps',
-        category: 'submersible',
-        heroImagePath: '/images/submersible-pump.jpg',
-        description: 'Compact yet powerful, the 4S Series delivers reliable performance for residential and small-scale agricultural needs. Precision-engineered impellers ensure smooth operation and longevity.',
-        specs: [
-          { param: 'Flow Rate', value: 'Up to 24', unit: 'm³/h' },
-          { param: 'Head', value: 'Up to 300', unit: 'm' },
-          { param: 'Power', value: '0.37 - 7.5', unit: 'kW' },
-          { param: 'Diameter', value: '4', unit: 'inches' },
-          { param: 'Material', value: 'AISI 304', unit: 'Stainless Steel' }
-        ],
-        features: [
-          'Floating Impeller Design',
-          'Corrosion Resistant',
-          'Energy Efficient',
-          'Easy Installation'
-        ],
-        applications: [
-          'Domestic Water Supply',
-          'Small Irrigation',
-          'Pressure Boosting',
-          'Fountains'
+        slug: 'submersible-motors',
+        name: 'Submersible Motors',
+        description: 'TA-TB Series submersible motors built to NEMA standards.',
+        series: [
+          {
+            slug: '4ta-series',
+            title: '4TA Series',
+            image: '/images/submersible-pump.jpg',
+            description: '4-inch submersible motors for small to medium applications.',
+            products: []
+          },
+          {
+            slug: '6ta-series',
+            title: '6TA Series',
+            image: '/images/submersible-pump.jpg',
+            description: '6-inch submersible motors for agricultural and industrial use.',
+            products: []
+          },
+          {
+            slug: '8tb-series',
+            title: '8TB Series',
+            image: '/images/submersible-pump.jpg',
+            description: '8-inch heavy-duty submersible motors.',
+            products: []
+          },
+          {
+            slug: '10tb-series',
+            title: '10TB Series',
+            image: '/images/submersible-pump.jpg',
+            description: '10-inch high-power submersible motors.',
+            products: []
+          },
+          {
+            slug: '12tb-series',
+            title: '12TB Series',
+            image: '/images/submersible-pump.jpg',
+            description: '12-inch industrial submersible motors for maximum power.',
+            products: []
+          }
         ]
+      },
+      {
+        slug: 'wastewater-submersible-pumps',
+        name: 'Wastewater Submersible Pumps',
+        description: 'Submersible pumps designed for wastewater and sewage applications.',
+        comingSoon: true,
+        series: []
       }
     ]
   },
   {
-    id: 'multistage',
+    slug: 'multistage-pumps',
     name: 'Multistage Pumps',
     description: 'Vertical and horizontal multistage pumps for high-pressure applications.',
-    series: [
+    subcategories: [
       {
-        slug: 'mv-series',
-        title: 'MMB MV Vertical Multistage Pumps',
-        category: 'multistage',
-        heroImagePath: '/images/multistage-pump.jpg',
-        description: 'The MV Series represents the pinnacle of high-pressure pumping technology. Its vertical in-line design saves space while delivering exceptional pressure and flow rates.',
-        specs: [
-          { param: 'Flow Rate', value: 'Up to 120', unit: 'm³/h' },
-          { param: 'Head', value: 'Up to 320', unit: 'm' },
-          { param: 'Max Pressure', value: '30', unit: 'bar' },
-          { param: 'Liquid Temp', value: '-15 to +120', unit: '°C' },
-          { param: 'Flange', value: 'DIN / ANSI', unit: 'Standard' }
-        ],
-        features: [
-          'Cartridge Mechanical Seal',
-          'Laser-welded Impellers',
-          'High Efficiency IE3 Motors',
-          'Low Noise Operation',
-          'Space-saving Vertical Design'
-        ],
-        applications: [
-          'Water Treatment (RO Systems)',
-          'Boiler Feed',
-          'High Rise Buildings',
-          'Industrial Washing',
-          'Fire Fighting'
+        slug: 'vertical-multistage-pumps',
+        name: 'Vertical Multistage Pumps',
+        description: 'Space-saving vertical multistage pumps for high-pressure water systems.',
+        series: [
+          {
+            slug: 'cdl-cdlf-series',
+            title: 'CDL / CDLF Series',
+            image: '/images/multistage-pump.jpg',
+            description: 'Vertical multistage centrifugal pumps with stainless steel construction.',
+            products: []
+          },
+          {
+            slug: 'gmvb-series',
+            title: 'GMVB Series',
+            image: '/images/multistage-pump.jpg',
+            description: 'High-efficiency vertical multistage booster pumps.',
+            products: []
+          }
+        ]
+      },
+      {
+        slug: 'horizontal-multistage-centrifugal-pumps',
+        name: 'Horizontal Multistage Centrifugal Pumps',
+        description: 'Horizontal multistage pumps for industrial and commercial applications.',
+        series: [
+          {
+            slug: 'gm-series',
+            title: 'GM Series',
+            image: '/images/multistage-pump.jpg',
+            description: 'Horizontal multistage centrifugal pumps for high-pressure applications.',
+            products: []
+          }
         ]
       }
     ]
   },
   {
-    id: 'motors',
+    slug: 'motors',
     name: 'Motors',
-    description: 'Robust submersible motors built to NEMA standards.',
-    series: [
+    description: 'High-efficiency industrial motors for various applications.',
+    subcategories: [
       {
-        slug: 'm-series',
-        title: 'MMB M-Series Submersible Motors',
-        category: 'motors',
-        heroImagePath: '/images/submersible-pump.jpg', // Using generic pump image as placeholder if motor specific not avail
-        description: 'MMB submersible motors are the heart of our pumping systems. Designed for continuous duty in submerged conditions, they offer high efficiency and long service life.',
-        specs: [
-          { param: 'Power Range', value: '0.37 - 110', unit: 'kW' },
-          { param: 'Voltage', value: '220 - 415', unit: 'V' },
-          { param: 'Frequency', value: '50 / 60', unit: 'Hz' },
-          { param: 'Protection', value: 'IP68', unit: 'Class' },
-          { param: 'Insulation', value: 'Class F', unit: 'Standard' }
-        ],
-        features: [
-          'Rewindable Stator',
-          'Water Filled / Oil Filled Options',
-          'NEMA Standard Flange',
-          'High Thrust Load Capacity',
-          'Stainless Steel Shell'
-        ],
-        applications: [
-          'Deep Well Pumps',
-          'Submersible Machinery',
-          'Offshore Applications'
+        slug: 'ac-induction-motors',
+        name: 'A.C. Induction Motors',
+        description: 'Robust A.C. induction motors for industrial applications.',
+        series: [
+          {
+            slug: 'mt-series',
+            title: 'MT Series (2-Pole / 4-Pole)',
+            image: '/images/submersible-pump.jpg',
+            description: 'High-efficiency MT Series A.C. induction motors available in 2-pole and 4-pole configurations.',
+            products: []
+          }
         ]
       }
     ]
   }
 ];
+
+// Helper functions to find items by slug
+export function findMainCategory(slug: string): MainCategory | undefined {
+  return mainCategories.find(c => c.slug === slug);
+}
+
+export function findSubcategory(mainCategorySlug: string, subcategorySlug: string): { mainCategory: MainCategory; subcategory: Subcategory } | undefined {
+  const mainCategory = findMainCategory(mainCategorySlug);
+  if (!mainCategory) return undefined;
+  
+  const subcategory = mainCategory.subcategories.find(s => s.slug === subcategorySlug);
+  if (!subcategory) return undefined;
+  
+  return { mainCategory, subcategory };
+}
+
+export function findSeries(mainCategorySlug: string, subcategorySlug: string, seriesSlug: string): { mainCategory: MainCategory; subcategory: Subcategory; series: Series } | undefined {
+  const result = findSubcategory(mainCategorySlug, subcategorySlug);
+  if (!result) return undefined;
+  
+  const series = result.subcategory.series.find(s => s.slug === seriesSlug);
+  if (!series) return undefined;
+  
+  return { ...result, series };
+}
+
+export function findProduct(mainCategorySlug: string, subcategorySlug: string, seriesSlug: string, productSlug: string): { mainCategory: MainCategory; subcategory: Subcategory; series: Series; product: Product } | undefined {
+  const result = findSeries(mainCategorySlug, subcategorySlug, seriesSlug);
+  if (!result) return undefined;
+  
+  const product = result.series.products.find(p => p.slug === productSlug);
+  if (!product) return undefined;
+  
+  return { ...result, product };
+}
+
+// Legacy export for backward compatibility (will be removed after full migration)
+export const products = mainCategories.map(cat => ({
+  id: cat.slug,
+  name: cat.name,
+  description: cat.description,
+  series: cat.subcategories.flatMap(sub => 
+    sub.series.map(s => ({
+      slug: s.slug,
+      title: s.title,
+      category: cat.slug,
+      heroImagePath: s.image || '/images/submersible-pump.jpg',
+      description: s.description || '',
+      specs: [],
+      features: [],
+      applications: [],
+    }))
+  )
+}));
