@@ -110,12 +110,12 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {mainCategories.map((category, index) => (
               <Link key={category.slug} href={`/products/${category.slug}`} className="group block h-full">
-                  <div className="tech-card h-full flex flex-col">
-                    <div className="relative h-96 overflow-hidden bg-muted p-6 flex items-center justify-center">
+                  <div className="tech-card h-full flex flex-col border border-border hover:border-primary transition-all duration-300 hover:shadow-lg bg-white">
+                    <div className="relative h-80 overflow-hidden bg-white p-4 flex items-center justify-center">
                       <img 
                         src={category.subcategories[0]?.series[0]?.image || '/images/submersible-pump.jpg'} 
                         alt={category.name}
-                        className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
+                        className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
                       />
                       <div className="absolute inset-0 bg-transparent group-hover:bg-black/5 transition-colors"></div>
                       

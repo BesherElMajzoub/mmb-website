@@ -154,8 +154,10 @@ export default function ProductDetailPage() {
                     <tbody className="divide-y divide-border/50">
                       {product.specs.map((spec, idx) => (
                         <tr key={idx} className={idx % 2 === 0 ? 'bg-white' : 'bg-muted/10'}>
-                          <td className="px-6 py-4 font-medium text-foreground">{spec.param}</td>
-                          <td className="px-6 py-4 font-mono text-primary font-bold">{spec.value}</td>
+                          <td className="px-6 py-4 font-medium text-foreground align-top">{spec.param}</td>
+                          <td className="px-6 py-4 font-mono text-primary font-bold align-top whitespace-pre-line">
+                            {spec.value}
+                          </td>
                         </tr>
                       ))}
                     </tbody>

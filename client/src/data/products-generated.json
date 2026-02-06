@@ -1,0 +1,986 @@
+[
+  {
+    "slug": "motors",
+    "name": "Motors",
+    "subcategories": [
+      {
+        "slug": "general",
+        "name": "General",
+        "series": [
+          {
+            "slug": "mt-series",
+            "title": "MT Series",
+            "image": "/product_images/Motors_MT.png",
+            "catalog": "",
+            "description": "The MMB MT Series offers a comprehensive range of premium AC induction motors, precision-engineered to meet the rigorous demands of modern industry. The stator core is constructed from high-grade, low-watt-loss steel laminations, ensuring maximum efficiency and reliable continuous operation.\n\nTo guarantee vibration-free performance and reduced noise levels, every rotor is dynamically balanced with high precision. The windings feature high-grade enamelled copper wire and are treated with varnish impregnation for superior insulation. The robust motor frame design and use of premium materials result in exceptional thermal management (low temperature rise), significantly extending the motor's operational lifecycle. Available in both Standard and Premium efficiency levels (IE2 & IE3) to match specific energy requirements.",
+            "products": [],
+            "features": [
+              "Key Features",
+              "Advanced Insulation: Windings are treated using the Vacuum Pressure Impregnation (VPI) process for superior electrical and mechanical strength.",
+              "Thermal Protection: Higher kW models come equipped with integrated thermistors and space heaters to prevent overheating and condensation.",
+              "Customizable Protection: Protective canopy available on request for outdoor or harsh environment installations.",
+              "Premium Efficiency: Designed to meet IE2 and IE3 standards for reduced energy consumption.",
+              "Durability: Low temperature rise design ensures a longer lifespan for critical components."
+            ],
+            "applications": [
+              "Applications",
+              "Engineered as the prime mover for a wide range of industrial equipment:",
+              "Pumping Systems: Direct coupling with centrifugal, multistage, and submersible pumps.",
+              "Industrial Machinery: Fans, blowers, compressors, and conveyors.",
+              "OEM Applications: Reliable drive units for equipment manufacturers."
+            ],
+            "specs": [
+              {
+                "param": "Power Range (Single Phase)",
+                "value": "0.37 kW – 2.2 kW"
+              },
+              {
+                "param": "Power Range (Three Phase)",
+                "value": "0.75 kW – 315 kW (IE2 & IE3)\nRated Voltage\nSingle Phase: 230V\nThree Phase: 380/400/415V"
+              },
+              {
+                "param": "Frequency",
+                "value": "50 Hz"
+              },
+              {
+                "param": "Poles",
+                "value": "2 / 4 / 6 Pole"
+              },
+              {
+                "param": "Mounting Types",
+                "value": "Foot (B3), Flange (B5), Face (B14), Foot-cum-Flange (B35)"
+              },
+              {
+                "param": "Connection",
+                "value": "Single Phase: CSCR Three Phase: DOL / Star-Delta (SD)"
+              },
+              {
+                "param": "Ingress Protection",
+                "value": "IP 55"
+              },
+              {
+                "param": "Insulation Class",
+                "value": "Class F"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "multistage-pumps",
+    "name": "Multistage Pumps",
+    "subcategories": [
+      {
+        "slug": "horizontal-multistage-centrifugal-pumps",
+        "name": "Horizontal Multistage Centrifugal Pumps",
+        "series": [
+          {
+            "slug": "gm-series",
+            "title": "GM SERIES",
+            "products": [
+              {
+                "slug": "gm-series",
+                "name": "GM SERIES",
+                "description": "The MMB GM Series represents a pinnacle of industrial pumping technology, designed specifically for handling clear or slightly turbid liquids without abrasives. These pumps feature a robust sectional casing architecture with statically and dynamically balanced closed impellers, ensuring vibration-free performance even under high loads.\n\nEngineered for versatility, the series is driven by IEC-standard three-phase AC motors (Class F, IP54) and offers exceptional structural integrity. The interstage casings are precision-sealed with O-rings and secured by external tie bolts. For higher pressure requirements, the standard cast iron construction is upgraded to cast steel, making this series ideal for critical applications ranging from boiler feeding to mining operations.\n\nKey Features\n\n* Advanced Axial Balancing:\n\n- Standard: Axial thrust is balanced via a back wearing ring and balancing hole system.\n\n- High Head (>200m): Equipped with a balancing disc or balancing drum for superior load management.\n\n* Flexible Installation: Suction and discharge flanges can be rotated in 90° increments on sizes 32, 40, 50, and 65 to accommodate complex piping layouts.\n\n* Versatile Shaft Sealing: Options include Uncooled Single (S1) or Double (S2) stuffing box packing, or Mechanical Seals according to DIN 24960.\n\n* Rigorous Testing: Every unit undergoes hydrostatic testing at 1.5 times the closed-valve pressure to guarantee safety and reliability.\n\n* Robust Bearing System: Grease-lubricated ball bearings provided as standard, with an oil lubrication option available for heavy-duty cycles.\n\n* Fire Service Ready: Multi-discharge port configuration is available upon request for sprinkler systems",
+                "features": [],
+                "applications": [
+                  "Applications",
+                  "Designed to perform in critical infrastructure and industrial sectors:",
+                  "Water Supply: Municipal installations and booster systems.",
+                  "Power & Utility: Boiler feed water, circulating, and condensing plants.",
+                  "Industry: Power supply plants and general industrial washing.",
+                  "Mining: Heavy-duty dewatering and water transport.",
+                  "Fire Safety: Sprinkling installations (Fire-fighting)."
+                ],
+                "specs": [
+                  {
+                    "param": "Nominal Diameter",
+                    "value": "32 mm – 200 mm"
+                  },
+                  {
+                    "param": "Max. Flow Rate",
+                    "value": "Up to 700 m³/h"
+                  },
+                  {
+                    "param": "Total Head",
+                    "value": "50 m ~ 300 m"
+                  },
+                  {
+                    "param": "Max. Speed",
+                    "value": "3600 RPM"
+                  },
+                  {
+                    "param": "Max. Liquid Temperature",
+                    "value": "≤ 140°C"
+                  },
+                  {
+                    "param": "Casing Pressure",
+                    "value": "30 bar (Standard)"
+                  },
+                  {
+                    "param": "Drive Motor",
+                    "value": "IEC Standard, Class F, IP54"
+                  },
+                  {
+                    "param": "Rotation",
+                    "value": "Clockwise (viewed from drive side)"
+                  },
+                  {
+                    "param": "Flange Standard (Suction)",
+                    "value": "DIN 2533, PN16 (Right side)"
+                  },
+                  {
+                    "param": "Flange Standard (Discharge)",
+                    "value": "DIN 2535, PN40 (Top side)"
+                  }
+                ],
+                "image": "/product_images/Multistage Pumps_Horizontal Multistage Centrifugal Pumps_GM SERIES_GM SERIES.png",
+                "catalog": "/product_images/Multistage Pumps_Horizontal Multistage Centrifugal Pumps_GM SERIES_MMB GM-GMVB.pdf"
+              }
+            ],
+            "description": "The MMB GM Series represents a pinnacle of industrial pumping technology, designed specifically for handling clear or slightly turbid liquids without abrasives. These pumps feature a robust sectional casing architecture with statically and dynamically balanced closed impellers, ensuring vibration-free performance even under high loads.\n\nEngineered for versatility, the series is driven by IEC-standard three-phase AC motors (Class F, IP54) and offers exceptional structural integrity. The interstage casings are precision-sealed with O-rings and secured by external tie bolts. For higher pressure requirements, the standard cast iron construction is upgraded to cast steel, making this series ideal for critical applications ranging from boiler feeding to mining operations.\n\nKey Features\n\n* Advanced Axial Balancing:\n\n- Standard: Axial thrust is balanced via a back wearing ring and balancing hole system.\n\n- High Head (>200m): Equipped with a balancing disc or balancing drum for superior load management.\n\n* Flexible Installation: Suction and discharge flanges can be rotated in 90° increments on sizes 32, 40, 50, and 65 to accommodate complex piping layouts.\n\n* Versatile Shaft Sealing: Options include Uncooled Single (S1) or Double (S2) stuffing box packing, or Mechanical Seals according to DIN 24960.\n\n* Rigorous Testing: Every unit undergoes hydrostatic testing at 1.5 times the closed-valve pressure to guarantee safety and reliability.\n\n* Robust Bearing System: Grease-lubricated ball bearings provided as standard, with an oil lubrication option available for heavy-duty cycles.\n\n* Fire Service Ready: Multi-discharge port configuration is available upon request for sprinkler systems",
+            "image": "/product_images/Multistage Pumps_Horizontal Multistage Centrifugal Pumps_GM SERIES_GM SERIES.png",
+            "catalog": "/product_images/Multistage Pumps_Horizontal Multistage Centrifugal Pumps_GM SERIES_MMB GM-GMVB.pdf"
+          }
+        ]
+      },
+      {
+        "slug": "vertical-multistage-pumps",
+        "name": "Vertical Multistage Pumps",
+        "series": [
+          {
+            "slug": "cdl-cdlf-series",
+            "title": "CDL  CDLF Series",
+            "products": [
+              {
+                "slug": "cdl-cdlf-series",
+                "name": "CDL  CDLF Series",
+                "description": "The MMB CDL / CDLF Series represents the cutting edge of vertical multistage technology, engineered specifically for applications demanding constant high pressure and unwavering reliability. The distinct vertical inline design significantly simplifies piping layouts and optimizes floor space usage, making it an ideal solution where space is at a premium.\n\nBuilt for continuous duty in rigorous industrial environments, these pumps are available with a variety of material constructions to suit specific fluid handling requirements. They are coupled with Totally Enclosed Fan Cooled (TEFC) motors, available in standard and premium efficiency classes, ensuring long-term operational stability and energy savings.\n\nDesigned for versatility, the MMB 8\" series is available in three-phase configurations and is engineered to perform in both standard and high-temperature environments. The robust internal construction features precision bush and thrust bearings capable of withstanding maximum axial and radial thrust loads up to 45500N. All mounting dimensions are manufactured in strict accordance with *NEMA standards* to ensure universal compatibility.",
+                "features": [
+                  "Key Features",
+                  "Corrosion-Resistant Hydraulics: Wetted parts are constructed from high-grade stainless steel to ensure durability and fluid purity.",
+                  "Space-Saving Design: Vertical inline architecture reduces footprint and allows for easy integration into existing piping systems.",
+                  "Integrated Protection: Single-phase motors come equipped with thermal overload protection for enhanced safety.",
+                  "Energy Efficiency: Options available for premium efficiency motors to reduce operational costs.",
+                  "Versatile Material Options: Available in different material configurations to handle various media types effectively."
+                ],
+                "applications": [
+                  "Applications",
+                  "Engineered for versatility across multiple sectors:",
+                  "Industrial: Boiler feed water systems, industrial washing and cleaning systems.",
+                  "Building Services: Utility water supply and pressure boosting systems for high-rise buildings.",
+                  "Fire Safety: Jockey pump applications in fire-fighting systems.",
+                  "Agriculture: Irrigation and high-pressure water transfer.",
+                  "Automotive: Professional car washing systems."
+                ],
+                "specs": [
+                  {
+                    "param": "Standard",
+                    "value": "Manufacturer Standard"
+                  },
+                  {
+                    "param": "Max. Flow Rate",
+                    "value": "Up to 240 m³/h"
+                  },
+                  {
+                    "param": "Max. Head",
+                    "value": "Up to 320 m"
+                  },
+                  {
+                    "param": "Rated Speed",
+                    "value": "2900 RPM"
+                  },
+                  {
+                    "param": "Power Range",
+                    "value": "Up to 110 kW"
+                  },
+                  {
+                    "param": "Max. Working Pressure",
+                    "value": "Up to 32 bar\nLiquid Temperature\nStandard: Up to 90°C\nOptional: Up to 120°C"
+                  },
+                  {
+                    "param": "Outlet Size",
+                    "value": "Up to 150 mm"
+                  },
+                  {
+                    "param": "Impeller Type",
+                    "value": "Enclosed Impeller"
+                  },
+                  {
+                    "param": "Shaft Seal",
+                    "value": "Mechanical Seal"
+                  },
+                  {
+                    "param": "Bearing Lubrication",
+                    "value": "Grease"
+                  },
+                  {
+                    "param": "Flange Standard",
+                    "value": "DIN"
+                  },
+                  {
+                    "param": "Material of Construction",
+                    "value": "Cast Iron & Stainless Steel"
+                  }
+                ],
+                "image": "/product_images/Multistage Pumps_Vertical Multistage Pumps_CDL  CDLF Series_CDL.png",
+                "catalog": "/product_images/Multistage Pumps_Vertical Multistage Pumps_CDL  CDLF Series_MMB CDL-Vertical Multistage Pump-Catalogue 2025.pdf"
+              }
+            ],
+            "description": "The MMB CDL / CDLF Series represents the cutting edge of vertical multistage technology, engineered specifically for applications demanding constant high pressure and unwavering reliability. The distinct vertical inline design significantly simplifies piping layouts and optimizes floor space usage, making it an ideal solution where space is at a premium.\n\nBuilt for continuous duty in rigorous industrial environments, these pumps are available with a variety of material constructions to suit specific fluid handling requirements. They are coupled with Totally Enclosed Fan Cooled (TEFC) motors, available in standard and premium efficiency classes, ensuring long-term operational stability and energy savings.\n\nDesigned for versatility, the MMB 8\" series is available in three-phase configurations and is engineered to perform in both standard and high-temperature environments. The robust internal construction features precision bush and thrust bearings capable of withstanding maximum axial and radial thrust loads up to 45500N. All mounting dimensions are manufactured in strict accordance with *NEMA standards* to ensure universal compatibility.",
+            "image": "/product_images/Multistage Pumps_Vertical Multistage Pumps_CDL  CDLF Series_CDL.png",
+            "catalog": "/product_images/Multistage Pumps_Vertical Multistage Pumps_CDL  CDLF Series_MMB CDL-Vertical Multistage Pump-Catalogue 2025.pdf"
+          },
+          {
+            "slug": "gmvb",
+            "title": "GMVB",
+            "products": [
+              {
+                "slug": "gmvb-series",
+                "name": "GMVB SERIES",
+                "description": "The MMB GMVB Series are robust multi-stage centrifugal pumps engineered for high-pressure fluid handling. Designed with a sectional casing architecture, these pumps are optimized for pumping clear to slightly turbid liquids free from abrasives.\n\nThe construction features statically and dynamically balanced closed impellers, ensuring vibration-free performance. The interstage casings are precision-sealed with O-rings and secured by external tie bolts for maximum structural integrity. Driven by IEC-standard motors, the GM/GMVB series offers exceptional reliability for demanding environments ranging from mining to power generation",
+                "features": [
+                  "Key Features",
+                  "Robust Construction: Sectional casing design with external tie bolts. Standard cast iron pumps utilize cast steel casings for higher pressure requirements.",
+                  "Optimized Axial Balancing:",
+                  "-Standard: Axial balance secured by back wearing ring and balancing hole system.",
+                  "-High Head (>200m): Equipped with a balancing disc or balancing drum for superior load management.",
+                  "Flexible Installation: Suction and discharge flanges can be rotated in 90° increments on sizes 32, 40, 50, and 65 to suit complex piping layouts.",
+                  "Versatile Sealing Options: Available with Uncooled Single (S1) or Double (S2) stuffing box packing, or Mechanical Seals in accordance with DIN24960.",
+                  "Rigorous Quality Control: Each unit is hydrostatically tested at 1.5 times the closed-valve pressure and performance-tested before shipment.",
+                  "Specialized Fire Service Design: Multi-discharge port configuration available upon request for fire sprinkler systems.",
+                  "Reliable Bearing System: Grease-lubricated ball bearings provided as standard, with an oil lubrication option available."
+                ],
+                "applications": [
+                  "Applications",
+                  "Engineered to perform in critical infrastructure and industrial sectors:",
+                  "Water Supply: Municipal and industrial water supply installations.",
+                  "Power & Utility: Boiler feed, circulating, and condensing plants.",
+                  "Pressure Boosting: High-pressure booster systems.",
+                  "Heavy Industry: Mining operations and power supply plants.",
+                  "Fire Safety: Sprinkling installations and fire service systems."
+                ],
+                "specs": [
+                  {
+                    "param": "Nominal Diameter",
+                    "value": "32 mm – 200 mm"
+                  },
+                  {
+                    "param": "Max. Flow Rate",
+                    "value": "Up to 700 m³/h"
+                  },
+                  {
+                    "param": "Total Head",
+                    "value": "50 m ~ 300 m"
+                  },
+                  {
+                    "param": "Max. Speed",
+                    "value": "3600 RPM"
+                  },
+                  {
+                    "param": "Max. Liquid Temperature",
+                    "value": "≤ 140°C"
+                  },
+                  {
+                    "param": "Casing Pressure",
+                    "value": "30 bar (Standard)"
+                  },
+                  {
+                    "param": "Shaft Seal",
+                    "value": "Stuffing Box (S1/S2) or Mechanical Seal (DIN24960)\nFlange Standards\nSuction: DIN2533 PN16\nDischarge: DIN2535 PN40"
+                  },
+                  {
+                    "param": "Degree of Protection",
+                    "value": "IP 54"
+                  },
+                  {
+                    "param": "Insulation Class",
+                    "value": "F"
+                  }
+                ],
+                "image": "/product_images/Multistage Pumps_Vertical Multistage Pumps_GMVB_GMVB.png",
+                "catalog": "/product_images/Multistage Pumps_Vertical Multistage Pumps_GMVB_MMB GM-GMVB.pdf"
+              }
+            ],
+            "description": "The MMB GMVB Series are robust multi-stage centrifugal pumps engineered for high-pressure fluid handling. Designed with a sectional casing architecture, these pumps are optimized for pumping clear to slightly turbid liquids free from abrasives.\n\nThe construction features statically and dynamically balanced closed impellers, ensuring vibration-free performance. The interstage casings are precision-sealed with O-rings and secured by external tie bolts for maximum structural integrity. Driven by IEC-standard motors, the GM/GMVB series offers exceptional reliability for demanding environments ranging from mining to power generation",
+            "image": "/product_images/Multistage Pumps_Vertical Multistage Pumps_GMVB_GMVB.png",
+            "catalog": "/product_images/Multistage Pumps_Vertical Multistage Pumps_GMVB_MMB GM-GMVB.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "stainless-steel-submersible-pumps-motors",
+    "name": "Stainless Steel Submersible Pumps & Motors",
+    "subcategories": [
+      {
+        "slug": "s-series-stainless-steel-submersible",
+        "name": "S-Series Stainless Steel Submersible",
+        "series": [
+          {
+            "slug": "4s-stainless-steel-submersible",
+            "title": "4S Stainless Steel Submersible",
+            "products": [
+              {
+                "slug": "4s-series",
+                "name": "4S SERIES",
+                "description": "The MMB 4-inch submersible pump series is engineered for rigorous deep well applications where reliability is non-negotiable. Designed with a robust multistage configuration, these pumps feature precision-machined radial or mixed-flow impellers to deliver superior head and flow performance.\n\nConstructed entirely from high-grade, corrosion-resistant stainless steel, the MMB series ensures exceptional longevity even in aggressive water conditions. The pump shaft is reinforced with radial bearings at every stage casing, ensuring vibration-free operation and extending the lifecycle of the unit. Integrated wear rings on the impeller and casing maintain tight clearances to maximize hydraulic efficiency, while a built-in stainless steel check valve protects against backflow and water hammer. All mounting dimensions are strictly manufactured in accordance with NEMA standards for universal compatibility",
+                "features": [
+                  "Key Features",
+                  "Superior Efficiency: Optimized hydraulic design reduces energy consumption while maintaining high output.",
+                  "Stainless Steel Construction: High resistance to corrosion and abrasion for long-term durability.",
+                  "Enhanced Stability: Additional bearing bracket support significantly reduces mechanical stress on high-stage models.",
+                  "Twin-Design Architecture: Optional twin-pump configuration for high-stage units to increase serviceability and operational life.",
+                  "Broad Hydraulic Range: Versatile performance curves to suit various operational points."
+                ],
+                "applications": [
+                  "Applications",
+                  "Agriculture: Irrigation, sprinkler systems, and livestock watering.",
+                  "Industrial: Process water supply and de-watering construction sites.",
+                  "Civil & Commercial: Pressure boosting systems for high-rise buildings and community water supply.",
+                  "Safety & Leisure: Fire-fighting systems and fountain installations."
+                ],
+                "specs": [
+                  {
+                    "param": "Nominal Diameter*",
+                    "value": "4″ (100 mm)"
+                  },
+                  {
+                    "param": "Power Range",
+                    "value": "0.37 kW – 11 kW"
+                  },
+                  {
+                    "param": "Rated Speed",
+                    "value": "2900 RPM"
+                  },
+                  {
+                    "param": "Max. Flow Rate",
+                    "value": "19 m³/h"
+                  },
+                  {
+                    "param": "Max. Head",
+                    "value": "535 m"
+                  },
+                  {
+                    "param": "Outlet Sizes",
+                    "value": "1¼”, 1½” & 2″"
+                  }
+                ],
+                "image": "/product_images/Stainless Steel Submersible Pumps & Motors_S-Series Stainless Steel Submersible_4S Stainless Steel Submersible_Submerisble Pumps.png",
+                "catalog": ""
+              }
+            ],
+            "description": "The MMB 4-inch submersible pump series is engineered for rigorous deep well applications where reliability is non-negotiable. Designed with a robust multistage configuration, these pumps feature precision-machined radial or mixed-flow impellers to deliver superior head and flow performance.\n\nConstructed entirely from high-grade, corrosion-resistant stainless steel, the MMB series ensures exceptional longevity even in aggressive water conditions. The pump shaft is reinforced with radial bearings at every stage casing, ensuring vibration-free operation and extending the lifecycle of the unit. Integrated wear rings on the impeller and casing maintain tight clearances to maximize hydraulic efficiency, while a built-in stainless steel check valve protects against backflow and water hammer. All mounting dimensions are strictly manufactured in accordance with NEMA standards for universal compatibility",
+            "image": "/product_images/Stainless Steel Submersible Pumps & Motors_S-Series Stainless Steel Submersible_4S Stainless Steel Submersible_Submerisble Pumps.png",
+            "catalog": ""
+          },
+          {
+            "slug": "6s-stainless-steel-submersible",
+            "title": "6S Stainless Steel Submersible",
+            "products": [
+              {
+                "slug": "6s-series",
+                "name": "6S SERIES",
+                "description": "The MMB 6-inch submersible pump series is precision-engineered for demanding deep well applications requiring high head and flow rates. Constructed entirely from premium corrosion-resistant stainless steel, these single or multistage pumps ensure maximum durability and a long service life, even in aggressive water environments.\n\nGerman engineering principles are evident in the shaft design, which is supported by radial bearings at each casing stage. This feature significantly reduces vibration and ensures prolonged, trouble-free operation. To guarantee superior hydraulic efficiency, the impellers and casings are equipped with precision-machined wear rings that maintain close clearance and minimize internal wear. An integrated, high-grade check valve effectively prevents backflow and mitigates the risk of water hammer. All mounting dimensions strictly adhere to NEMA standards for seamless integration with standard motors.",
+                "features": [
+                  "Key Features",
+                  "Optimized Hydraulic Efficiency: Advanced radial or mixed-flow impeller designs maximize output while reducing energy consumption.",
+                  "Corrosion-Resistant Construction: Made from high-grade stainless steel to withstand harsh conditions and extend pump life.",
+                  "Reinforced Structural Integrity: Features additional bearing bracket support for higher-stage models to handle increased load and stress.",
+                  "Service-Oriented Design: Twin pump option available for higher-stage units, enhancing lifespan and simplifying repair and maintenance.",
+                  "Wide Performance Range: Versatile hydraulic curves to meet specific industrial and agricultural requirements."
+                ],
+                "applications": [
+                  "Applications",
+                  "Municipal & Civil: Large-scale water supply and pressure boosting for commercial buildings.",
+                  "Industrial: Process water supply, construction de-watering, and mining applications.",
+                  "Agriculture: High-capacity irrigation, sprinkler systems, and livestock watering.",
+                  "Safety: Fire-fighting systems.",
+                  "Landscape: Fountains and water features."
+                ],
+                "specs": [],
+                "image": "/product_images/Stainless Steel Submersible Pumps & Motors_S-Series Stainless Steel Submersible_6S Stainless Steel Submersible_6 Submerisble Pumps.png",
+                "catalog": ""
+              }
+            ],
+            "description": "The MMB 6-inch submersible pump series is precision-engineered for demanding deep well applications requiring high head and flow rates. Constructed entirely from premium corrosion-resistant stainless steel, these single or multistage pumps ensure maximum durability and a long service life, even in aggressive water environments.\n\nGerman engineering principles are evident in the shaft design, which is supported by radial bearings at each casing stage. This feature significantly reduces vibration and ensures prolonged, trouble-free operation. To guarantee superior hydraulic efficiency, the impellers and casings are equipped with precision-machined wear rings that maintain close clearance and minimize internal wear. An integrated, high-grade check valve effectively prevents backflow and mitigates the risk of water hammer. All mounting dimensions strictly adhere to NEMA standards for seamless integration with standard motors.",
+            "image": "/product_images/Stainless Steel Submersible Pumps & Motors_S-Series Stainless Steel Submersible_6S Stainless Steel Submersible_6 Submerisble Pumps.png",
+            "catalog": ""
+          },
+          {
+            "slug": "8s-stainless-steel-submersible",
+            "title": "8S Stainless Steel Submersible",
+            "products": [
+              {
+                "slug": "8s-series",
+                "name": "8S SERIES",
+                "description": "The MMB 8-inch submersible pump series represents the robust core of our deep well solutions, designed specifically for heavy-duty applications requiring substantial flow and head. Available in single or multistage configurations, these pumps feature advanced mixed-flow impellers engineered to deliver optimal hydraulic performance.\n\nConstructed entirely from premium, corrosion-resistant stainless steel, the MMB 8\" series is built to withstand rigorous operating conditions and ensure a long service life. The pump shaft is precision-aligned and supported by radial bearings at each casing stage, a design choice that promotes stability and ensures trouble-free operation over extended periods. To maximize efficiency, high-precision wear rings are fitted on both the impeller and casing to maintain tight clearances and minimize internal wear. The unit also includes a built-in check valve to prevent backflow and protect the system from water hammer. All mounting dimensions are strictly in accordance with *NEMA standards*.",
+                "features": [
+                  "Key Features",
+                  "Superior Hydraulic Efficiency: Precision mixed-flow impellers ensure high output with optimized energy usage.",
+                  "Full Stainless Steel Construction: High-grade materials provide maximum resistance to corrosion and wear.",
+                  "Reinforced Stability: Includes additional bearing bracket support for higher-stage pumps to handle increased mechanical loads.",
+                  "Service-Friendly Architecture: Designed to be easily dismantled and repaired, reducing downtime and maintenance costs.",
+                  "Wide Hydraulic Range: Flexible performance options to suit diverse industrial and agricultural needs."
+                ],
+                "applications": [
+                  "Applications",
+                  "Industrial & Mining: Large-scale water supply, de-watering construction sites, and mining operations.",
+                  "Agriculture: Heavy-duty irrigation systems and livestock watering.",
+                  "Commercial & Civil: Water supply for commercial buildings and pressure boosting systems.",
+                  "Safety: Fire-fighting systems.",
+                  "Landscape: Large fountains and water features."
+                ],
+                "specs": [
+                  {
+                    "param": "ominal Diameter",
+                    "value": "8″ (200 mm)"
+                  },
+                  {
+                    "param": "Power Range",
+                    "value": "5.5 kW – 130 kW"
+                  },
+                  {
+                    "param": "Rated Speed",
+                    "value": "2900 RPM"
+                  },
+                  {
+                    "param": "Max. Flow Rate",
+                    "value": "126 m³/h"
+                  },
+                  {
+                    "param": "Max. Head",
+                    "value": "518 m"
+                  },
+                  {
+                    "param": "Outlet Sizes",
+                    "value": "4″ & 5″"
+                  }
+                ],
+                "image": "/product_images/Stainless Steel Submersible Pumps & Motors_S-Series Stainless Steel Submersible_8S Stainless Steel Submersible_8 Submerisble Pumps.png",
+                "catalog": ""
+              }
+            ],
+            "description": "The MMB 8-inch submersible pump series represents the robust core of our deep well solutions, designed specifically for heavy-duty applications requiring substantial flow and head. Available in single or multistage configurations, these pumps feature advanced mixed-flow impellers engineered to deliver optimal hydraulic performance.\n\nConstructed entirely from premium, corrosion-resistant stainless steel, the MMB 8\" series is built to withstand rigorous operating conditions and ensure a long service life. The pump shaft is precision-aligned and supported by radial bearings at each casing stage, a design choice that promotes stability and ensures trouble-free operation over extended periods. To maximize efficiency, high-precision wear rings are fitted on both the impeller and casing to maintain tight clearances and minimize internal wear. The unit also includes a built-in check valve to prevent backflow and protect the system from water hammer. All mounting dimensions are strictly in accordance with *NEMA standards*.",
+            "image": "/product_images/Stainless Steel Submersible Pumps & Motors_S-Series Stainless Steel Submersible_8S Stainless Steel Submersible_8 Submerisble Pumps.png",
+            "catalog": ""
+          },
+          {
+            "slug": "10s-stainless-steel-submersible",
+            "title": "10S Stainless Steel Submersible",
+            "products": [
+              {
+                "slug": "10s-series",
+                "name": "10S SERIES",
+                "description": "The MMB 10-inch submersible pump series is engineered for extreme performance, delivering high flow rates and substantial head pressure for the most demanding environments. Available in single or multistage configurations, these pumps utilize advanced mixed-flow impellers to achieve maximum hydraulic efficiency.\n\nBuilt entirely from premium, corrosion-resistant stainless steel, the MMB 10\" series ensures exceptional durability and longevity. The structural integrity is reinforced by radial bearings at each casing stage, ensuring precise shaft alignment and vibration-free operation under heavy loads. To optimize performance, precision-engineered wear rings are fitted on both the impeller and casing to maintain tight clearances, thereby maximizing efficiency and minimizing wear. A robust built-in check valve is included to prevent backflow and protect the system against water hammer. All mounting dimensions comply strictly with *NEMA and International standards*.",
+                "features": [
+                  "Key Features",
+                  "Maximum Hydraulic Efficiency: Mixed-flow impeller design optimized for high-capacity output.",
+                  "Robust Stainless Steel Construction: Superior resistance to corrosion and abrasion in harsh environments.",
+                  "Enhanced Load Bearing: Features additional bearing bracket support for higher-stage pumps to ensure mechanical stability.",
+                  "High Serviceability: Engineered for easy dismantling and repair, minimizing operational downtime.",
+                  "Wide Performance Range: Extensive hydraulic coverage to meet specific large-scale water transfer needs."
+                ],
+                "applications": [
+                  "Applications",
+                  "Mining & Construction: Heavy-duty de-watering and water management.",
+                  "Industrial: Large-scale process water supply and cooling systems.",
+                  "Agriculture: High-volume irrigation and sprinkler systems.",
+                  "Municipal & Civil: Water supply, pressure boosting, and fire-fighting systems.",
+                  "Commercial Buildings: Reliable water distribution for large complexes."
+                ],
+                "specs": [],
+                "image": "/product_images/Stainless Steel Submersible Pumps & Motors_S-Series Stainless Steel Submersible_10S Stainless Steel Submersible_10S Submerisble Pumps.png",
+                "catalog": ""
+              }
+            ],
+            "description": "The MMB 10-inch submersible pump series is engineered for extreme performance, delivering high flow rates and substantial head pressure for the most demanding environments. Available in single or multistage configurations, these pumps utilize advanced mixed-flow impellers to achieve maximum hydraulic efficiency.\n\nBuilt entirely from premium, corrosion-resistant stainless steel, the MMB 10\" series ensures exceptional durability and longevity. The structural integrity is reinforced by radial bearings at each casing stage, ensuring precise shaft alignment and vibration-free operation under heavy loads. To optimize performance, precision-engineered wear rings are fitted on both the impeller and casing to maintain tight clearances, thereby maximizing efficiency and minimizing wear. A robust built-in check valve is included to prevent backflow and protect the system against water hammer. All mounting dimensions comply strictly with *NEMA and International standards*.",
+            "image": "/product_images/Stainless Steel Submersible Pumps & Motors_S-Series Stainless Steel Submersible_10S Stainless Steel Submersible_10S Submerisble Pumps.png",
+            "catalog": ""
+          }
+        ]
+      },
+      {
+        "slug": "ta-tb-submerisble-motors",
+        "name": "TA-TB Submerisble Motors",
+        "series": [
+          {
+            "slug": "4ta-submerisble-motors",
+            "title": "4TA Submerisble Motors",
+            "products": [
+              {
+                "slug": "4ta",
+                "name": "4TA",
+                "description": "MMB TA\\TB Series Submersible Motors\n\nThe MMB \"TA Series\" motors are precision-engineered, rewindable submersible motors designed for deep boreholes. Pre-filled with water, which serves as both an eco-friendly coolant and a lubricant, these motors ensure reliable and sustainable operation.\n\nAvailable in both single-phase and three-phase configurations, the series is built for durability. The rotor is supported by high-grade bush and thrust bearings capable of withstanding maximum axial and radial thrust loads. The single-phase models come equipped with built-in thermal protection to prevent overheating. All mounting dimensions are manufactured in strict accordance with NEMA standards, ensuring universal compatibility.c :",
+                "features": [
+                  "Key Features",
+                  "Optimized Electrical Efficiency: Designed to deliver maximum output with reduced energy consumption.",
+                  "Rewindable Stator Design: Allows for easy maintenance and repair, extending the lifecycle of the motor.",
+                  "Eco-Friendly Lubrication: Water-filled design ensures efficient cooling and lubrication without environmental risk.",
+                  "Robust Bearing System: Extremely hardwearing, water-lubricated bearings engineered to handle high axial loads.",
+                  "Integrated Protection: Single-phase motors feature built-in thermal overload protection.",
+                  "Durable Construction: Corrosion-resistant stainless steel body for long-term reliability.",
+                  "Serviceability: Engineered structure allows for easy dismantling and repair."
+                ],
+                "applications": [
+                  "Applications",
+                  "Domestic & Civil: Residential water supply and building services.",
+                  "Agriculture: Irrigation and sprinkler systems.",
+                  "Landscape: Gardens and fountains."
+                ],
+                "specs": [
+                  {
+                    "param": "Nominal Diameter",
+                    "value": "4″ (100 mm)"
+                  },
+                  {
+                    "param": "Series*",
+                    "value": "Water Filled Rewindable Submersible Motors"
+                  },
+                  {
+                    "param": "Power Range (Single Phase)",
+                    "value": "0.37 – 2.2 kW"
+                  },
+                  {
+                    "param": "Power Range (Three Phase)",
+                    "value": "0.37 – 7.5 kW"
+                  },
+                  {
+                    "param": "Voltage & Frequency (1-Phase)",
+                    "value": "230V, 50Hz"
+                  },
+                  {
+                    "param": "Voltage & Frequency (3-Phase)",
+                    "value": "380V - 415V, 50Hz"
+                  },
+                  {
+                    "param": "Rated Speed*",
+                    "value": "2900 RPM"
+                  },
+                  {
+                    "param": "Method of Starting (1-Phase)",
+                    "value": "Capacitor Start Capacitor Run (CSCR)"
+                  },
+                  {
+                    "param": "Method of Starting (3-Phase)",
+                    "value": "Direct On Line (DOL)"
+                  },
+                  {
+                    "param": "Max. Down Thrust Load",
+                    "value": "3000N (0.37 – 1.5 kW) - 6500N (2.2 – 7.5 kW)"
+                  },
+                  {
+                    "param": "Duty Cycle",
+                    "value": "S1 (Continuous)"
+                  },
+                  {
+                    "param": "Protection Degree",
+                    "value": "IP 58"
+                  },
+                  {
+                    "param": "Insulation Class",
+                    "value": "Y"
+                  },
+                  {
+                    "param": "Max. Liquid Temperature",
+                    "value": "30˚C"
+                  },
+                  {
+                    "param": "Min. Cooling Flow",
+                    "value": "0.5 m/sec"
+                  },
+                  {
+                    "param": "Starts per Hour",
+                    "value": "20 Times (Single Phase) - 12 Times (Three Phase)"
+                  },
+                  {
+                    "param": "Available Material of Construction",
+                    "value": "Type A & N"
+                  }
+                ],
+                "image": "/product_images/Stainless Steel Submersible Pumps & Motors_TA-TB Submerisble Motors_4TA Submerisble Motors_4TA.png",
+                "catalog": ""
+              }
+            ],
+            "description": "MMB TA\\TB Series Submersible Motors\n\nThe MMB \"TA Series\" motors are precision-engineered, rewindable submersible motors designed for deep boreholes. Pre-filled with water, which serves as both an eco-friendly coolant and a lubricant, these motors ensure reliable and sustainable operation.\n\nAvailable in both single-phase and three-phase configurations, the series is built for durability. The rotor is supported by high-grade bush and thrust bearings capable of withstanding maximum axial and radial thrust loads. The single-phase models come equipped with built-in thermal protection to prevent overheating. All mounting dimensions are manufactured in strict accordance with NEMA standards, ensuring universal compatibility.c :",
+            "image": "/product_images/Stainless Steel Submersible Pumps & Motors_TA-TB Submerisble Motors_4TA Submerisble Motors_4TA.png",
+            "catalog": ""
+          },
+          {
+            "slug": "6ta-submerisble-motors",
+            "title": "6TA Submerisble Motors",
+            "products": [
+              {
+                "slug": "6ta",
+                "name": "6TA",
+                "description": "The MMB 6-inch \"TA Series\" motors are robust, rewindable submersible drives designed for deep borehole applications. Pre-filled with water to function as an eco-friendly coolant and lubricant, these motors are engineered for superior thermal management and operational stability.\n\nAvailable exclusively in three-phase configurations, the series is versatile enough to handle both normal and high-temperature environments. The internal architecture features high-load bush and thrust bearings, precision-engineered to withstand significant axial and radial thrust loads. All mounting dimensions are manufactured in strict compliance with NEMA standards, ensuring seamless integration with standard pump ends.",
+                "features": [
+                  "Key Features",
+                  "High-Efficiency Operation: Engineered to maximize power transfer while minimizing energy loss.",
+                  "Dual-Temperature Capability: Special design variants available for hot water applications (up to 50˚C).",
+                  "Rewindable Stator: Service-friendly design allows for rewinding, extending the motor's total operational life.",
+                  "Eco-Friendly Lubrication: Water-lubricated system ensures effective cooling without environmental risks.",
+                  "Heavy-Duty Bearing System: Extremely hardwearing bearings designed to handle high thrust loads.",
+                  "Corrosion Protection: Motor body constructed from corrosion-resistant stainless steel.",
+                  "Ease of Maintenance: Designed to be easily dismantled and repaired to reduce downtime."
+                ],
+                "applications": [
+                  "Applications",
+                  "* Industrial & Mining: Heavy-duty water supply and de-watering systems.",
+                  "Agriculture: Pivot irrigation systems, sprinkler networks, and livestock watering.",
+                  "Commercial Buildings: Pressure boosting and general water supply.",
+                  "Safety: Fire-fighting systems."
+                ],
+                "specs": [
+                  {
+                    "param": "Nominal Diameter",
+                    "value": "6″ (150 mm)"
+                  },
+                  {
+                    "param": "Series*",
+                    "value": "Water Filled Rewindable Submersible Motors |"
+                  },
+                  {
+                    "param": "Power Range (Three Phase)",
+                    "value": "2.2 – 45 kW"
+                  },
+                  {
+                    "param": "Voltage & Frequency (3-Phase)",
+                    "value": "380V – 415V, 525V, 50Hz"
+                  },
+                  {
+                    "param": "Rated Speed*",
+                    "value": "2900 RPM"
+                  },
+                  {
+                    "param": "Method of Starting :",
+                    "value": "2.2kW – 45kW: Direct On Line (DOL) 5.5kW – 45kW: Star Delta (SD)"
+                  },
+                  {
+                    "param": "Max. Down Thrust Load",
+                    "value": "15000N (2.2 – 22 kW) 27500N (26 – 45 kW)"
+                  },
+                  {
+                    "param": "Duty Cycle",
+                    "value": "S1 (Continuous)"
+                  },
+                  {
+                    "param": "Protection Degree",
+                    "value": "IP 68"
+                  },
+                  {
+                    "param": "Insulation Class",
+                    "value": "Y"
+                  },
+                  {
+                    "param": "Max. Liquid Temperature",
+                    "value": "Standard: 30˚C High Temperature Variant: 50˚C"
+                  },
+                  {
+                    "param": "Min. Cooling Flow",
+                    "value": "0.5 m/sec"
+                  },
+                  {
+                    "param": "Starts per Hour",
+                    "value": "12 Times"
+                  },
+                  {
+                    "param": "Available Material of Construction",
+                    "value": "Type A, B, N, S, T"
+                  }
+                ],
+                "image": "/product_images/Stainless Steel Submersible Pumps & Motors_TA-TB Submerisble Motors_6TA Submerisble Motors_6TA.png",
+                "catalog": "/product_images/Stainless Steel Submersible Pumps & Motors_TA-TB Submerisble Motors_6TA Submerisble Motors_mmb 6 submersible motor for website.pdf"
+              }
+            ],
+            "description": "The MMB 6-inch \"TA Series\" motors are robust, rewindable submersible drives designed for deep borehole applications. Pre-filled with water to function as an eco-friendly coolant and lubricant, these motors are engineered for superior thermal management and operational stability.\n\nAvailable exclusively in three-phase configurations, the series is versatile enough to handle both normal and high-temperature environments. The internal architecture features high-load bush and thrust bearings, precision-engineered to withstand significant axial and radial thrust loads. All mounting dimensions are manufactured in strict compliance with NEMA standards, ensuring seamless integration with standard pump ends.",
+            "image": "/product_images/Stainless Steel Submersible Pumps & Motors_TA-TB Submerisble Motors_6TA Submerisble Motors_6TA.png",
+            "catalog": "/product_images/Stainless Steel Submersible Pumps & Motors_TA-TB Submerisble Motors_6TA Submerisble Motors_mmb 6 submersible motor for website.pdf"
+          },
+          {
+            "slug": "8tb-submerisble-motors",
+            "title": "8TB Submerisble Motors",
+            "products": [
+              {
+                "slug": "8ta",
+                "name": "8TA",
+                "description": "The MMB 8TB \"TB Series\" motors are heavy-duty, rewindable submersible drives engineered for deep borehole applications requiring substantial power. Pre-filled with water, which acts as both an environmentally safe coolant and effective lubricant, these motors ensure sustainable and reliable operation.\n\nDesigned for versatility, the MMB 8\" series is available in three-phase configurations and is engineered to perform in both standard and high-temperature environments. The robust internal construction features precision bush and thrust bearings capable of withstanding maximum axial and radial thrust loads up to 45500N. All mounting dimensions are manufactured in strict accordance with *NEMA standards* to ensure universal compatibility.",
+                "features": [
+                  "Key Features",
+                  "Superior Energy Efficiency: Optimized electromagnetic design reduces operating costs.",
+                  "Dual-Temperature Design: Suitable for standard applications as well as high-temperature environments (up to 50˚C).",
+                  "Rewindable Stator: Service-friendly architecture allows for rewinding, significantly extending the asset's lifecycle.",
+                  "Robust Stainless Steel Body: Corrosion-resistant construction ensures durability in harsh conditions.",
+                  "Heavy-Duty Bearings: Water-lubricated bearings engineered for extreme wear resistance and high load capacity.",
+                  "Ease of Maintenance: Designed to be easily dismantled and repaired, facilitating quick service intervals"
+                ],
+                "applications": [
+                  "Applications",
+                  "Industrial & Mining: Heavy-duty water transfer and de-watering operations.",
+                  "Agriculture: Pivot irrigation systems and large-scale sprinkler networks.",
+                  "Commercial & Infrastructure: Water supply for large complexes and pressure boosting.",
+                  "Water Management: Bulk water transfer and distribution.",
+                  "Landscape: Large fountains."
+                ],
+                "specs": [
+                  {
+                    "param": "Nominal Diameter",
+                    "value": "8″ (200 mm)"
+                  },
+                  {
+                    "param": "Series",
+                    "value": "Water Filled Rewindable Submersible Motors"
+                  },
+                  {
+                    "param": "Power Range (Three Phase)",
+                    "value": "37 – 110 kW"
+                  },
+                  {
+                    "param": "Voltage & Frequency",
+                    "value": "380V – 415V, 525V, 50Hz"
+                  },
+                  {
+                    "param": "Rated Speed",
+                    "value": "2900 RPM"
+                  },
+                  {
+                    "param": "Method of Starting",
+                    "value": "Direct On Line (DOL), Star Delta (SD)"
+                  },
+                  {
+                    "param": "Max. Down Thrust Load",
+                    "value": "45500N"
+                  },
+                  {
+                    "param": "Duty Cycle",
+                    "value": "S1 (Continuous)"
+                  },
+                  {
+                    "param": "Protection Degree",
+                    "value": "IP 68"
+                  },
+                  {
+                    "param": "Insulation Class",
+                    "value": "Y"
+                  },
+                  {
+                    "param": "Max. Liquid Temperature",
+                    "value": "Standard: 30˚C\nHigh Temperature Variant: 50˚C |"
+                  },
+                  {
+                    "param": "Min. Cooling Flow",
+                    "value": "0.5 m/sec"
+                  },
+                  {
+                    "param": "Starts per Hour",
+                    "value": "12 Times"
+                  },
+                  {
+                    "param": "Available Material of Construction",
+                    "value": "Type B, S, T"
+                  }
+                ],
+                "image": "/product_images/Stainless Steel Submersible Pumps & Motors_TA-TB Submerisble Motors_8TB Submerisble Motors_MMB 8TB.png",
+                "catalog": "/product_images/Stainless Steel Submersible Pumps & Motors_TA-TB Submerisble Motors_8TB Submerisble Motors_mmb 8 submersible motor for website.pdf"
+              }
+            ],
+            "description": "The MMB 8TB \"TB Series\" motors are heavy-duty, rewindable submersible drives engineered for deep borehole applications requiring substantial power. Pre-filled with water, which acts as both an environmentally safe coolant and effective lubricant, these motors ensure sustainable and reliable operation.\n\nDesigned for versatility, the MMB 8\" series is available in three-phase configurations and is engineered to perform in both standard and high-temperature environments. The robust internal construction features precision bush and thrust bearings capable of withstanding maximum axial and radial thrust loads up to 45500N. All mounting dimensions are manufactured in strict accordance with *NEMA standards* to ensure universal compatibility.",
+            "image": "/product_images/Stainless Steel Submersible Pumps & Motors_TA-TB Submerisble Motors_8TB Submerisble Motors_MMB 8TB.png",
+            "catalog": "/product_images/Stainless Steel Submersible Pumps & Motors_TA-TB Submerisble Motors_8TB Submerisble Motors_mmb 8 submersible motor for website.pdf"
+          },
+          {
+            "slug": "10tb-submerisble-motors",
+            "title": "10TB Submerisble Motors",
+            "products": [
+              {
+                "slug": "10tb",
+                "name": "10TB",
+                "description": "The MMB 10-inch \"10TB Series\" motors are heavy-duty, rewindable submersible drives designed for deep borehole applications where reliability and high power output are paramount. Pre-filled with water to serve as an eco-friendly coolant and effective lubricant, these motors ensure sustainable, high-performance operation.\n\nAvailable in three-phase configurations, the MMB 10\" series is engineered to perform seamlessly in both standard and high-temperature environments. The internal mechanical structure is reinforced with precision bush and thrust bearings, specifically designed to withstand maximum axial and radial thrust loads up to 60,000N. All mounting dimensions are manufactured in strict compliance with NEMA and International standards, ensuring universal compatibility.",
+                "features": [
+                  "Key Features",
+                  "Exceptional Efficiency: Engineered to deliver high power output with optimized energy consumption.",
+                  "Serviceable Design: Rewindable stator architecture allows for cost-effective maintenance and extended service life.",
+                  "Corrosion-Resistant Architecture: Motor body constructed from high-grade stainless steel for durability in aggressive environments.",
+                  "Heavy-Duty Bearing System: Water-lubricated bearings designed for extreme wear resistance and high load capacity.",
+                  "High-Temperature Resilience: Special design variants available to handle hot water applications (up to 50˚C).",
+                  "Ease of Maintenance: Modular design ensures the unit can be easily dismantled and repaired."
+                ],
+                "applications": [
+                  "Applications",
+                  "Mining & Construction: Heavy-duty de-watering operations.",
+                  "Agriculture: Pivot irrigation systems and large-scale sprinkler networks.",
+                  "Industrial: Process water supply and cooling applications.",
+                  "Commercial & Infrastructure: Pressure boosting and water supply for large complexes.",
+                  "Water Management: Bulk water transfer."
+                ],
+                "specs": [
+                  {
+                    "param": "Nominal Diameter",
+                    "value": "10″ (250 mm)"
+                  },
+                  {
+                    "param": "Series",
+                    "value": "Water Filled Rewindable Submersible Motors"
+                  },
+                  {
+                    "param": "Power Range (Three Phase)",
+                    "value": "81 – 185 kW"
+                  },
+                  {
+                    "param": "Voltage & Frequency",
+                    "value": "380V – 415V, 525V, 50Hz"
+                  },
+                  {
+                    "param": "Rated Speed",
+                    "value": "2900 RPM"
+                  },
+                  {
+                    "param": "Method of Starting",
+                    "value": "Direct On Line (DOL), Star Delta (SD)"
+                  },
+                  {
+                    "param": "Max. Down Thrust Load",
+                    "value": "60000N"
+                  },
+                  {
+                    "param": "Duty Cycle",
+                    "value": "S1 (Continuous)"
+                  },
+                  {
+                    "param": "Protection Degree",
+                    "value": "IP 68"
+                  },
+                  {
+                    "param": "Insulation Class",
+                    "value": "Y"
+                  },
+                  {
+                    "param": "Max. Liquid Temperature",
+                    "value": "Standard: 30˚C\nHigh Temperature Variant: 50˚C |"
+                  },
+                  {
+                    "param": "Min. Cooling Flow",
+                    "value": "0.5 m/sec"
+                  },
+                  {
+                    "param": "Starts per Hour",
+                    "value": "12 Times"
+                  },
+                  {
+                    "param": "Available Material of Construction",
+                    "value": "Type B, S, T"
+                  }
+                ],
+                "image": "/product_images/Stainless Steel Submersible Pumps & Motors_TA-TB Submerisble Motors_10TB Submerisble Motors_10TB.png",
+                "catalog": ""
+              }
+            ],
+            "description": "The MMB 10-inch \"10TB Series\" motors are heavy-duty, rewindable submersible drives designed for deep borehole applications where reliability and high power output are paramount. Pre-filled with water to serve as an eco-friendly coolant and effective lubricant, these motors ensure sustainable, high-performance operation.\n\nAvailable in three-phase configurations, the MMB 10\" series is engineered to perform seamlessly in both standard and high-temperature environments. The internal mechanical structure is reinforced with precision bush and thrust bearings, specifically designed to withstand maximum axial and radial thrust loads up to 60,000N. All mounting dimensions are manufactured in strict compliance with NEMA and International standards, ensuring universal compatibility.",
+            "image": "/product_images/Stainless Steel Submersible Pumps & Motors_TA-TB Submerisble Motors_10TB Submerisble Motors_10TB.png",
+            "catalog": ""
+          },
+          {
+            "slug": "12tb-submerisble-motors",
+            "title": "12TB Submerisble Motors",
+            "products": [
+              {
+                "slug": "12tb",
+                "name": "12TB",
+                "description": "Maximum Power for Large-Scale Industrial & Mining Projects\n\nProduct Description:\n\nThe MMB 12-inch \"TB Series\" motors are the giants of our submersible drive range, specifically engineered for ultra-deep wells and high-capacity borehole applications. These rewindable motors are pre-filled with water, utilizing it as an eco-friendly coolant and lubricant to ensure thermal stability under heavy loads.\n\nDesigned for industrial resilience, the 12\" series is available in three-phase configurations and is capable of operating efficiently in both standard and high-temperature environments. The internal engineering features robust bush and thrust bearings, calculated to withstand massive axial and radial thrust loads up to 60,000N. All mounting dimensions are constructed in strict accordance with *International standards*, ensuring compatibility with high-capacity pumps globally.",
+                "features": [
+                  "Key Features",
+                  "High-Efficiency Power Drive: Precision-wound to deliver maximum torque and efficiency for large-scale operations.",
+                  "Serviceable Architecture: Fully rewindable stator design allows for cost-effective repairs and extended asset life.",
+                  "Corrosion-Resistant Body: Motor housing constructed from high-grade stainless steel for longevity.",
+                  "Eco-Friendly Lubrication: Water-lubricated system eliminates oil contamination risks while ensuring effective cooling.",
+                  "Heavy-Duty Bearing System: Extremely hardwearing bearings engineered to support significant thrust loads.",
+                  "Thermal Versatility: Special design options available for hot water applications up to 50˚C.",
+                  "Ease of Maintenance: Designed for straightforward dismantling and repair to minimize operational downtime."
+                ],
+                "applications": [
+                  "Applications",
+                  "Mining & Excavation: Critical de-watering and water management in deep mines.",
+                  "Large-Scale Agriculture: Pivot irrigation and extensive sprinkler systems.",
+                  "Industrial: Heavy industrial water supply and cooling.",
+                  "Commercial & Infrastructure: High-pressure boosting and water supply for massive complexes.",
+                  "Municipal:* Bulk water distribution."
+                ],
+                "specs": [
+                  {
+                    "param": "Nominal Diameter",
+                    "value": "12″ (300 mm)"
+                  },
+                  {
+                    "param": "Series",
+                    "value": "Water Filled Rewindable Submersible Motors"
+                  },
+                  {
+                    "param": "Power Range (Three Phase)",
+                    "value": "150 – 300 kW"
+                  },
+                  {
+                    "param": "Voltage & Frequency",
+                    "value": "380V – 415V, 525V, 50Hz"
+                  },
+                  {
+                    "param": "Rated Speed",
+                    "value": "2900 RPM"
+                  },
+                  {
+                    "param": "Method of Starting",
+                    "value": "Direct On Line (DOL), Star Delta (SD)"
+                  },
+                  {
+                    "param": "Max. Down Thrust Load",
+                    "value": "60000N"
+                  },
+                  {
+                    "param": "Duty Cycle",
+                    "value": "S1 (Continuous)"
+                  },
+                  {
+                    "param": "Protection Degree",
+                    "value": "IP 68"
+                  },
+                  {
+                    "param": "Insulation Class",
+                    "value": "Y"
+                  },
+                  {
+                    "param": "Max. Liquid Temperature",
+                    "value": "Standard: 30˚C\nHigh Temperature Variant: 50˚C |"
+                  },
+                  {
+                    "param": "Min. Cooling Flow",
+                    "value": "0.5 m/sec"
+                  },
+                  {
+                    "param": "Starts per Hour",
+                    "value": "12 Times"
+                  },
+                  {
+                    "param": "Available Material of Construction",
+                    "value": "Type B, S, T"
+                  }
+                ],
+                "image": "/product_images/Stainless Steel Submersible Pumps & Motors_TA-TB Submerisble Motors_12TB Submerisble Motors_12TB.png",
+                "catalog": ""
+              }
+            ],
+            "description": "Maximum Power for Large-Scale Industrial & Mining Projects\n\nProduct Description:\n\nThe MMB 12-inch \"TB Series\" motors are the giants of our submersible drive range, specifically engineered for ultra-deep wells and high-capacity borehole applications. These rewindable motors are pre-filled with water, utilizing it as an eco-friendly coolant and lubricant to ensure thermal stability under heavy loads.\n\nDesigned for industrial resilience, the 12\" series is available in three-phase configurations and is capable of operating efficiently in both standard and high-temperature environments. The internal engineering features robust bush and thrust bearings, calculated to withstand massive axial and radial thrust loads up to 60,000N. All mounting dimensions are constructed in strict accordance with *International standards*, ensuring compatibility with high-capacity pumps globally.",
+            "image": "/product_images/Stainless Steel Submersible Pumps & Motors_TA-TB Submerisble Motors_12TB Submerisble Motors_12TB.png",
+            "catalog": ""
+          }
+        ]
+      },
+      {
+        "slug": "wastewater-submersible-pumps",
+        "name": "Wastewater Submersible Pumps",
+        "series": []
+      }
+    ]
+  }
+]

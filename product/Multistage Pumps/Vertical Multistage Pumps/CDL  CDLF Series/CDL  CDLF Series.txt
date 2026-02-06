@@ -1,8 +1,3 @@
-ارسال المنتج ( كل منتج لحالو بملف مضغوط  ) 
-Data refrence :https://www.crifluidsystems.com/50/50-hz/multi-stage-pumps/mv-series/
-1-  الصورة مرفقة 
-2- الكتالوج مرفق
-3- ملف text 
 
 a : Multistage Pumps
 b : descriptionb
