@@ -1,16 +1,19 @@
 import { Link } from 'wouter';
 import { ChevronRight, Award, Users, Globe } from 'lucide-react';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function About() {
+  const { t } = useLanguage();
+
   return (
     <div className="min-h-screen pt-20">
       {/* Header */}
       <section className="bg-secondary text-secondary-foreground py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/factory-exterior.jpg')] opacity-20 bg-cover bg-center mix-blend-overlay"></div>
         <div className="container relative z-10 text-center">
-          <h1 className="text-4xl md:text-6xl font-heading font-bold mb-6">About MMB</h1>
+          <h1 className="text-4xl md:text-6xl font-heading font-bold mb-6">{t('about.title')}</h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto font-light">
-            German Engineering. Global Impact.
+            {t('about.subtitle')}
           </p>
         </div>
       </section>
@@ -20,14 +23,14 @@ export default function About() {
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
             <div className="space-y-6">
-              <h2 className="text-3xl font-heading font-bold text-foreground">Our Heritage</h2>
+              <h2 className="text-3xl font-heading font-bold text-foreground">{t('about.heritageTitle')}</h2>
               <div className="w-20 h-1 bg-primary"></div>
               <div className="prose prose-lg text-muted-foreground">
                 <p>
-                  At Morsbach Maschinen Bau GmbH (MMB), we combine the heritage of German precision with modern innovation to deliver superior pumping systems. Founded on the principles of durability and efficiency, we have grown from a local manufacturer to a global partner in water solutions.
+                  {t('about.heritageText1')}
                 </p>
                 <p>
-                  We are not just a manufacturer; we are a partner dedicated to efficiency and durability. Our engineers work tirelessly to ensure that every pump leaving our facility meets the highest standards of quality and performance.
+                  {t('about.heritageText2')}
                 </p>
               </div>
             </div>
@@ -36,7 +39,7 @@ export default function About() {
                 <img src="/images/team.jpg" alt="MMB Team" className="w-full h-auto" />
               </div>
               <div className="absolute -bottom-6 -left-6 bg-primary text-white p-8 max-w-xs hidden md:block">
-                <p className="font-heading text-2xl font-bold">"Quality is not an act, it is a habit."</p>
+                <p className="font-heading text-2xl font-bold">{t('about.quote')}</p>
               </div>
             </div>
           </div>
@@ -46,18 +49,18 @@ export default function About() {
             {[
               {
                 icon: <Award className="w-10 h-10 text-primary" />,
-                title: "Excellence",
-                desc: "Rooted in our German origins, every unit is built to rigorous standards."
+                title: t('about.values.excellence.title'),
+                desc: t('about.values.excellence.desc')
               },
               {
                 icon: <Users className="w-10 h-10 text-primary" />,
-                title: "Partnership",
-                desc: "We work closely with our clients to provide tailored solutions for their specific needs."
+                title: t('about.values.partnership.title'),
+                desc: t('about.values.partnership.desc')
               },
               {
                 icon: <Globe className="w-10 h-10 text-primary" />,
-                title: "Sustainability",
-                desc: "Our technology is designed to maintain water safety and maximize energy efficiency."
+                title: t('about.values.sustainability.title'),
+                desc: t('about.values.sustainability.desc')
               }
             ].map((item, idx) => (
               <div key={idx} className="bg-muted/30 p-8 border border-border hover:border-primary transition-colors text-center">

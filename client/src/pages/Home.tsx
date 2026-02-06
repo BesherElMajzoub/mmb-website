@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* 1. HERO SECTION */}
-      <section className="relative h-screen min-h-[600px] flex items-center overflow-hidden">
+      <section className="relative min-h-[90vh] flex items-center overflow-x-hidden">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
@@ -36,11 +36,11 @@ export default function Home() {
               {t('hero.badge')}
             </div>
             
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-bold text-white leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-7xl font-heading font-bold text-white leading-tight">
               {t('hero.title')} <span className="text-primary">{t('hero.titleHighlight')}</span> {t('hero.titleSuffix')}
             </h1>
             
-            <p className="text-xl text-gray-300 max-w-2xl font-light leading-relaxed">
+            <p className="text-lg md:text-xl text-gray-300 max-w-3xl font-light leading-relaxed">
               {t('hero.subtitle')}
             </p>
             
@@ -99,11 +99,11 @@ export default function Home() {
         <div className="container">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 border-b border-border pb-6">
             <div>
-              <h2 className="text-4xl font-heading font-bold text-foreground mb-2">Our Solutions</h2>
-              <p className="text-muted-foreground max-w-xl">Comprehensive pumping systems engineered for performance.</p>
+              <h2 className="text-4xl font-heading font-bold text-foreground mb-2">{t('home.solutions.title')}</h2>
+              <p className="text-muted-foreground max-w-xl">{t('home.solutions.subtitle')}</p>
             </div>
             <Link href={`/products/${mainCategories[0]?.slug}`} className="hidden md:flex items-center gap-2 text-primary font-bold uppercase tracking-wider text-sm hover:underline mt-4 md:mt-0">
-                View All Products <ArrowRight className="w-4 h-4" />
+                {t('home.solutions.viewAll')} <ArrowRight className="w-4 h-4" />
             </Link>
           </div>
 
@@ -118,11 +118,6 @@ export default function Home() {
                         className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105"
                       />
                       <div className="absolute inset-0 bg-transparent group-hover:bg-black/5 transition-colors"></div>
-                      
-                      {/* Category Label */}
-                      <div className="absolute bottom-0 left-0 bg-primary text-white px-4 py-2 text-sm font-bold uppercase tracking-wider">
-                        Series 0{index + 1}
-                      </div>
                     </div>
                     
                     <div className="p-8 flex-1 flex flex-col">
@@ -134,7 +129,7 @@ export default function Home() {
                       </p>
                       
                       <div className="flex items-center gap-2 text-foreground font-bold uppercase tracking-wider text-sm group-hover:translate-x-2 transition-transform">
-                        View Series <ChevronRight className="w-4 h-4 text-primary" />
+                        {t('products.viewSeries')} <ChevronRight className="w-4 h-4 text-primary" />
                       </div>
                     </div>
                   </div>
@@ -154,46 +149,37 @@ export default function Home() {
         <div className="container relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">WHY CHOOSE MMB?</h2>
+              <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">{t('home.whyChoose.title')}</h2>
               <p className="text-xl text-gray-400 font-light mb-8 leading-relaxed">
-                German Engineering. Enduring Reliability. Precision-crafted solutions for the world’s pure water needs.
+                {t('home.whyChoose.subtitle')}
               </p>
               
               <div className="prose prose-invert max-w-none mb-8">
                 <p>
-                  At Morsbach Maschinen Bau GmbH (MMB), we combine the heritage of German precision with modern innovation to deliver superior pumping systems. We are not just a manufacturer; we are a partner dedicated to efficiency and durability.
+                  {t('home.whyChoose.description')}
                 </p>
               </div>
 
               <div className="space-y-6">
                 {[
-                  {
-                    title: 'Engineering Excellence',
-                    desc: 'Rooted in our German origins, every unit is built to rigorous standards, ensuring consistent performance and energy efficiency in demanding environments.'
-                  },
-                  {
-                    title: 'Premium Material Construction',
-                    desc: 'We prioritize longevity by utilizing high-grade Stainless Steel across our Submersible Pumps (6S Series) and Motors, offering maximum corrosion resistance and structural integrity.'
-                  },
-                  {
-                    title: 'Dedicated to Purity',
-                    desc: 'True to our slogan, "German Engineering For Pure Water Solutions," our technology is specifically designed to maintain water safety and hygiene for municipal, agricultural, and industrial applications.'
-                  }
-                ].map((item, idx) => (
+                  'excellence',
+                  'material',
+                  'purity'
+                ].map((key, idx) => (
                   <div key={idx} className="flex gap-4">
                     <div className="flex-shrink-0 mt-1">
                       <div className="w-2 h-2 bg-primary rotate-45"></div>
                     </div>
                     <div>
-                      <h4 className="text-white font-bold uppercase tracking-wide mb-1">{item.title}</h4>
-                      <p className="text-gray-400 text-sm leading-relaxed">{item.desc}</p>
+                      <h4 className="text-white font-bold uppercase tracking-wide mb-1">{t(`home.whyChoose.features.${key}.title`)}</h4>
+                      <p className="text-gray-400 text-sm leading-relaxed">{t(`home.whyChoose.features.${key}.desc`)}</p>
                     </div>
                   </div>
                 ))}
               </div>
 
               <div className="mt-10 pt-8 border-t border-white/10">
-                <p className="text-2xl font-heading font-bold text-primary">MMB – Engineered to Last.</p>
+                <p className="text-2xl font-heading font-bold text-primary">{t('home.whyChoose.footer')}</p>
               </div>
             </div>
 
@@ -212,18 +198,18 @@ export default function Home() {
       <section className="py-24 bg-muted/30">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl font-heading font-bold mb-4">Certifications & Standards</h2>
+            <h2 className="text-3xl font-heading font-bold mb-4">{t('home.certifications.title')}</h2>
             <p className="text-muted-foreground">
-              Our commitment to quality is backed by international standards and rigorous testing.
+              {t('home.certifications.subtitle')}
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               { title: 'ISO 9001:2015', desc: 'Quality Management System Certification', pdf: '/mmb_product_catalog.pdf' },
-              { title: 'CE Declaration', desc: 'European Conformity Standard', pdf: '/mmb_product_catalog.pdf' },
-              { title: 'TÜV Rheinland', desc: 'Safety & Quality Standards', pdf: '/mmb_product_catalog.pdf' }
-            ].map((cert, i) => (
+              // { title: 'CE Declaration', desc: 'European Conformity Standard', pdf: '/mmb_product_catalog.pdf' },
+              // { title: 'TÜV Rheinland', desc: 'Safety & Quality Standards', pdf: '/mmb_product_catalog.pdf' }
+            ].filter(cert => cert.title.includes('ISO')).map((cert, i) => (
               <div key={i} className="bg-card border border-border p-8 flex flex-col items-center text-center hover:border-primary transition-colors group">
                 <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center mb-6 group-hover:bg-primary/10 transition-colors">
                   <FileText className="w-8 h-8 text-muted-foreground group-hover:text-primary transition-colors" />
@@ -234,10 +220,10 @@ export default function Home() {
                 <div className="flex gap-3 w-full">
                   <a href={cert.pdf} target="_blank" rel="noopener noreferrer" className="flex-1">
                     <Button variant="outline" className="w-full text-xs uppercase font-bold" size="sm">
-                      Read PDF
+                      {t('home.certifications.readPdf')}
                     </Button>
                   </a>
-                  <a href={cert.pdf} download aria-label="Download PDF">
+                  <a href={cert.pdf} download aria-label={t('home.certifications.downloadPdf')}>
                     <Button variant="ghost" className="px-3" size="sm">
                       <Download className="w-4 h-4" />
                     </Button>
@@ -250,7 +236,7 @@ export default function Home() {
           <div className="text-center mt-12">
             <Link href="/certifications">
               <a className="inline-flex items-center justify-center h-10 bg-primary hover:bg-primary/90 text-white font-bold uppercase tracking-wide rounded-none px-8 transition-colors">
-                View All Certifications
+                {t('nav.viewCertifications')}
               </a>
             </Link>
           </div>

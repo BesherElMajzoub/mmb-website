@@ -401,7 +401,32 @@
                   "Safety: Fire-fighting systems.",
                   "Landscape: Fountains and water features."
                 ],
-                "specs": [],
+                "specs": [
+                  {
+                    "param": "Nominal Diameter",
+                    "value": "6” (150 mm)"
+                  },
+                  {
+                    "param": "Power Range",
+                    "value": "2.2 kW – 63 kW"
+                  },
+                  {
+                    "param": "Rated Speed",
+                    "value": "2900 RPM"
+                  },
+                  {
+                    "param": "Max. Flow Rate",
+                    "value": "120 m³/h"
+                  },
+                  {
+                    "param": "Max. Head",
+                    "value": "850 m"
+                  },
+                  {
+                    "param": "Outlet Sizes",
+                    "value": "2″, 2½”, 3″, & 4″"
+                  }
+                ],
                 "image": "/product_images/Stainless Steel Submersible Pumps & Motors_S-Series Stainless Steel Submersible_6S Stainless Steel Submersible_6 Submerisble Pumps.png",
                 "catalog": ""
               }
@@ -492,7 +517,32 @@
                   "Municipal & Civil: Water supply, pressure boosting, and fire-fighting systems.",
                   "Commercial Buildings: Reliable water distribution for large complexes."
                 ],
-                "specs": [],
+                "specs": [
+                  {
+                    "param": "Nominal Diameter",
+                    "value": "10” (250 mm)"
+                  },
+                  {
+                    "param": "Power Range",
+                    "value": "9.3 kW – 220 kW"
+                  },
+                  {
+                    "param": "Rated Speed",
+                    "value": "2900 RPM"
+                  },
+                  {
+                    "param": "Max. Flow Rate",
+                    "value": "280 m³/h"
+                  },
+                  {
+                    "param": "Max. Head",
+                    "value": "488 m"
+                  },
+                  {
+                    "param": "Outlet Size",
+                    "value": "6″"
+                  }
+                ],
                 "image": "/product_images/Stainless Steel Submersible Pumps & Motors_S-Series Stainless Steel Submersible_10S Stainless Steel Submersible_10S Submerisble Pumps.png",
                 "catalog": ""
               }
@@ -975,11 +1025,6 @@
             "catalog": ""
           }
         ]
-      },
-      {
-        "slug": "wastewater-submersible-pumps",
-        "name": "Wastewater Submersible Pumps",
-        "series": []
       }
     ]
   }
