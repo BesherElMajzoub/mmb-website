@@ -7,7 +7,7 @@ export const translations = {
       products: 'Products',
       about: 'About Us',
       contact: 'Contact Us',
-      viewCertifications: 'View Certifications',
+      news: 'News',
     },
     footer: {
       tagline: 'German Engineering. Enduring Reliability. Precision-crafted solutions for the world’s pure water needs.',
@@ -110,11 +110,19 @@ export const translations = {
         },
         footer: 'MMB – Engineered to Last.'
       },
-      certifications: {
-        title: 'Certifications & Standards',
-        subtitle: 'Our commitment to quality is backed by international standards and rigorous testing.',
-        readPdf: 'Read PDF',
-        downloadPdf: 'Download PDF'
+      news: {
+        title: 'Latest News',
+        subtitle: 'Follow our latest updates, product announcements, exhibitions, and company milestones.',
+        viewAll: 'View All News'
+      }
+    },
+    news: {
+      searchPlaceholder: 'Search news...',
+      noResults: 'No news items found matching your criteria.',
+      readMore: 'Read More',
+      back: 'Back to News',
+      filters: {
+        all: 'All'
       }
     },
     products: {
@@ -129,7 +137,7 @@ export const translations = {
       products: 'Produkte',
       about: 'Über Uns',
       contact: 'Kontakt',
-      viewCertifications: 'Zertifizierungen',
+      news: 'Neuigkeiten',
     },
     footer: {
       tagline: 'Deutsche Ingenieurskunst. Dauerhafte Zuverlässigkeit. Präzisionsgefertigte Lösungen für den weltweiten Reinwasserbedarf.',
@@ -224,11 +232,19 @@ export const translations = {
         },
         footer: 'MMB – Für die Ewigkeit gebaut.'
       },
-      certifications: {
-        title: 'Zertifizierungen & Standards',
-        subtitle: 'Unser Qualitätsanspruch wird durch internationale Standards und strenge Tests untermauert.',
-        readPdf: 'PDF Lesen',
-        downloadPdf: 'PDF Herunterladen'
+      news: {
+        title: 'Neueste Nachrichten',
+        subtitle: 'Verfolgen Sie unsere neuesten Updates, Produktankündigungen, Messen und Unternehmensmeilensteine.',
+        viewAll: 'Alle Nachrichten Ansehen'
+      }
+    },
+    news: {
+      searchPlaceholder: 'Nachrichten durchsuchen...',
+      noResults: 'Keine Nachrichten zu Ihren Kriterien gefunden.',
+      readMore: 'Weiterlesen',
+      back: 'Zurück zu den Nachrichten',
+      filters: {
+        all: 'Alle'
       }
     },
     products: {
@@ -243,7 +259,7 @@ export const translations = {
       products: 'منتجاتنا',
       about: 'من نحن',
       contact: 'اتصل بنا',
-      viewCertifications: 'الشهادات',
+      news: 'الأخبار',
     },
     footer: {
       tagline: 'هندسة ألمانية. موثوقية دائمة. حلول مصممة بدقة لاحتياجات المياه النقية في العالم.',
@@ -338,11 +354,19 @@ export const translations = {
         },
         footer: 'MMB – مصممة لتدوم.'
       },
-      certifications: {
-        title: 'الشهادات والمعايير',
-        subtitle: 'التزامنا بالجودة مدعوم بمعايير دولية وواختبارات صارمة.',
-        readPdf: 'قراءة PDF',
-        downloadPdf: 'تحميل PDF'
+      news: {
+        title: 'آخر الأخبار',
+        subtitle: 'تابع أحدث التحديثات وإعلانات المنتجات والمعارض وإنجازات الشركة.',
+        viewAll: 'عرض جميع الأخبار'
+      }
+    },
+    news: {
+      searchPlaceholder: 'البحث في الأخبار...',
+      noResults: 'لم يتم العثور على أخبار تطابق معاييرك.',
+      readMore: 'اقرأ المزيد',
+      back: 'العودة إلى الأخبار',
+      filters: {
+        all: 'الكل'
       }
     },
     products: {

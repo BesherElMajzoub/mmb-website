@@ -18,7 +18,8 @@ import MainCategoryPage from "./pages/MainCategoryPage";
 import SubcategoryPage from "./pages/SubcategoryPage";
 import SeriesPage from "./pages/SeriesPage";
 import ProductDetailPage from "./pages/ProductDetailPage";
-import Certifications from "./pages/Certifications";
+import NewsListing from "./pages/NewsListing";
+import NewsDetail from "./pages/NewsDetail";
 import NotFound from "./pages/NotFound";
 
 function Router() {
@@ -27,7 +28,8 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
-      <Route path="/certifications" component={Certifications} />
+      <Route path="/news" component={NewsListing} />
+      <Route path="/news/:slug" component={NewsDetail} />
       
       {/* Product hierarchy routes - order matters, most specific first */}
       <Route path="/products/:mainCategorySlug/:subcategorySlug/:seriesSlug/:productSlug" component={ProductDetailPage} />

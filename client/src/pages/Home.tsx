@@ -1,11 +1,12 @@
 import { Link } from 'wouter';
-import { ArrowRight, CheckCircle2, FileText, ChevronRight, Download } from 'lucide-react';
+import { ArrowRight, CheckCircle2, FileText, ChevronRight, Calendar } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { mainCategories } from '@/data/products';
+import { newsData, LocalizedString } from '@/data/news';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function Home() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const scrollToSolutions = () => {
     const element = document.getElementById('solutions');
     if (element) {
@@ -53,9 +54,9 @@ export default function Home() {
                 {t('hero.explore')}
               </Button>
               
-              <Link href="/certifications">
+              <Link href="/news">
                 <a className="inline-flex items-center justify-center h-14 px-8 border border-white/30 text-white hover:bg-white/10 hover:text-white hover:border-white font-bold uppercase tracking-wide rounded-none text-base transition-colors w-full sm:w-auto">
-                  {t('nav.viewCertifications')}
+                  {t('nav.news')}
                 </a>
               </Link>
             </div>
@@ -194,49 +195,67 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 4. CERTIFICATION SECTION */}
+      {/* 4. LATEST NEWS SECTION */}
       <section className="py-24 bg-muted/30">
         <div className="container">
           <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl font-heading font-bold mb-4">{t('home.certifications.title')}</h2>
+            <h2 className="text-3xl font-heading font-bold mb-4">{t('home.news.title')}</h2>
             <p className="text-muted-foreground">
-              {t('home.certifications.subtitle')}
+              {t('home.news.subtitle')}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[
-              { title: 'ISO 9001:2015', desc: 'Quality Management System Certification', pdf: '/mmb_product_catalog.pdf' },
-              // { title: 'CE Declaration', desc: 'European Conformity Standard', pdf: '/mmb_product_catalog.pdf' },
-              // { title: 'TÜV Rheinland', desc: 'Safety & Quality Standards', pdf: '/mmb_product_catalog.pdf' }
-            ].filter(cert => cert.title.includes('ISO')).map((cert, i) => (
-              <div key={i} className="bg-card border border-border p-8 flex flex-col items-center text-center hover:border-primary transition-colors group">
-                <div className="w-16 h-16 bg-muted rounded-full flex items-center justify-center mb-6 group-hover:bg-primary/10 transition-colors">
-                  <FileText className="w-8 h-8 text-muted-foreground group-hover:text-primary transition-colors" />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {newsData.slice(0, 3).map((item) => (
+              <Link key={item.id} href={`/news/${item.slug}`} className="group block h-full">
+                <div className="flex flex-col h-full bg-card border border-border hover:border-primary transition-all duration-300 hover:shadow-xl hover:-translate-y-1 overflow-hidden">
+                  
+                  {/* Thumbnail */}
+                  <div className="relative h-48 bg-muted flex items-center justify-center overflow-hidden">
+                    {item.image ? (
+                      <img 
+                        src={item.image} 
+                        alt={item.title[language as keyof LocalizedString]} 
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                    ) : (
+                      <div className="w-full h-full bg-secondary/10 flex items-center justify-center">
+                        <span className="text-4xl text-muted-foreground/20 font-heading font-bold">MMB</span>
+                      </div>
+                    )}
+                    <div className="absolute top-3 left-3 px-2 py-1 bg-primary text-white text-xs font-bold uppercase tracking-wider">
+                      {item.category[language as keyof LocalizedString]}
+                    </div>
+                  </div>
+
+                  {/* Content */}
+                  <div className="p-6 flex-1 flex flex-col">
+                    <div className="flex items-center gap-2 text-xs text-muted-foreground font-mono mb-3">
+                      <Calendar className="w-3.5 h-3.5" />
+                      {new Date(item.date).toLocaleDateString(language === 'de' ? 'de-DE' : language === 'ar' ? 'ar-SA' : 'en-GB', { day: '2-digit', month: 'short', year: 'numeric' })}
+                    </div>
+
+                    <h3 className="text-xl font-heading font-bold mb-3 group-hover:text-primary transition-colors line-clamp-2">
+                      {item.title[language as keyof LocalizedString]}
+                    </h3>
+                    
+                    <p className="text-muted-foreground text-sm flex-1 leading-relaxed line-clamp-3 mb-6">
+                      {item.excerpt[language as keyof LocalizedString]}
+                    </p>
+
+                    <div className="flex items-center gap-2 text-primary font-bold uppercase tracking-wider text-xs group-hover:px-2 transition-all">
+                      {t('news.readMore') || 'Read More'} <ArrowRight className="w-4 h-4" />
+                    </div>
+                  </div>
                 </div>
-                <h3 className="text-lg font-bold mb-2">{cert.title}</h3>
-                <p className="text-sm text-muted-foreground mb-6">{cert.desc}</p>
-                
-                <div className="flex gap-3 w-full">
-                  <a href={cert.pdf} target="_blank" rel="noopener noreferrer" className="flex-1">
-                    <Button variant="outline" className="w-full text-xs uppercase font-bold" size="sm">
-                      {t('home.certifications.readPdf')}
-                    </Button>
-                  </a>
-                  <a href={cert.pdf} download aria-label={t('home.certifications.downloadPdf')}>
-                    <Button variant="ghost" className="px-3" size="sm">
-                      <Download className="w-4 h-4" />
-                    </Button>
-                  </a>
-                </div>
-              </div>
+              </Link>
             ))}
           </div>
           
           <div className="text-center mt-12">
-            <Link href="/certifications">
+            <Link href="/news">
               <a className="inline-flex items-center justify-center h-10 bg-primary hover:bg-primary/90 text-white font-bold uppercase tracking-wide rounded-none px-8 transition-colors">
-                {t('nav.viewCertifications')}
+                {t('home.news.viewAll') || 'View All News'}
               </a>
             </Link>
           </div>
