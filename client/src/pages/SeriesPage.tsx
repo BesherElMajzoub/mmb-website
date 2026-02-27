@@ -95,11 +95,11 @@ export default function SeriesPage() {
                   <Button 
                     className="bg-primary hover:bg-primary/90 text-white font-bold uppercase tracking-wide rounded-none h-12 px-6 gap-2"
                     onClick={() => {
-                      const message = `Hello, I am interested in ${displayTitle}. URL: ${window.location.href}`;
-                      window.open(`https://wa.me/${import.meta.env.VITE_WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, '_blank');
+                      const message = `Hello, I am interested in ${displayTitle}.\n\nURL: ${window.location.href}`;
+                      window.location.href = `mailto:contact-us@mmbgermany.com?subject=Inquiry about ${displayTitle}&body=${encodeURIComponent(message)}`;
                     }}
                   >
-                    Contact via WhatsApp
+                    Contact via EMAIL
                   </Button>
                 )}
               </div>

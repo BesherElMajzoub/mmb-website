@@ -120,7 +120,7 @@ export const translations = {
     products: {
       viewSeries: 'View Series',
       specsAvailable: 'Specs Available',
-      contactWhatsApp: 'Contact via WhatsApp'
+      contactEmail: 'Contact via EMAIL'
     }
   },
   de: {
@@ -234,7 +234,7 @@ export const translations = {
     products: {
       viewSeries: 'Serie Ansehen',
       specsAvailable: 'Spezifikationen Verfügbar',
-      contactWhatsApp: 'Kontakt über WhatsApp'
+      contactEmail: 'Kontakt über E-Mail'
     }
   },
   ar: {
@@ -348,7 +348,7 @@ export const translations = {
     products: {
       viewSeries: 'عرض السلسلة',
       specsAvailable: 'مواصفات متاحة',
-      contactWhatsApp: 'تواصل عبر الواتساب'
+      contactEmail: 'تواصل عبر البريد الإلكتروني'
     }
   }
 };

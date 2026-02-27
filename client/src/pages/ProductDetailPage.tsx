@@ -1,6 +1,6 @@
 import { useRoute, Link } from 'wouter';
 import { findProduct } from '@/data/products';
-import { ChevronRight, FileText, Download, Check, MessageCircle, ExternalLink } from 'lucide-react';
+import { ChevronRight, FileText, Download, Check, Mail, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import NotFound from './NotFound';
 import { config } from '@/config';
@@ -20,10 +20,10 @@ export default function ProductDetailPage() {
 
   const catalogPath = product.catalog || series.catalog;
 
-  const handleWhatsAppClick = () => {
-    const message = `Hello, I am interested in ${product.name} (${series.title}). URL: ${window.location.href}`;
-    const url = `https://wa.me/${config.whatsappNumber}?text=${encodeURIComponent(message)}`;
-    window.open(url, '_blank');
+  const handleEmailClick = () => {
+    const message = `Hello, I am interested in ${product.name} (${series.title}).\n\nURL: ${window.location.href}`;
+    const url = `mailto:contact-us@mmbgermany.com?subject=Inquiry about ${product.name}&body=${encodeURIComponent(message)}`;
+    window.location.href = url;
   };
 
   return (
@@ -102,10 +102,10 @@ export default function ProductDetailPage() {
                 ) : (
                   <Button 
                     className="bg-primary hover:bg-primary/90 text-white font-bold uppercase tracking-wide rounded-none h-12 px-6 gap-2"
-                    onClick={handleWhatsAppClick}
+                    onClick={handleEmailClick}
                   >
-                    <MessageCircle className="w-5 h-5" />
-                    {t('products.contactWhatsApp')}
+                    <Mail className="w-5 h-5" />
+                    {t('products.contactEmail')}
                   </Button>
                 )}
               </div>
