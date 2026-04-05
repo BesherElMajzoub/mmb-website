@@ -19,8 +19,8 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-2 pt-2">
               <Mail className="w-4 h-4 text-primary" />
-              <a href="mailto:contact-us@mmbgermany.com" className="text-sm text-muted-foreground hover:text-white transition-colors">
-                contact-us@mmbgermany.com
+              <a href="mailto:waterpumps@mmbgermany.com" className="text-sm text-muted-foreground hover:text-white transition-colors">
+                waterpumps@mmbgermany.com
               </a>
             </div>
           </div>

@@ -16,13 +16,14 @@ export default function SeriesPage() {
   const { mainCategory, subcategory, series } = result;
 
   // If series has exactly one product, display that product's details
-  // Otherwise, display series-level details
+  // Otherwise, display series-level details with fallbacks to the first product for shared info
   const hasOneProduct = series.products && series.products.length === 1;
   const displayData = hasOneProduct ? series.products[0] : series;
   const displayTitle = hasOneProduct ? series.products[0].name : series.title;
-  const displayFeatures = hasOneProduct ? series.products[0].features : (series as any).features;
-  const displayApplications = hasOneProduct ? series.products[0].applications : (series as any).applications;
-  const displaySpecs = hasOneProduct ? series.products[0].specs : (series as any).specs;
+  const firstProduct = series.products && series.products.length > 0 ? series.products[0] : null;
+  const displayFeatures = hasOneProduct ? series.products[0].features : ((series as any).features || firstProduct?.features);
+  const displayApplications = hasOneProduct ? series.products[0].applications : ((series as any).applications || firstProduct?.applications);
+  const displaySpecs = hasOneProduct ? series.products[0].specs : ((series as any).specs || firstProduct?.specs);
 
   return (
     <div className="min-h-screen pt-20">
@@ -124,6 +125,39 @@ export default function SeriesPage() {
           </div>
         </div>
       </section>
+
+      {/* Products List (if multiple products) */}
+      {!hasOneProduct && series.products && series.products.length > 0 && (
+        <section className="py-16 bg-muted/10 border-t border-border">
+          <div className="container">
+            <h2 className="text-2xl font-heading font-bold mb-8 flex items-center gap-3">
+              <span className="w-8 h-1 bg-primary"></span>
+              Available Models
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {series.products.map((p) => (
+                <Link key={p.slug} href={`/products/${mainCategory.slug}/${subcategory.slug}/${series.slug}/${p.slug}`}>
+                  <a className="group block bg-white border border-border p-6 hover:shadow-lg transition-all hover:border-primary/50 h-full flex flex-col">
+                    <div className="aspect-video bg-muted/10 mb-6 p-4 flex items-center justify-center">
+                      <img 
+                        src={p.image || series.image || '/images/submersible-pump.jpg'} 
+                        alt={p.name}
+                        className="max-h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-500"
+                      />
+                    </div>
+                    <h3 className="text-xl font-heading font-bold text-foreground mb-3 group-hover:text-primary transition-colors">
+                      {p.name}
+                    </h3>
+                    <div className="mt-auto pt-4 flex items-center gap-2 text-sm font-bold text-primary uppercase tracking-wider">
+                      View Details <ChevronRight className="w-4 h-4" />
+                    </div>
+                  </a>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Technical Specifications */}
       {displaySpecs && displaySpecs.length > 0 && (

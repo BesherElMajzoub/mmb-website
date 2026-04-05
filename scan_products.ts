@@ -376,5 +376,13 @@ const tree = scanDirectory(PRODUCT_DIR);
 
 const data = transformTree(tree);
 
+data.sort((a, b) => {
+  if (a.name === 'Stainless Steel Submersible Pumps & Motors') return -1;
+  if (b.name === 'Stainless Steel Submersible Pumps & Motors') return 1;
+  if (a.name === 'Motors') return 1;
+  if (b.name === 'Motors') return -1;
+  return a.name.localeCompare(b.name);
+});
+
 fs.writeFileSync(OUTPUT_FILE, JSON.stringify(data, null, 2));
 console.log(`Generated ${data.length} main categories to ${OUTPUT_FILE}`);

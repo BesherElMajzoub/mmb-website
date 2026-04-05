@@ -22,7 +22,7 @@ export default function ProductDetailPage() {
 
   const handleEmailClick = () => {
     const message = `Hello, I am interested in ${product.name} (${series.title}).\n\nURL: ${window.location.href}`;
-    const url = `mailto:contact-us@mmbgermany.com?subject=Inquiry about ${product.name}&body=${encodeURIComponent(message)}`;
+    const url = `mailto:waterpumps@mmbgermany.com?subject=Inquiry about ${product.name}&body=${encodeURIComponent(message)}`;
     window.location.href = url;
   };
 

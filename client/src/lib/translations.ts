@@ -101,7 +101,7 @@ export const translations = {
           },
           material: {
             title: 'Premium Material Construction',
-            desc: 'We prioritize longevity by utilizing high-grade Stainless Steel across our Submersible Pumps (6S Series) and Motors, offering maximum corrosion resistance and structural integrity.'
+            desc: 'We prioritize longevity by utilizing high-grade Stainless Steel across our Submersible Pumps and Motors, offering maximum corrosion resistance and structural integrity.'
           },
           purity: {
             title: 'Dedicated to Purity',
@@ -129,6 +129,13 @@ export const translations = {
       viewSeries: 'View Series',
       specsAvailable: 'Specs Available',
       contactEmail: 'Contact via EMAIL'
+    },
+    notFound: {
+      title: '404',
+      subtitle: 'Page Not Found',
+      description: "Sorry, the page you are looking for doesn't exist.",
+      deleted: 'It may have been moved or deleted.',
+      goHome: 'Go Home'
     }
   },
   de: {
@@ -251,6 +258,13 @@ export const translations = {
       viewSeries: 'Serie Ansehen',
       specsAvailable: 'Spezifikationen Verfügbar',
       contactEmail: 'Kontakt über E-Mail'
+    },
+    notFound: {
+      title: '404',
+      subtitle: 'Seite nicht gefunden',
+      description: 'Entschuldigung, die gesuchte Seite existiert nicht.',
+      deleted: 'Sie wurde möglicherweise verschoben oder gelöscht.',
+      goHome: 'Zur Startseite'
     }
   },
   ar: {
@@ -373,6 +387,13 @@ export const translations = {
       viewSeries: 'عرض السلسلة',
       specsAvailable: 'مواصفات متاحة',
       contactEmail: 'تواصل عبر البريد الإلكتروني'
+    },
+    notFound: {
+      title: '404',
+      subtitle: 'الصفحة غير موجودة',
+      description: 'عذراً، الصفحة التي تبحث عنها غير موجودة.',
+      deleted: 'ربما تم نقلها أو حذفها.',
+      goHome: 'العودة للرئيسية'
     }
   }
 };

@@ -21,6 +21,7 @@ import ProductDetailPage from "./pages/ProductDetailPage";
 import NewsListing from "./pages/NewsListing";
 import NewsDetail from "./pages/NewsDetail";
 import NotFound from "./pages/NotFound";
+import ProductsPage from "./pages/ProductsPage";
 
 function Router() {
   return (
@@ -30,13 +31,23 @@ function Router() {
       <Route path="/contact" component={Contact} />
       <Route path="/news" component={NewsListing} />
       <Route path="/news/:slug" component={NewsDetail} />
-      
+
       {/* Product hierarchy routes - order matters, most specific first */}
-      <Route path="/products/:mainCategorySlug/:subcategorySlug/:seriesSlug/:productSlug" component={ProductDetailPage} />
-      <Route path="/products/:mainCategorySlug/:subcategorySlug/:seriesSlug" component={SeriesPage} />
-      <Route path="/products/:mainCategorySlug/:subcategorySlug" component={SubcategoryPage} />
+      <Route
+        path="/products/:mainCategorySlug/:subcategorySlug/:seriesSlug/:productSlug"
+        component={ProductDetailPage}
+      />
+      <Route
+        path="/products/:mainCategorySlug/:subcategorySlug/:seriesSlug"
+        component={SeriesPage}
+      />
+      <Route
+        path="/products/:mainCategorySlug/:subcategorySlug"
+        component={SubcategoryPage}
+      />
       <Route path="/products/:mainCategorySlug" component={MainCategoryPage} />
-      
+      <Route path="/products" component={ProductsPage} />
+
       <Route component={NotFound} />
     </Switch>
   );
