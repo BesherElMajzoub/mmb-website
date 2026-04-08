@@ -26,9 +26,9 @@ export default function SeriesPage() {
   const displaySpecs = hasOneProduct ? series.products[0].specs : ((series as any).specs || firstProduct?.specs);
 
   return (
-    <div className="min-h-screen pt-20">
+    <div className="min-h-screen flex flex-col">
       {/* Breadcrumb */}
-      <div className="bg-muted/30 border-b border-border">
+      <div className="bg-muted/30 border-b border-border pt-32">
         <div className="container py-4">
           <div className="flex items-center gap-2 text-sm text-muted-foreground flex-wrap">
             <Link href="/"><a className="hover:text-primary">Home</a></Link>
@@ -36,10 +36,14 @@ export default function SeriesPage() {
             <Link href={`/products/${mainCategory.slug}`}>
               <a className="hover:text-primary">{mainCategory.name}</a>
             </Link>
-            <ChevronRight className="w-4 h-4" />
-            <Link href={`/products/${mainCategory.slug}/${subcategory.slug}`}>
-              <a className="hover:text-primary">{subcategory.name}</a>
-            </Link>
+            {subcategory.slug !== 'general' && (
+              <>
+                <ChevronRight className="w-4 h-4" />
+                <Link href={`/products/${mainCategory.slug}/${subcategory.slug}`}>
+                  <a className="hover:text-primary">{subcategory.name}</a>
+                </Link>
+              </>
+            )}
             <ChevronRight className="w-4 h-4" />
             <span className="text-foreground font-medium">{series.title}</span>
           </div>
@@ -97,7 +101,7 @@ export default function SeriesPage() {
                     className="bg-primary hover:bg-primary/90 text-white font-bold uppercase tracking-wide rounded-none h-12 px-6 gap-2"
                     onClick={() => {
                       const message = `Hello, I am interested in ${displayTitle}.\n\nURL: ${window.location.href}`;
-                      window.location.href = `mailto:contact-us@mmbgermany.com?subject=Inquiry about ${displayTitle}&body=${encodeURIComponent(message)}`;
+                      window.location.href = `mailto:waterpumps@mmbgermany.com?subject=Inquiry about ${displayTitle}&body=${encodeURIComponent(message)}`;
                     }}
                   >
                     Contact via EMAIL

@@ -27,7 +27,7 @@ export default function NewsDetail({ params }: NewsDetailProps) {
   };
 
   return (
-    <div className="min-h-screen pt-20 pb-24 flex flex-col items-center bg-background">
+    <div className="min-h-screen pt-32 pb-24 flex flex-col items-center bg-background">
       <div className="container max-w-4xl py-12">
         {/* Back Button */}
         <Link href="/news" className="inline-flex items-center gap-2 text-primary font-bold uppercase tracking-wider text-sm hover:underline mb-8">

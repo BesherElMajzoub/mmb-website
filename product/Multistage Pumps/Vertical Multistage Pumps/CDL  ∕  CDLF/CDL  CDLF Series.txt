@@ -1,0 +1,49 @@
+
+a : Multistage Pumps
+b : descriptionb
+​The MMB CDL / CDLF  represents the cutting edge of vertical multistage technology, engineered specifically for applications demanding constant high pressure and unwavering reliability. The distinct vertical inline design significantly simplifies piping layouts and optimizes floor space usage, making it an ideal solution where space is at a premium.
+​Built for continuous duty in rigorous industrial environments, these pumps are available with a variety of material constructions to suit specific fluid handling requirements. They are coupled with Totally Enclosed Fan Cooled (TEFC) motors, available in standard and premium efficiency classes, ensuring long-term operational stability and energy savings.
+​Designed for versatility, the series covers a wide hydraulic range to suit various applications. The CDL models are ideal for transferring non-corrosive liquids, while the CDLF variants feature stainless steel wetted parts, making them perfect for mildly corrosive media, water purification, and RO systems. Standardized flange or thread connections ensure seamless integration into any industrial setup.
+d:  
+* Corrosion-Resistant Hydraulics: Wetted parts are constructed from high-grade stainless steel to ensure durability and fluid purity.
+
+* Space-Saving Design: Vertical inline architecture reduces footprint and allows for easy integration into existing piping systems.
+
+* Integrated Protection: Single-phase motors come equipped with thermal overload protection for enhanced safety.
+
+* Energy Efficiency: Options available for premium efficiency motors to reduce operational costs.
+
+* Versatile Material Options: Available in different material configurations to handle various media types effectively.
+
+e: 
+Engineered for versatility across multiple sectors:
+
+* Industrial: Boiler feed water systems, industrial washing and cleaning systems.
+
+* Building Services: Utility water supply and pressure boosting systems for high-rise buildings.
+
+* Fire Safety: Jockey pump applications in fire-fighting systems.
+
+* Agriculture: Irrigation and high-pressure water transfer.
+
+* Automotive: Professional car washing systems.
+
+f : Technical Specifications ( الجدول ) 
+* Standard	Manufacturer Standard
+* Max. Flow Rate	Up to 240 m³/h
+* Max. Head	Up to 320 m
+* Rated Speed	2900 RPM
+* Power Range	Up to 110 kW
+* Max. Working Pressure	Up to 32 bar
+* Liquid Temperature	
+* Standard: Up to 90°C
+
+
+* Optional: Up to 120°C
+
+* Outlet Size	Up to 150 mm
+* Impeller Type	Enclosed Impeller
+* Shaft Seal	Mechanical Seal
+* Bearing Lubrication	Grease
+* Flange Standard	DIN
+* Material of Construction	Cast Iron & Stainless Steel

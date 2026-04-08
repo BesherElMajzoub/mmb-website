@@ -21,9 +21,9 @@ export default function SubcategoryPage() {
   const { mainCategory, subcategory } = result;
 
   return (
-    <div className="min-h-screen pt-20">
+    <div className="min-h-screen flex flex-col">
       {/* Header */}
-      <section className="bg-secondary text-secondary-foreground py-16 relative overflow-hidden">
+      <section className="bg-secondary text-secondary-foreground pt-36 pb-16 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/abstract-metal.jpg')] opacity-10 bg-cover bg-center mix-blend-overlay"></div>
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-gray-400 mb-6 flex-wrap">
@@ -114,8 +114,9 @@ export default function SubcategoryPage() {
                       : `/products/${mainCategory.slug}/${subcategory.slug}/${series.slug}`;
 
                   const seriesImages: Record<string, string> = {
-                    "cdl-cdlf-series":
-                      "/images/Multistage Pumps_Vertical Multistage Pumps_CDL  CDLF Series_CDL.png",
+                    "cdl-∕-cdlf": "/images/MMB CDL.png",
+                    "gm": "/images/MMB GM.png",
+                    "gmvb": "/images/MMB GMVB.png",
                   };
 
                   return (

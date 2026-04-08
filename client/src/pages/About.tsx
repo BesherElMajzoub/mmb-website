@@ -6,9 +6,9 @@ export default function About() {
   const { t } = useLanguage();
 
   return (
-    <div className="min-h-screen pt-20">
+    <div className="min-h-screen flex flex-col">
       {/* Header */}
-      <section className="bg-secondary text-secondary-foreground py-20 relative overflow-hidden">
+      <section className="bg-secondary text-secondary-foreground pt-36 pb-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/factory-exterior.jpg')] opacity-20 bg-cover bg-center mix-blend-overlay"></div>
         <div className="container relative z-10 text-center">
           <h1 className="text-4xl md:text-6xl font-heading font-bold mb-6">{t('about.title')}</h1>

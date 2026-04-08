@@ -41,7 +41,7 @@ export default function NewsListing() {
   };
 
   return (
-    <div className="min-h-screen pt-20 flex flex-col bg-background">
+    <div className="min-h-screen pt-32 flex flex-col bg-background">
       {/* Title Header */}
       <div className="bg-secondary text-secondary-foreground py-16">
         <div className="container">

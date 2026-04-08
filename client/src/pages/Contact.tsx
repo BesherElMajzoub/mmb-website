@@ -47,9 +47,9 @@ export default function Contact() {
   };
 
   return (
-    <div className="min-h-screen pt-20">
+    <div className="min-h-screen flex flex-col">
       {/* Header */}
-      <section className="bg-secondary text-secondary-foreground py-16 relative overflow-hidden">
+      <section className="bg-secondary text-secondary-foreground pt-36 pb-16 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/abstract-metal.jpg')] opacity-10 bg-cover bg-center mix-blend-overlay"></div>
         <div className="container relative z-10">
           <h1 className="text-4xl md:text-5xl font-heading font-bold mb-4">

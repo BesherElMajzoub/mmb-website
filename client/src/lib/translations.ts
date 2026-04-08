@@ -59,7 +59,7 @@ export const translations = {
         company: 'Your Company Name',
         message: 'How can we help you?'
       },
-      success: 'Message prepared to send to contact-us@mmbgermany.com',
+      success: 'Message prepared to send to waterpumps@mmbgermany.com',
       validation: {
         name: 'Name is required',
         email: 'Invalid email address',
@@ -196,7 +196,7 @@ export const translations = {
         company: 'Firmenname',
         message: 'Wie können wir Ihnen helfen?'
       },
-      success: 'Nachricht für den Versand an contact-us@mmbgermany.com vorbereitet',
+      success: 'Nachricht für den Versand an waterpumps@mmbgermany.com vorbereitet',
       validation: {
         name: 'Name ist erforderlich',
         email: 'Ungültige E-Mail-Adresse',
@@ -325,7 +325,7 @@ export const translations = {
         company: 'اسم الشركة',
         message: 'كيف يمكننا مساعدتك؟'
       },
-      success: 'تم إعداد الرسالة للإرسال إلى contact-us@mmbgermany.com',
+      success: 'تم إعداد الرسالة للإرسال إلى waterpumps@mmbgermany.com',
       validation: {
         name: 'الاسم مطلوب',
         email: 'بريد إلكتروني غير صالح',

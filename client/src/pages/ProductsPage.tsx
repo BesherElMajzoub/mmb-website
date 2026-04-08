@@ -13,7 +13,7 @@ export default function ProductsPage() {
   };
 
   return (
-    <div className="min-h-screen pt-20">
+    <div className="min-h-screen pt-32">
       {/* Header */}
       <section className="bg-secondary text-secondary-foreground py-16 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/abstract-metal.jpg')] opacity-10 bg-cover bg-center mix-blend-overlay"></div>

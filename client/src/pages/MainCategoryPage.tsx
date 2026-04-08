@@ -17,9 +17,9 @@ export default function MainCategoryPage() {
   const isDirectSeries = mainCategory.subcategories.length === 1 && mainCategory.subcategories[0].slug === 'general';
 
   return (
-    <div className="min-h-screen pt-20">
+    <div className="min-h-screen flex flex-col">
       {/* Header */}
-      <section className="bg-secondary text-secondary-foreground py-16 relative overflow-hidden">
+      <section className="bg-secondary text-secondary-foreground pt-36 pb-16 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/abstract-metal.jpg')] opacity-10 bg-cover bg-center mix-blend-overlay"></div>
         <div className="container relative z-10">
           <div className="flex items-center gap-2 text-sm text-gray-400 mb-6 flex-wrap">
@@ -109,8 +109,9 @@ export default function MainCategoryPage() {
               mainCategory.subcategories.map((subcategory) => {
                 const subcategoryImages: Record<string, string> = {
                   's-series-stainless-steel-submersible-pumps': '/images/Stainless Steel Submersible Pumps & Motors.jpg',
-                  'ta-tb-submersible-motors-pumps': '/images/TA-TB-Submersible-Motors.png',
-                  'vertical-multistage-pumps': '/product_images/Multistage Pumps_Vertical Multistage Pumps_CDL  CDLF Series_CDL.png',
+                  'ta-tb-submersible-motors': '/images/TA-TB-Submersible-Motors.png',
+                  'vertical-multistage-pumps': '/images/MMB CDL.png',
+                  'horizontal-multistage-centrifugal-pumps': '/images/MMB GM.png',
                 };
 
                 const isComingSoon = subcategory.slug === 'wastewater-submersible-pumps' || subcategory.comingSoon;

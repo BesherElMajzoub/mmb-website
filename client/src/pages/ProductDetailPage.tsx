@@ -27,9 +27,9 @@ export default function ProductDetailPage() {
   };
 
   return (
-    <div className="min-h-screen pt-20">
+    <div className="min-h-screen flex flex-col">
       {/* Breadcrumb */}
-      <div className="bg-muted/30 border-b border-border">
+      <div className="bg-muted/30 border-b border-border pt-32">
         <div className="container py-4">
           <div className="flex items-center gap-2 text-sm text-muted-foreground flex-wrap">
             <Link href="/"><a className="hover:text-primary">Home</a></Link>
@@ -37,16 +37,29 @@ export default function ProductDetailPage() {
             <Link href={`/products/${mainCategory.slug}`}>
               <a className="hover:text-primary">{mainCategory.name}</a>
             </Link>
-            <ChevronRight className="w-4 h-4" />
-            <Link href={`/products/${mainCategory.slug}/${subcategory.slug}`}>
-              <a className="hover:text-primary">{subcategory.name}</a>
-            </Link>
-            <ChevronRight className="w-4 h-4" />
-            <Link href={`/products/${mainCategory.slug}/${subcategory.slug}/${series.slug}`}>
-              <a className="hover:text-primary">{series.title}</a>
-            </Link>
-            <ChevronRight className="w-4 h-4" />
-            <span className="text-foreground font-medium">{product.name}</span>
+            {subcategory.slug !== 'general' && (
+              <>
+                <ChevronRight className="w-4 h-4" />
+                <Link href={`/products/${mainCategory.slug}/${subcategory.slug}`}>
+                  <a className="hover:text-primary">{subcategory.name}</a>
+                </Link>
+              </>
+            )}
+            {series.products && series.products.length > 1 ? (
+              <>
+                <ChevronRight className="w-4 h-4" />
+                <Link href={`/products/${mainCategory.slug}/${subcategory.slug}/${series.slug}`}>
+                  <a className="hover:text-primary">{series.title}</a>
+                </Link>
+                <ChevronRight className="w-4 h-4" />
+                <span className="text-foreground font-medium">{product.name}</span>
+              </>
+            ) : (
+              <>
+                <ChevronRight className="w-4 h-4" />
+                <span className="text-foreground font-medium">{product.name || series.title}</span>
+              </>
+            )}
           </div>
         </div>
       </div>
