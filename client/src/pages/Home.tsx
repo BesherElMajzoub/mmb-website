@@ -20,6 +20,12 @@ export default function Home() {
     }
   };
 
+  const categoryImages: Record<string, string> = {
+    "stainless-steel-submersible-pumps-motors": "/images/Stainless Steel Submersible Pumps & Motors.jpg",
+    "multistage-pumps": "/images/Multistage Pumps_Horizontal Multistage Centrifugal Pumps_GM SERIES_GM SERIES.png",
+    "motors": "/images/Motors_MT.png",
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
       {/* 1. HERO SECTION */}
@@ -123,7 +129,7 @@ export default function Home() {
               </p>
             </div>
             <Link
-              href={`/products/${mainCategories[0]?.slug}`}
+              href="/products"
               className="hidden md:flex items-center gap-2 text-primary font-bold uppercase tracking-wider text-sm hover:underline mt-4 md:mt-0"
             >
               {t("home.solutions.viewAll")} <ArrowRight className="w-4 h-4" />
@@ -141,6 +147,7 @@ export default function Home() {
                   <div className="relative h-80 overflow-hidden bg-white p-4 flex items-center justify-center">
                     <img
                       src={
+                        categoryImages[category.slug] ||
                         category.subcategories[0]?.series[0]?.image ||
                         "/images/submersible-pump.jpg"
                       }

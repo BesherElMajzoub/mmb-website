@@ -199,47 +199,71 @@ function scanDirectory(dir: string, rootRelative = ''): any {
   const files = entries.filter(e => e.isFile());
   const folders = entries.filter(e => e.isDirectory());
 
-  // Check for product files in THIS directory
-  const txtFile = files.find(f => f.name.endsWith('.txt'));
+  const txtFiles = files.filter(f => f.name.endsWith('.txt'));
   
-  if (txtFile) {
-    // This directory is a detailed node (Product or Series).
-    const content = fs.readFileSync(path.join(dir, txtFile.name), 'utf-8');
-    const parsed = parseTxtFile(content);
+  if (txtFiles.length > 0) {
+    // This directory is a detailed node containing one or more products (Series).
     
-    const imageFile = files.find(f => f.name.match(/\.(jpg|jpeg|png|webp)$/i));
-    const pdfFile = files.find(f => f.name.match(/\.pdf$/i));
+    const imageFiles = files.filter(f => f.name.match(/\.(jpg|jpeg|png|webp)$/i));
+    const pdfFiles = files.filter(f => f.name.match(/\.pdf$/i));
 
-    // Determine correct relative paths for public access
+    const getDigits = (str: string) => str.match(/\d+/g)?.join('') || '';
+
+    const matchFile = (pName: string, fileList: import('fs').Dirent[]) => {
+      if (fileList.length === 0) return undefined;
+      // if (fileList.length === 1) return fileList[0]; // Wait, actually sometimes they all share one image, so this is good.
+      const pDigits = getDigits(pName);
+      for (const file of fileList) {
+        const fBase = file.name.substring(0, file.name.lastIndexOf('.'));
+        if (pDigits && getDigits(fBase) === pDigits) return file;
+        const normP = pName.toLowerCase().replace(/[^a-z0-9]/g, '');
+        const normF = fBase.toLowerCase().replace(/[^a-z0-9]/g, '');
+        if (normF.includes(normP) || normP.includes(normF)) return file;
+      }
+      return fileList[0]; // Fallback
+    };
+
     const assetPathBase = `client/public/product_images`;
     if (!fs.existsSync(assetPathBase)) fs.mkdirSync(assetPathBase, { recursive: true });
-    
-    let publicImgPath = '';
-    if (imageFile) {
-       // Only copy if not exists to save time? or overwrite. Overwrite matches USER RULE to avoid stale content.
-       const src = path.join(dir, imageFile.name);
-       // Flatten filename or keep structure? Keep structure to avoid collisions.
-       const safeName = rootRelative.replace(/[\\/]/g, '_') + '_' + imageFile.name;
-       const dest = path.join(assetPathBase, safeName);
-       fs.copyFileSync(src, dest);
-       publicImgPath = `/product_images/${safeName}`;
-    }
-    
-    let publicPdfPath = '';
-    if (pdfFile) {
-       const src = path.join(dir, pdfFile.name);
-       const safeName = rootRelative.replace(/[\\/]/g, '_') + '_' + pdfFile.name;
-       const dest = path.join(assetPathBase, safeName);
-       fs.copyFileSync(src, dest);
-       publicPdfPath = `/product_images/${safeName}`;
-    }
+
+    const productsInfo = txtFiles.map(txtFile => {
+      const content = fs.readFileSync(path.join(dir, txtFile.name), 'utf-8');
+      const parsed = parseTxtFile(content);
+      const baseName = txtFile.name.replace('.txt', '');
+
+      const imageFile = matchFile(baseName, imageFiles);
+      const pdfFile = matchFile(baseName, pdfFiles);
+      
+      let publicImgPath = '';
+      if (imageFile) {
+         const src = path.join(dir, imageFile.name);
+         const safeName = rootRelative.replace(/[\\/]/g, '_') + '_' + baseName + '_' + imageFile.name;
+         const dest = path.join(assetPathBase, safeName);
+         if (!fs.existsSync(dest)) fs.copyFileSync(src, dest);
+         publicImgPath = `/product_images/${safeName}`;
+      }
+      
+      let publicPdfPath = '';
+      if (pdfFile) {
+         const src = path.join(dir, pdfFile.name);
+         const safeName = rootRelative.replace(/[\\/]/g, '_') + '_' + baseName + '_' + pdfFile.name;
+         const dest = path.join(assetPathBase, safeName);
+         if (!fs.existsSync(dest)) fs.copyFileSync(src, dest);
+         publicPdfPath = `/product_images/${safeName}`;
+      }
+
+      return {
+        name: baseName,
+        data: parsed,
+        img: publicImgPath,
+        pdf: publicPdfPath
+      };
+    });
 
     return {
       isNode: true,
-      name: txtFile.name.replace('.txt', ''), // Base name
-      data: parsed,
-      img: publicImgPath,
-      pdf: publicPdfPath
+      seriesName: path.basename(dir), // e.g. "4S - Series"
+      products: productsInfo
     };
   }
 
@@ -278,19 +302,22 @@ function transformTree(tree: any): MainCategory[] {
     if (mainNode.isNode) {
        // For leaf main categories (like Motors/MT), create a series without products
        // The series itself IS the product
+       const firstProd = mainNode.products[0];
        const series: Series = {
-         slug: toSlug(mainNode.name + '-series'),
-         title: mainNode.name + ' Series', // e.g. "MT Series"
-         image: mainNode.img,
-         catalog: mainNode.pdf,
-         description: mainNode.data.description,
+         slug: toSlug(mainNode.seriesName + '-series'),
+         title: mainNode.seriesName + ' Series', // e.g. "MT Series"
+         image: firstProd?.img,
+         catalog: firstProd?.pdf,
+         description: firstProd?.data.description,
          products: [] // No child products - the series is the endpoint
        };
        
        // Attach features, applications, specs to the series for full detail rendering
-       (series as any).features = mainNode.data.features;
-       (series as any).applications = mainNode.data.applications;
-       (series as any).specs = mainNode.data.specs;
+       if (firstProd) {
+         (series as any).features = firstProd.data.features;
+         (series as any).applications = firstProd.data.applications;
+         (series as any).specs = firstProd.data.specs;
+       }
 
        const sub: Subcategory = {
          slug: 'general',
@@ -312,8 +339,33 @@ function transformTree(tree: any): MainCategory[] {
          };
 
          if (subNode.isNode) {
-             // Subcategory has files? -> Treat as Series?
-             // Not seen in FS yet.
+             // Subcategory has files? -> Treat as Series
+             const serBio: Series = {
+                 slug: toSlug(subKey + '-series'),
+                 title: subKey, // e.g. "4S - Series"
+                 products: []
+             };
+
+             const firstProd = subNode.products[0];
+             serBio.description = firstProd?.data.description;
+             serBio.image = firstProd?.img;
+             serBio.catalog = firstProd?.pdf;
+
+             // Create a Product for each text file parsed
+             for (const prodFile of subNode.products) {
+               const p: Product = {
+                  slug: toSlug(prodFile.name),
+                  name: prodFile.name,
+                  description: prodFile.data.description,
+                  features: prodFile.data.features,
+                  applications: prodFile.data.applications,
+                  specs: prodFile.data.specs,
+                  image: prodFile.img,
+                  catalog: prodFile.pdf
+               };
+               serBio.products.push(p);
+             }
+             subCat.series.push(serBio);
          }
          else if (subNode.isFolder) {
             // Iterate Series
@@ -327,24 +379,28 @@ function transformTree(tree: any): MainCategory[] {
               };
 
               if (seriesNode.isNode) {
-                 // This is the Leaf Series.
-                 // Populate Series info
-                 serBio.description = seriesNode.data.description;
-                 serBio.image = seriesNode.img;
-                 serBio.catalog = seriesNode.pdf;
+                 // This is the Leaf Series containing potential multiple products.
+                 const firstProd = seriesNode.products[0];
+                 
+                 // Populate Series info based on the first product as a common denominator
+                 serBio.description = firstProd?.data.description;
+                 serBio.image = firstProd?.img;
+                 serBio.catalog = firstProd?.pdf;
 
-                 // Create a Product that mirrors the Series (since it's a series page)
-                 const p: Product = {
-                    slug: toSlug(seriesNode.name), // "4S SERIES" -> "4s-series"
-                    name: seriesNode.name,
-                    description: seriesNode.data.description,
-                    features: seriesNode.data.features,
-                    applications: seriesNode.data.applications,
-                    specs: seriesNode.data.specs,
-                    image: seriesNode.img,
-                    catalog: seriesNode.pdf
-                 };
-                 serBio.products.push(p);
+                 // Create a Product for each text file parsed
+                 for (const prodFile of seriesNode.products) {
+                   const p: Product = {
+                      slug: toSlug(prodFile.name),
+                      name: prodFile.name,
+                      description: prodFile.data.description,
+                      features: prodFile.data.features,
+                      applications: prodFile.data.applications,
+                      specs: prodFile.data.specs,
+                      image: prodFile.img,
+                      catalog: prodFile.pdf
+                   };
+                   serBio.products.push(p);
+                 }
               }
 
               subCat.series.push(serBio);

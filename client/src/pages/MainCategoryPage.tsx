@@ -107,6 +107,12 @@ export default function MainCategoryPage() {
             ) : (
               // RENDER SUBCATEGORIES
               mainCategory.subcategories.map((subcategory) => {
+                const subcategoryImages: Record<string, string> = {
+                  's-series-stainless-steel-submersible': '/images/MMB Submerisble Pumps.png',
+                  'ta-tb-submerisble-motors': '/images/TA-TB MMB MOTOR.png',
+                  'vertical-multistage-pumps': '/product_images/Multistage Pumps_Vertical Multistage Pumps_CDL  CDLF Series_CDL.png',
+                };
+
                 const isComingSoon = subcategory.slug === 'wastewater-submersible-pumps' || subcategory.comingSoon;
                 const CardContent = (
                     <div className={`tech-card h-full flex flex-col bg-white border border-border ${!isComingSoon ? 'hover:border-primary hover:shadow-lg transition-all duration-300' : ''}`}>
@@ -114,7 +120,7 @@ export default function MainCategoryPage() {
                       <div className="relative h-80 p-4 bg-white flex items-center justify-center overflow-hidden">
                           <>
                             <img 
-                              src={subcategory.series[0]?.image || '/images/submersible-pump.jpg'} 
+                              src={subcategoryImages[subcategory.slug] || subcategory.series[0]?.image || '/images/submersible-pump.jpg'} 
                               alt={subcategory.name}
                               className={`w-full h-full object-contain ${
                                 !isComingSoon ? 'transition-transform duration-500 group-hover:scale-105' : 'filter blur-[5px] opacity-70'

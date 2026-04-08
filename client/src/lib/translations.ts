@@ -22,8 +22,8 @@ export const translations = {
       title: 'About MMB',
       subtitle: 'German Engineering. Global Impact.',
       heritageTitle: 'Our Heritage',
-      heritageText1: 'At Morsbach Maschinen Bau GmbH (MMB), we combine the heritage of German precision with modern innovation to deliver superior pumping systems. Founded on the principles of durability and efficiency, we have grown from a local manufacturer to a global partner in water solutions.',
-      heritageText2: 'We are not just a manufacturer; we are a partner dedicated to efficiency and durability. Our engineers work tirelessly to ensure that every pump leaving our facility meets the highest standards of quality and performance.',
+      heritageText1: 'At Morsbach Maschinenbau GmbH (MMB), we combine the heritage of German precision with modern innovation to deliver superior pumping systems. Founded on the core principles of reliability and engineering excellence, we have grown from a local manufacturer into a trusted global partner in water solutions',
+      heritageText2: 'Our engineers work tirelessly to ensure that every pump leaving our facility meets the highest international standards of quality and performance.',
       quote: '"Quality is not an act, it is a habit."',
       values: {
         excellence: {
@@ -69,7 +69,7 @@ export const translations = {
     hero: {
       badge: 'Premium Industrial Solutions',
       title: 'German Engineering for',
-      titleHighlight: 'Pure Water',
+      titleHighlight: 'Advanced Water',
       titleSuffix: 'Solutions',
       subtitle: 'Precision-crafted pumps and motors for demanding industrial and agricultural applications.',
       explore: 'Explore Products',
@@ -93,7 +93,7 @@ export const translations = {
       whyChoose: {
         title: 'WHY CHOOSE MMB?',
         subtitle: 'German Engineering. Enduring Reliability. Precision-crafted solutions for the world’s pure water needs.',
-        description: 'At Morsbach Maschinen Bau GmbH (MMB), we combine the heritage of German precision with modern innovation to deliver superior pumping systems. We are not just a manufacturer; we are a partner dedicated to efficiency and durability.',
+        description: 'At Morsbach Maschinenbau GmbH (MMB), we combine the heritage of German precision with modern innovation to deliver superior pumping systems. We are not just a manufacturer; we are a partner dedicated to efficiency and durability.',
         features: {
           excellence: {
             title: 'Engineering Excellence',
@@ -104,8 +104,8 @@ export const translations = {
             desc: 'We prioritize longevity by utilizing high-grade Stainless Steel across our Submersible Pumps and Motors, offering maximum corrosion resistance and structural integrity.'
           },
           purity: {
-            title: 'Dedicated to Purity',
-            desc: 'True to our slogan, "German Engineering For Pure Water Solutions," our technology is specifically designed to maintain water safety and hygiene for municipal, agricultural, and industrial applications.'
+            title: 'DEDICATED TO EXCELLENCE',
+            desc: 'True to our slogan, "German Engineering For Advanced Water Solutions," our technology is specifically designed to deliver reliable, high-efficiency performance for municipal, agricultural, and industrial applications.'
           }
         },
         footer: 'MMB – Engineered to Last.'
@@ -159,7 +159,7 @@ export const translations = {
       title: 'Über MMB',
       subtitle: 'Deutsche Ingenieurskunst. Globale Wirkung.',
       heritageTitle: 'Unser Erbe',
-      heritageText1: 'Bei Morsbach Maschinen Bau GmbH (MMB) verbinden wir das Erbe deutscher Präzision mit moderner Innovation, um erstklassige Pumpensysteme zu liefern. Gegründet auf den Prinzipien von Langlebigkeit und Effizienz, sind wir von einem lokalen Hersteller zu einem globalen Partner für Wasserlösungen gewachsen.',
+      heritageText1: 'BeiMorsbach Maschinenbau GmbH (MMB) verbinden wir das Erbe deutscher Präzision mit moderner Innovation, um erstklassige Pumpensysteme zu liefern. Gegründet auf den Prinzipien von Langlebigkeit und Effizienz, sind wir von einem lokalen Hersteller zu einem globalen Partner für Wasserlösungen gewachsen.',
       heritageText2: 'Wir sind nicht nur Hersteller, sondern ein Partner, der sich Effizienz und Langlebigkeit verschrieben hat. Unsere Ingenieure arbeiten unermüdlich daran sicherzustellen, dass jede Pumpe, die unser Werk verlässt, höchsten Qualitäts- und Leistungsstandards entspricht.',
       quote: '"Qualität ist kein Zufall, sie ist eine Gewohnheit."',
       values: {
@@ -222,7 +222,7 @@ export const translations = {
       whyChoose: {
         title: 'WARUM MMB WÄHLEN?',
         subtitle: 'Deutsche Ingenieurskunst. Dauerhafte Zuverlässigkeit. Präzisionsgefertigte Lösungen für den weltweiten Reinwasserbedarf.',
-        description: 'Bei Morsbach Maschinen Bau GmbH (MMB) verbinden wir das Erbe deutscher Präzision mit moderner Innovation, um erstklassige Pumpensysteme zu liefern. Wir sind nicht nur Hersteller, sondern ein Partner, der sich Effizienz und Langlebigkeit verschrieben hat.',
+        description: 'Bei Morsbach Maschinenbau GmbH (MMB) verbinden wir das Erbe deutscher Präzision mit moderner Innovation, um erstklassige Pumpensysteme zu liefern. Wir sind nicht nur Hersteller, sondern ein Partner, der sich Effizienz und Langlebigkeit verschrieben hat.',
         features: {
           excellence: {
             title: 'Ingenieurskunst',
@@ -288,7 +288,7 @@ export const translations = {
       title: 'عن MMB',
       subtitle: 'هندسة ألمانية. تأثير عالمي.',
       heritageTitle: 'تراثنا',
-      heritageText1: 'في شركة Morsbach Maschinen Bau GmbH (MMB)، نجمع بين تراث الدقة الألمانية والابتكار الحديث لتقديم أنظمة ضخ فائقة الجودة. تأسست على مبادئ المتانة والكفاءة، وقد نمت من شركة مصنعة محلية إلى شريك عالمي في حلول المياه.',
+      heritageText1: 'في شركة Morsbach Maschinenbau GmbH (MMB)، نجمع بين تراث الدقة الألمانية والابتكار الحديث لتقديم أنظمة ضخ فائقة الجودة. تأسست على مبادئ المتانة والكفاءة، وقد نمت من شركة مصنعة محلية إلى شريك عالمي في حلول المياه.',
       heritageText2: 'نحن لسنا مجرد شركة مصنعة؛ نحن شريك مخصص للكفاءة والمتانة. يعمل مهندسونا بلا كلل لضمان أن كل مضخة تخرج من منشأتنا تلبي أعلى معايير الجودة والأداء.',
       quote: '"الجودة ليست فعلاً، بل هي عادة."',
       values: {
@@ -351,7 +351,7 @@ export const translations = {
       whyChoose: {
         title: 'لماذا تختار MMB؟',
         subtitle: 'هندسة ألمانية. موثوقية دائمة. حلول مصممة بدقة لاحتياجات المياه النقية في العالم.',
-        description: 'في شركة Morsbach Maschinen Bau GmbH (MMB)، نجمع بين تراث الدقة الألمانية والابتكار الحديث لتقديم أنظمة ضخ فائقة الجودة. نحن لسنا مجرد شركة مصنعة؛ نحن شريك مخصص للكفاءة والمتانة.',
+        description: 'في شركة Morsbach Maschinenbau GmbH (MMB)، نجمع بين تراث الدقة الألمانية والابتكار الحديث لتقديم أنظمة ضخ فائقة الجودة. نحن لسنا مجرد شركة مصنعة؛ نحن شريك مخصص للكفاءة والمتانة.',
         features: {
           excellence: {
             title: 'التميز الهندسي',

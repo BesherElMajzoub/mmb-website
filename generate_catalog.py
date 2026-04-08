@@ -71,7 +71,7 @@ def create_catalog():
     story.append(Spacer(1, 4*cm))
     
     story.append(Paragraph("PRODUCT CATALOG 2026", title_style))
-    story.append(Paragraph("German Engineering for Pure Water Solutions", subtitle_style))
+    story.append(Paragraph("German Engineering for Advanced Water Solutions", subtitle_style))
     
     story.append(Spacer(1, 2*cm))
     
@@ -199,7 +199,7 @@ def create_catalog():
     # --- CONTACT ---
     story.append(Paragraph("Contact Us", title_style))
     contact_info = """
-    <b>Morsbach Maschinen Bau GmbH</b><br/>
+    <b>Morsbach MaschinenBau GmbH</b><br/>
     Industriestraße 15<br/>
     51597 Morsbach, Germany<br/><br/>
     Phone: +49 (0) 2294 123456<br/>

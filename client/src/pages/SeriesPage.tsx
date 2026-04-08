@@ -70,7 +70,7 @@ export default function SeriesPage() {
                 <h1 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
                   {displayTitle}
                 </h1>
-                <p className="text-lg text-muted-foreground leading-relaxed">
+                <p className="text-lg text-muted-foreground leading-relaxed whitespace-pre-line">
                   {displayData.description}
                 </p>
               </div>
@@ -135,7 +135,7 @@ export default function SeriesPage() {
               Available Models
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {series.products.map((p) => (
+              {series.products.slice().sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true })).map((p) => (
                 <Link key={p.slug} href={`/products/${mainCategory.slug}/${subcategory.slug}/${series.slug}/${p.slug}`}>
                   <a className="group block bg-white border border-border p-6 hover:shadow-lg transition-all hover:border-primary/50 h-full flex flex-col">
                     <div className="aspect-video bg-muted/10 mb-6 p-4 flex items-center justify-center">

@@ -16,55 +16,57 @@ export interface NewsArticle {
 }
 
 export const newsData: NewsArticle[] = [
-  {
-    id: '1',
-    slug: 'new-6s-submersible-pump-series',
-    category: { en: 'Product', de: 'Produkt', ar: 'منتج' },
-    date: '2026-02-27',
-    image: '/images/submersible-pump.jpg',
-    title: {
-      en: 'MMB Launches New 6S Submersible Pump Series',
-      de: 'MMB bringt neue 6S-Tauchpumpenserie auf den Markt',
-      ar: 'MMB تطلق سلسلة مضخات غاطسة 6S جديدة'
-    },
-    excerpt: {
-      en: 'Experience our latest high-efficiency 6-inch stainless steel submersible pumps designed specifically for rigorous deep well applications.',
-      de: 'Erleben Sie unsere neuesten hocheffizienten 6-Zoll-Edelstahltauchpumpen, die speziell für anspruchsvolle Tiefbrunnenanwendungen entwickelt wurden.',
-      ar: 'اكتشف أحدث مضخاتنا الغاطسة من الستانلس ستيل مقاس 6 بوصات عالية الكفاءة والمصممة خصيصًا لتطبيقات الآبار العميقة الصعبة.'
-    },
-    content: {
-      en: 'We are thrilled to announce the launch of our new 6S Series. Built entirely from high-grade, corrosion-resistant stainless steel, these pumps ensure exceptional longevity even in aggressive water conditions. The precision-machined radial or mixed-flow impellers deliver superior head and flow performance, maintaining the high standards expected from German engineering.',
-      de: 'Wir freuen uns, die Markteinführung unserer neuen 6S-Serie bekannt zu geben. Diese komplett aus hochwertigem, korrosionsbeständigem Edelstahl gefertigten Pumpen gewährleisten eine außergewöhnliche Langlebigkeit selbst bei aggressiven Wasserbedingungen. Die präzisionsgefertigten Radial- oder Halbaxiallaufräder bieten hervorragende Förderhöhen- und Durchflussleistungen und entsprechen den hohen Standards der deutschen Ingenieurskunst.',
-      ar: 'نحن متحمسون للإعلان عن إطلاق سلسلة 6S الجديدة. تم تصميم هذه المضخات بالكامل من الستانلس ستيل عالي الجودة والمقاوم للتآكل، مما يضمن عمرًا طويلاً استثنائيًا حتى في ظروف المياه القاسية. توفر الدفاعات الشعاعية أو مختلطة التدفق المصنعة بدقة أداءً فائقًا في الرأس والتدفق، مع الحفاظ على المعايير العالية المتوقعة من الهندسة الألمانية.'
-    }
+  
+    {
+  id: '1',
+  slug: 'advancing-german-engineering-uncompromised-quality-at-mmb',
+  category: { en: 'Company', de: 'Unternehmen', ar: 'الشركة' },
+  date: '2026-02-27',
+  image: '/images/Firstone.jpeg',
+  title: {
+    en: 'ADVANCING GERMAN ENGINEERING: UNCOMPROMISED QUALITY AT MMB',
+    de: 'DEUTSCHE INGENIEURSKUNST VORANBRINGEN: KOMPROMISSLOSE QUALITÄT BEI MMB',
+    ar: 'تطوير الهندسة الألمانية: جودة بلا مساومة في MMB'
   },
-  {
-    id: '2',
-    slug: 'hannover-messe-2026-participation',
-    category: { en: 'Exhibition', de: 'Messe', ar: 'معرض' },
-    date: '2026-02-15',
-    image: '/images/factory-exterior.jpg',
-    title: {
-      en: 'MMB to Exhibit at Hannover Messe 2026',
-      de: 'MMB stellt auf der Hannover Messe 2026 aus',
-      ar: 'MMB تشارك في معرض هانوفر ميسي 2026'
-    },
-    excerpt: {
-      en: 'Join us at the world\'s leading industrial technology show where we will showcase our latest pumping systems.',
-      de: 'Besuchen Sie uns auf der weltweit führenden Messe für Industrietechnologie, auf der wir unsere neuesten Pumpensysteme präsentieren werden.',
-      ar: 'انضم إلينا في المعرض الرائد عالميًا للتكنولوجيا الصناعية حيث سنعرض أحدث أنظمة الضخ لدينا.'
-    },
-    content: {
-      en: 'MMB will be presenting our cutting-edge water solutions at Hannover Messe 2026. Visitors will have the opportunity to see our extensive range of multidisciplinary centrifugal and submersible pumps, alongside our state-of-the-art motors. Our team of engineering experts will be on-site to discuss customized infrastructure and industrial integrations.',
-      de: 'MMB wird auf der Hannover Messe 2026 unsere hochmodernen Wasserlösungen vorstellen. Besucher haben die Möglichkeit, unser umfangreiches Sortiment an multidisziplinären Zentrifugal- und Tauchpumpen sowie unsere hochmodernen Motoren zu sehen. Unser Team von Ingenieurexperten wird vor Ort sein, um maßgeschneiderte Infrastruktur- und Industrieintegrationen zu besprechen.',
-      ar: 'ستعرض MMB أحدث حلول المياه لدينا في معرض هانوفر ميسي 2026. ستتاح للزوار الفرصة لمشاهدة مجموعتنا الواسعة من مضخات الطرد المركزي والمضخات الغاطسة متعددة التخصصات، إلى جانب أحدث المحركات لدينا. سيكون فريقنا من خبراء الهندسة متواجدًا في الموقع لمناقشة البنية التحتية المخصصة والتكامل الصناعي.'
-    }
+  excerpt: {
+    en: 'Quality is at the heart of everything we do. MMB continues to upgrade its rigorous testing protocols to ensure every pump and motor meets the highest international standards.',
+    de: 'Qualität steht im Mittelpunkt unseres Handelns. MMB entwickelt seine strengen Prüfprotokolle kontinuierlich weiter, um sicherzustellen, dass jede Pumpe und jeder Motor den höchsten internationalen Standards entspricht.',
+    ar: 'الجودة هي جوهر كل ما نقوم به. تواصل MMB تطوير بروتوكولات الاختبار الصارمة لديها لضمان أن كل مضخة ومحرك يفيان بأعلى المعايير الدولية.'
   },
+  content: {
+    en: 'Commitment to Manufacturing Excellence\nAt Morsbach Maschinenbau GmbH (MMB), "German Engineering" is not just a slogan; it is a standard we live by every day. To maintain our position as a leader in industrial pumping solutions, we are continuously refining our manufacturing processes and quality control systems.\n\nEvery multistage and submersible pump that leaves our facilities undergoes strict hydrostatic and performance testing. By combining premium materials like high-grade stainless steel with precision machining, we ensure that our products deliver maximum reliability and extended service life, even in the harshest industrial and agricultural environments.',
+    de: 'Verpflichtung zu höchster Fertigungsqualität\nBei der Morsbach Maschinenbau GmbH (MMB) ist „German Engineering“ nicht nur ein Slogan, sondern ein Standard, nach dem wir jeden Tag arbeiten. Um unsere Position als führender Anbieter industrieller Pumpenlösungen zu sichern, verfeinern wir kontinuierlich unsere Fertigungsprozesse und Qualitätskontrollsysteme.\n\nJede mehrstufige und jede Tauchpumpe, die unser Werk verlässt, durchläuft strenge hydrostatische und leistungsbezogene Prüfungen. Durch die Kombination hochwertiger Materialien wie erstklassigem Edelstahl mit präziser Bearbeitung stellen wir sicher, dass unsere Produkte selbst unter härtesten industriellen und landwirtschaftlichen Bedingungen maximale Zuverlässigkeit und eine lange Lebensdauer bieten.',
+    ar: 'الالتزام بالتميّز في التصنيع\nفي Morsbach Maschinenbau GmbH (MMB)، لا تُعد "الهندسة الألمانية" مجرد شعار، بل معيارًا نلتزم به كل يوم. وللحفاظ على مكانتنا كشركة رائدة في حلول الضخ الصناعية، فإننا نواصل تحسين عمليات التصنيع وأنظمة مراقبة الجودة بشكل مستمر.\n\nكل مضخة متعددة المراحل وكل مضخة غاطسة تغادر منشآتنا تخضع لاختبارات صارمة للهيدروستاتيك والأداء. ومن خلال الجمع بين المواد الممتازة مثل الستانلس ستيل عالي الجودة والتصنيع الدقيق، نضمن أن تقدم منتجاتنا أعلى درجات الموثوقية وعمر خدمة طويل حتى في أقسى البيئات الصناعية والزراعية.'
+  }
+},
+  {
+  id: '2',
+  slug: 'advanced-testing-and-inspection-for-submersible-pumps',
+  category: { en: 'Company', de: 'Unternehmen', ar: 'الشركة' },
+  date: '2026-03-10',
+  image: '/images/news2.jpeg',
+  title: {
+    en: 'ADVANCED TESTING AND INSPECTION FOR SUBMERSIBLE PUMPS',
+    de: 'FORTSCHRITTLICHE PRÜF- UND INSPEKTIONSVERFAHREN FÜR TAUCHPUMPEN',
+    ar: 'اختبارات وفحوصات متقدمة للمضخات الغاطسة'
+  },
+  excerpt: {
+    en: 'MMB continues to strengthen its testing and inspection procedures to ensure every submersible pump delivers dependable performance in demanding applications.',
+    de: 'MMB stärkt kontinuierlich seine Prüf- und Inspektionsverfahren, um sicherzustellen, dass jede Tauchpumpe auch in anspruchsvollen Anwendungen zuverlässig arbeitet.',
+    ar: 'تواصل MMB تعزيز إجراءات الاختبار والفحص لضمان أن كل مضخة غاطسة تقدم أداءً موثوقًا في التطبيقات الصعبة.'
+  },
+  content: {
+    en: 'Focused on Performance and Reliability\nAt Morsbach Maschinenbau GmbH (MMB), product performance begins long before installation. Our engineering and production teams work closely to ensure that every submersible pump is tested under controlled conditions that reflect real operational demands.\n\nThrough advanced inspection methods, hydraulic performance checks, and strict material verification, MMB ensures that each unit meets our internal quality benchmarks as well as international expectations. This careful approach helps our pumps achieve stable operation, improved efficiency, and long-term durability in industrial, agricultural, and water supply environments.',
+    de: 'Fokus auf Leistung und Zuverlässigkeit\nBei der Morsbach Maschinenbau GmbH (MMB) beginnt die Produktleistung lange vor der Installation. Unsere Engineering- und Produktionsteams arbeiten eng zusammen, um sicherzustellen, dass jede Tauchpumpe unter kontrollierten Bedingungen geprüft wird, die den realen Betriebsanforderungen entsprechen.\n\nDurch fortschrittliche Inspektionsmethoden, hydraulische Leistungsprüfungen und eine strenge Materialverifizierung stellt MMB sicher, dass jede Einheit unsere internen Qualitätsmaßstäbe sowie internationale Erwartungen erfüllt. Dieser sorgfältige Ansatz unterstützt einen stabilen Betrieb, eine verbesserte Effizienz und eine lange Lebensdauer in industriellen, landwirtschaftlichen und Wasserversorgungsanwendungen.',
+    ar: 'التركيز على الأداء والموثوقية\nفي Morsbach Maschinenbau GmbH (MMB)، يبدأ أداء المنتج قبل مرحلة التركيب بوقت طويل. يعمل فريقا الهندسة والإنتاج لدينا بشكل متكامل لضمان اختبار كل مضخة غاطسة ضمن ظروف مدروسة تحاكي متطلبات التشغيل الفعلية.\n\nومن خلال أساليب فحص متقدمة واختبارات أداء هيدروليكي دقيقة والتحقق الصارم من جودة المواد، تضمن MMB أن كل وحدة تحقق معايير الجودة الداخلية لدينا وتلبي كذلك التوقعات الدولية. ويساعد هذا النهج الدقيق مضخاتنا على تحقيق تشغيل مستقر وكفاءة أفضل وعمر تشغيلي طويل في التطبيقات الصناعية والزراعية وأنظمة إمداد المياه.'
+  }
+},
   {
     id: '3',
     slug: 'strategic-partnership-middle-east',
     category: { en: 'Partnership', de: 'Partnerschaft', ar: 'شراكة' },
     date: '2026-01-20',
+      image: '/images/news3.jpeg',
     title: {
       en: 'MMB Announces Strategic Partnership in the Middle East',
       de: 'MMB kündigt strategische Partnerschaft im Nahen Osten an',
@@ -79,70 +81,6 @@ export const newsData: NewsArticle[] = [
       en: 'In line with our commitment to fulfilling pure water demands globally, MMB has entered a long-term partnership with premier industrial distributors in the Middle East. This strategic move ensures faster delivery, localized support, and improved availability of our high-quality pump parts and maintenance services across the region.',
       de: 'Im Einklang mit unserem Engagement, den weltweiten Bedarf an reinem Wasser zu decken, hat MMB eine langfristige Partnerschaft mit führenden Industriedistributoren im Nahen Osten geschlossen. Dieser strategische Schritt sichert eine schnellere Lieferung, lokalen Support und eine verbesserte Verfügbarkeit unserer hochwertigen Pumpenteile und Wartungsdienste in der gesamten Region.',
       ar: 'تماشياً مع التزامنا بتلبية احتياجات المياه النقية عالمياً، دخلت MMB في شراكة طويلة الأمد مع موزعين صناعيين رائدين في الشرق الأوسط. تضمن هذه الخطوة الاستراتيجية تسليمًا أسرع ودعمًا محليًا وتوافرًا أفضل لأجزاء المضخات عالية الجودة وخدمات الصيانة الخاصة بنا في جميع أنحاء المنطقة.'
-    }
-  },
-  {
-    id: '4',
-    slug: 'maintenance-update-q1',
-    category: { en: 'Maintenance', de: 'Wartung', ar: 'صيانة' },
-    date: '2025-12-10',
-    title: {
-      en: 'Quarterly Maintenance and Service Updates',
-      de: 'Vierteljährliche Wartungs- und Service-Updates',
-      ar: 'تحديثات الصيانة والخدمة ربع السنوية'
-    },
-    excerpt: {
-      en: 'Important updates regarding service schedules and best practices for maximum pump reliability through the winter.',
-      de: 'Wichtige Updates zu Serviceplänen und Best Practices für maximale Pumpenzuverlässigkeit im Winter.',
-      ar: 'تحديثات مهمة فيما يتعلق بجداول الخدمة وأفضل الممارسات لتحقيق أقصى قدر من الموثوقية للمضخة خلال فصل الشتاء.'
-    },
-    content: {
-      en: 'As temperatures drop, ensuring your exterior pumping systems remain properly insulated is critical. MMB is releasing updated manuals focusing on frost protection mechanisms and winter start-up procedures for our GM and GMVB line of multistage centrifugal pumps. Scheduled maintenance will be prioritized according to the new winter guidelines.',
-      de: 'Da die Temperaturen sinken, ist es wichtig, dass Ihre Außenpumpensysteme ordnungsgemäß isoliert bleiben. MMB veröffentlicht aktualisierte Handbücher mit Schwerpunkt auf Frostschutzmechanismen und im Winter geltenden Startverfahren für unsere GM- und GMVB-Reihe mehrstufiger Kreiselpumpen. Planmäßige Wartungsarbeiten werden gemäß den neuen Winterrichtlinien priorisiert.',
-      ar: 'مع انخفاض درجات الحرارة، يعد التأكد من بقاء أنظمة الضخ الخارجية معزولة بشكل صحيح أمرًا بالغ الأهمية. تصدر MMB أدلة محدثة تركز على آليات الحماية من الصقيع وإجراءات بدء التشغيل الشتوي لخط GM و GMVB من مضخات الطرد المركزي متعددة المراحل. سيتم تحديد أولويات الصيانة المجدولة وفقًا لإرشادات الشتاء الجديدة.'
-    }
-  },
-  {
-    id: '5',
-    slug: 'factory-production-upgrade',
-    category: { en: 'Company', de: 'Unternehmen', ar: 'الشركة' },
-    date: '2025-11-05',
-    image: '/images/abstract-metal.jpg',
-    title: {
-      en: 'MMB Completes Factory Production Upgrade',
-      de: 'MMB schließt Werks-Produktions-Upgrade ab',
-      ar: 'MMB تكمل تحديث الإنتاج في المصنع'
-    },
-    excerpt: {
-      en: 'Our manufacturing facility has been modernized to increase production capacity and incorporate advanced quality-testing automation.',
-      de: 'Unsere Produktionsstätte wurde modernisiert, um die Produktionskapazität zu erhöhen und eine fortschrittliche Qualitätsprüfungsautomatisierung zu integrieren.',
-      ar: 'تم تحديث منشأة التصنيع الخاصة بنا لزيادة القدرة الإنتاجية ودمج أتمتة اختبار الجودة المتقدمة.'
-    },
-    content: {
-      en: 'To keep pace with the growing international demand for robust water solutions, MMB has successfully finalized its phase-two production upgrade. The integration of advanced balancing machines and automated assembly stations will drastically cut down lead times without compromising our trademark German engineering excellence.',
-      de: 'Um mit der wachsenden internationalen Nachfrage nach robusten Wasserlösungen Schritt zu halten, hat MMB sein Produktions-Upgrade der Phase zwei erfolgreich abgeschlossen. Die Integration hochmoderner Auswuchtmaschinen und automatisierter Montagestationen wird die Vorlaufzeiten drastisch verkürzen, ohne unsere bezeichnende deutsche Ingenieurskunst zu beeinträchtigen.',
-      ar: 'لمواكبة الطلب الدولي المتزايد على حلول المياه القوية، أنهت MMB بنجاح تحديث الإنتاج في مرحلته الثانية. سيؤدي دمج آلات الموازنة المتقدمة ومحطات التجميع الآلية إلى تقليل المهل الزمنية بشكل كبير دون المساس بتميزنا الهندسي الألماني.'
-    }
-  },
-  {
-    id: '6',
-    slug: 'hiring-engineering-talent',
-    category: { en: 'Company', de: 'Unternehmen', ar: 'الشركة' },
-    date: '2025-09-22',
-    title: {
-      en: 'Expanding Our Engineering Team',
-      de: 'Erweiterung unseres Ingenieurteams',
-      ar: 'توسيع فريق المهندسين لدينا'
-    },
-    excerpt: {
-      en: 'MMB is actively hiring fluid dynamics engineers and technicians to fuel our next generation of sustainable pumping operations.',
-      de: 'MMB sucht aktiv nach Ingenieuren und Technikern für Strömungsmechanik, um unsere nächste Generation nachhaltiger Pumpen voranzutreiben.',
-      ar: 'تعمل MMB بنشاط على توظيف مهندسي وفنيي ديناميكيات الموائع لتعزيز جيلنا القادم من عمليات الضخ المستدامة.'
-    },
-    content: {
-      en: 'Quality is a habit that requires top-tier talent. MMB is embarking on an expansion phase and currently seeking driven fluid dynamics engineers, mechatronics specialists, and experienced technicians. Check out our careers portal to join a company rooted in enduring reliability.',
-      de: 'Qualität ist eine Gewohnheit, die Spitzentalente erfordert. MMB befindet sich in einer Expansionsphase und sucht derzeit engagierte Ingenieure für Strömungsmechanik, Mechatronik-Spezialisten und erfahrene Techniker. Besuchen Sie unser Karriereportal, um sich einem Unternehmen anzuschließen, das auf dauerhafter Zuverlässigkeit basiert.',
-      ar: 'الجودة هي عادة تتطلب مواهب من الدرجة الأولى. تشرع MMB في مرحلة توسع وتسعى حاليًا إلى توظيف مهندسي ديناميكيات الموائع والمتخصصين في الميكاترونكس والفنيين ذوي الخبرة. تحقق من بوابة الوظائف لدينا للانضمام إلى شركة متجذرة في الموثوقية الدائمة.'
     }
   }
 ];

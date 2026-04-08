@@ -76,7 +76,7 @@ export default function ProductDetailPage() {
                   {product.name}
                 </h1>
                 {product.description && (
-                  <p className="text-lg text-muted-foreground leading-relaxed">
+                  <p className="text-lg text-muted-foreground leading-relaxed whitespace-pre-line">
                     {product.description}
                   </p>
                 )}

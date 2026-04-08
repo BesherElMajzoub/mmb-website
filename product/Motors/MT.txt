@@ -6,7 +6,7 @@ The MMB MT Series offers a comprehensive range of premium AC induction motors, p
 
 To guarantee vibration-free performance and reduced noise levels, every rotor is dynamically balanced with high precision. The windings feature high-grade enamelled copper wire and are treated with varnish impregnation for superior insulation. The robust motor frame design and use of premium materials result in exceptional thermal management (low temperature rise), significantly extending the motor's operational lifecycle. Available in both Standard and Premium efficiency levels (IE2 & IE3) to match specific energy requirements.
 
-d:  Key Features
+d:  
 * Advanced Insulation: Windings are treated using the Vacuum Pressure Impregnation (VPI) process for superior electrical and mechanical strength.
 
 * Thermal Protection: Higher kW models come equipped with integrated thermistors and space heaters to prevent overheating and condensation.
@@ -17,7 +17,7 @@ d:  Key Features
 
 * Durability: Low temperature rise design ensures a longer lifespan for critical components.
 
-e: Applications
+e: 
 Engineered as the prime mover for a wide range of industrial equipment:
 
 * Pumping Systems: Direct coupling with centrifugal, multistage, and submersible pumps.
