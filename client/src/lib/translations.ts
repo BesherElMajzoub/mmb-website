@@ -22,7 +22,7 @@ export const translations = {
       title: 'About MMB',
       subtitle: 'German Engineering. Global Impact.',
       heritageTitle: 'Our Heritage',
-      heritageText1: 'At Morsbach Maschinenbau GmbH (MMB), we combine the heritage of German precision with modern innovation to deliver superior pumping systems. Founded on the core principles of reliability and engineering excellence, we have grown from a local manufacturer into a trusted global partner in water solutions',
+      heritageText1: 'At Morsbach Maschinenbau GmbH (MMB), we combine the heritage of German precision with modern innovation to deliver superior pumping systems. Founded on the core principles of reliability and engineering excellence, we have grown from a local manufacturer into a trusted global partner in water solutions.',
       heritageText2: 'Our engineers work tirelessly to ensure that every pump leaving our facility meets the highest international standards of quality and performance.',
       quote: '"Quality is not an act, it is a habit."',
       values: {

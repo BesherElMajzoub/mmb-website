@@ -6,7 +6,7 @@ The MMB GM Series represents a pinnacle of industrial pumping technology, design
 
 Engineered for versatility, the series is driven by IEC-standard three-phase AC motors (Class F, IP54) and offers exceptional structural integrity. The interstage casings are precision-sealed with O-rings and secured by external tie bolts. For higher pressure requirements, the standard cast iron construction is upgraded to cast steel, making this series ideal for critical applications ranging from boiler feeding to mining operations.
 
-Key Features
+d:
 * Advanced Axial Balancing:
 
 - Standard: Axial thrust is balanced via a back wearing ring and balancing hole system.
@@ -23,7 +23,7 @@ Key Features
 
 * Fire Service Ready: Multi-discharge port configuration is available upon request for sprinkler systems
 
-e:Applications
+e:
 Designed to perform in critical infrastructure and industrial sectors:
 
 * Water Supply: Municipal installations and booster systems.

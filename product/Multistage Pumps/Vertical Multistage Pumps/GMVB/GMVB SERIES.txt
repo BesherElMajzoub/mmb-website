@@ -1,18 +1,16 @@
 
 a : Multistage Pumps
 b : descriptionb
-The MMB GMVB Series are robust multi-stage centrifugal pumps engineered for high-pressure fluid handling. Designed with a sectional casing architecture, these pumps are optimized for pumping clear to slightly turbid liquids free from abrasives.
-
-The construction features statically and dynamically balanced closed impellers, ensuring vibration-free performance. The interstage casings are precision-sealed with O-rings and secured by external tie bolts for maximum structural integrity. Driven by IEC-standard motors, the GM/GMVB series offers exceptional reliability for demanding environments ranging from mining to power generation
-
-d:  Key Features
+The MMB GMVB Series features robust multi-stage centrifugal pumps engineered for high-pressure fluid handling. Designed with a sectional casing architecture, these pumps are optimized for pumping clear to slightly turbid liquids free from abrasives.
+​The construction utilizes statically and dynamically balanced closed impellers, ensuring vibration-free performance. The interstage casings are precision-sealed with O-rings and secured by external tie bolts for maximum structural integrity. Driven by IEC-standard motors, the GMVB Series offers exceptional reliability for demanding environments ranging from mining to power generation.
+d:  
 * Robust Construction: Sectional casing design with external tie bolts. Standard cast iron pumps utilize cast steel casings for higher pressure requirements.
 
-* Optimized Axial Balancing:
+* 
 
-   -Standard: Axial balance secured by back wearing ring and balancing hole system.
+   Standard Axial Balancing: Axial thrust is efficiently balanced via a back wearing ring and balancing hole system.
 
-   -High Head (>200m): Equipped with a balancing disc or balancing drum for superior load management.
+   High Head (>200m): Equipped with a balancing disc or balancing drum for superior load management.
 
 * Flexible Installation: Suction and discharge flanges can be rotated in 90° increments on sizes 32, 40, 50, and 65 to suit complex piping layouts.
 
@@ -24,7 +22,7 @@ d:  Key Features
 
 * Reliable Bearing System: Grease-lubricated ball bearings provided as standard, with an oil lubrication option available.
 
-e: Applications
+e: 
 Engineered to perform in critical infrastructure and industrial sectors:
 
 * Water Supply: Municipal and industrial water supply installations.

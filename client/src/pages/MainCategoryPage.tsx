@@ -108,8 +108,8 @@ export default function MainCategoryPage() {
               // RENDER SUBCATEGORIES
               mainCategory.subcategories.map((subcategory) => {
                 const subcategoryImages: Record<string, string> = {
-                  's-series-stainless-steel-submersible': '/images/MMB Submerisble Pumps.png',
-                  'ta-tb-submerisble-motors': '/images/TA-TB MMB MOTOR.png',
+                  's-series-stainless-steel-submersible-pumps': '/images/Stainless Steel Submersible Pumps & Motors.jpg',
+                  'ta-tb-submersible-motors-pumps': '/images/TA-TB-Submersible-Motors.png',
                   'vertical-multistage-pumps': '/product_images/Multistage Pumps_Vertical Multistage Pumps_CDL  CDLF Series_CDL.png',
                 };
 

@@ -147,6 +147,8 @@ function parseTxtFile(content: string) {
     // Remove leading "*" if present
     let clean = trimmed;
     if (clean.startsWith('*')) clean = clean.substring(1).trim();
+    // Remove leading "|" if present
+    if (clean.startsWith('|')) clean = clean.substring(1).trim();
 
     // Strategy 1: Split by Pipe "|"
     let parts = clean.split('|');
@@ -305,7 +307,7 @@ function transformTree(tree: any): MainCategory[] {
        const firstProd = mainNode.products[0];
        const series: Series = {
          slug: toSlug(mainNode.seriesName + '-series'),
-         title: mainNode.seriesName + ' Series', // e.g. "MT Series"
+         title: firstProd ? firstProd.name : mainNode.seriesName + ' Series', // Use product name if it's a leaf node
          image: firstProd?.img,
          catalog: firstProd?.pdf,
          description: firstProd?.data.description,
